@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "name": "codex-seo",
+  "display_name": "Codex SEO",
+  "version": "0.1.0",
+  "description": "SEO audits, schema, content, technical checks and evidence-led planning adapted from Claude SEO.",
+  "source": {
+    "repository": "https://github.com/AgriciDaniel/claude-seo.git",
+    "commit": "734998e5fdbb16cd96dbaafe2da24eee6fb0d291",
+    "directory": ".",
+    "license": "MIT",
+    "attribution": "Claude SEO by AgriciDaniel; Copyright (c) 2026 agricidaniel. FLOW prompt library is CC BY 4.0 from AgriciDaniel/flow; original headers and lock are preserved."
+  },
+  "converter": {
+    "repository": "https://github.com/EveryInc/compound-engineering-plugin.git",
+    "commit": "4ba48871919650d43a412e3faf0374272fdc209d"
+  },
+  "tool": {
+    "repository": "https://github.com/1337vak/claude-to-codex-plugin-port.git",
+    "commit": "6686d4be2e31cf8dee14377dedfd2e24d4a3ebd3"
+  },
+  "role_skill": "seo",
+  "skill_preamble": "Read [the SEO Codex contract](../../CODEX-COMPATIBILITY.md). Resolve PLUGIN_ROOT to this installed plugin before running bundled commands. Use native capabilities within the actual host limits; source role/model/tool metadata is advisory. Do not run Claude extension installers.",
+  "resources": [
+    {
+      "from": "scripts",
+      "to": "scripts"
+    },
+    {
+      "from": "data",
+      "to": "data"
+    },
+    {
+      "from": "schema",
+      "to": "schema"
+    },
+    {
+      "from": "requirements.txt",
+      "to": "requirements.txt"
+    },
+    {
+      "from": "pyproject.toml",
+      "to": "pyproject.toml"
+    },
+    {
+      "from": "hooks/validate-schema.py",
+      "to": "hooks/validate-schema.py"
+    }
+  ],
+  "hooks": {
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${PLUGIN_ROOT}/hooks/codex-schema.py\"",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  },
+  "patches": [
+    {
+      "glob": "scripts/*.py",
+      "old": "CLAUDE_PLUGIN_ROOT",
+      "new": "PLUGIN_ROOT",
+      "count": 6
+    },
+    {
+      "glob": "scripts/*.py",
+      "old": "CLAUDE_PLUGIN_DATA",
+      "new": "PLUGIN_DATA",
+      "count": 2
+    },
+    {
+      "glob": "scripts/runtime.py",
+      "old": ".claude-plugin",
+      "new": ".codex-plugin",
+      "count": 2
+    },
+    {
+      "glob": "scripts/runtime.py",
+      "old": "base / \"claude-seo\"",
+      "new": "base / \"codex-seo\"",
+      "count": 1
+    },
+    {
+      "glob": "scripts/*.py",
+      "old": "~/.config/claude-seo",
+      "new": "~/.config/codex-seo",
+      "count": 15
+    },
+    {
+      "glob": "scripts/*.py",
+      "old": "~/.cache/claude-seo",
+      "new": "~/.cache/codex-seo",
+      "count": 4
+    },
+    {
+      "glob": "scripts/dataforseo_costs.py",
+      "old": "Path.home() / \".config\" / \"claude-seo\"",
+      "new": "Path.home() / \".config\" / \"codex-seo\"",
+      "count": 1
+    },
+    {
+      "glob": "hooks/validate-schema.py",
+      "old": "flagged for Claude",
+      "new": "flagged for Codex",
+      "count": 1
+    },
+    {
+      "glob": "skills/seo/SKILL.md",
+      "old": "**Runtime:** Run bundled Python tools through\n`\"${CLAUDE_PLUGIN_ROOT}/scripts/claude-seo\" run <script.py>`. That is the single\ncanonical form used by every skill and agent. Claude Code expands\n`${CLAUDE_PLUGIN_ROOT}` to the installed plugin directory, so the launcher is\nfound without any `PATH` entry; the repository ships no top-level `bin/`\ndirectory because hosted marketplaces reject one. Repository users run\n`./scripts/claude-seo`; manual installers rewrite the canonical form to\n`\"$HOME/.codex/skills/seo/scripts/claude-seo\"`. Never invoke bundled scripts\nwith a bare Python interpreter.\n",
+      "new": "**Runtime:** Run bundled tools through `\"${PLUGIN_ROOT}/scripts/claude-seo\" run <script.py>`.\nResolve `PLUGIN_ROOT` to the absolute installed plugin directory containing\n`.codex-plugin/plugin.json`, and export it before running shell commands. The\nlauncher keeps its upstream filename. Use its managed environment and explicit\nsetup/doctor commands; never guess a user-global skill path or install packages\nglobally.\n",
+      "count": 1
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": "CLAUDE_PLUGIN_ROOT",
+      "new": "PLUGIN_ROOT",
+      "count": 264
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": "the seo skill",
+      "new": "$codex-seo:seo",
+      "count": 304
+    },
+    {
+      "glob": "skills/seo/SKILL.md",
+      "old": "**Invocation:** `$codex-seo:seo $ARGUMENTS`, where the first word is the command and the rest is the URL or argument.",
+      "new": "**Invocation:** `$codex-seo:seo <command> <arguments>`. The first word selects the workflow; the rest is the URL or task input.",
+      "count": 1
+    },
+    {
+      "glob": "skills/seo/SKILL.md",
+      "old": "## Community Footer\n\nAfter completing any **major deliverable**, append this footer as the very last output:\n\n```\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nBuilt by agricidaniel. Join the AI Marketing Hub community\n🆓 Free  → https://www.skool.com/ai-marketing-hub\n⚡ Pro   → https://www.skool.com/ai-marketing-hub-pro\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n```\n\n### When to show\n\nDisplay after these commands complete their full output:\n- `$codex-seo:seo audit` (after full site audit report + action plan)\n- `$codex-seo:seo page` (after deep single-page analysis)\n- `$codex-seo:seo technical` (after technical audit report)\n- `$codex-seo:seo content` (after E-E-A-T content assessment)\n- `$codex-seo:seo schema` (after schema detection/validation report)\n- `$codex-seo:seo sitemap` (after sitemap analysis or generation)\n- `$codex-seo:seo geo` (after GEO optimization report)\n- `$codex-seo:seo agentic` (after agent-readiness report)\n- `$codex-seo:seo plan` (after strategic SEO plan)\n- `$codex-seo:seo local` (after local SEO audit)\n- `$codex-seo:seo maps` (after maps intelligence report)\n- `$codex-seo:seo google` (after Google API data report)\n- `$codex-seo:seo backlinks` (after backlink profile analysis)\n- `$codex-seo:seo cluster` (after cluster plan generation)\n- `$codex-seo:seo sxo` (after SXO analysis report)\n- `$codex-seo:seo drift compare` (after drift comparison report)\n- `$codex-seo:seo ecommerce` (after e-commerce analysis)\n\n### When to skip\n\nDo NOT show the footer after:\n- `$codex-seo:seo images` (quick image check, too small)\n- `$codex-seo:seo hreflang` (quick validation, too small)\n- `$codex-seo:seo competitor-pages` (page generation step)\n- `$codex-seo:seo programmatic` (quick analysis)\n- `$codex-seo:seo dataforseo` (data fetching utility)\n- `$codex-seo:seo image-gen` (asset generation)\n- Context intake questions (before analysis starts)\n- Error messages or \"missing data\" prompts\n\n",
+      "new": "",
+      "count": 1
+    },
+    {
+      "glob": "skills/seo-dataforseo/SKILL.md",
+      "old": "This skill requires the DataForSEO extension to be installed:\n```bash\n./extensions/dataforseo/install.sh\n```",
+      "new": "This skill requires the DataForSEO MCP service to be connected and authorized in Codex. The upstream Claude installer is not included. Verify the named tools are available before using this workflow.",
+      "count": 1
+    },
+    {
+      "glob": "skills/seo-dataforseo/SKILL.md",
+      "old": "./extensions/dataforseo/install.sh",
+      "new": "connect the DataForSEO MCP service in Codex",
+      "count": 1
+    },
+    {
+      "glob": "skills/seo-image-gen/SKILL.md",
+      "old": "This skill requires the banana extension to be installed:\n```bash\n./extensions/banana/install.sh\n```",
+      "new": "This skill requires the Banana image-generation MCP service to be connected and authorized in Codex. The upstream Claude installer is not included. Verify the named tools are available before using this workflow.",
+      "count": 1
+    },
+    {
+      "glob": "skills/seo-image-gen/SKILL.md",
+      "old": "./extensions/banana/install.sh",
+      "new": "connect the Banana image-generation MCP service in Codex",
+      "count": 3
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": "agents/seo-",
+      "new": "skills/seo/references/roles/seo-",
+      "count": 1
+    },
+    {
+      "glob": "skills/seo/SKILL.md",
+      "old": "## Optional Extensions\n\nThe following ship in `extensions/` rather than `skills/` and require a separate\ninstaller to activate (see each extension's `install.sh`/`install.ps1`):\n\nAll optional extensions are reachable through `$codex-seo:seo` subcommands once\ninstalled: firecrawl, dataforseo, and image-gen, plus `$codex-seo:seo ahrefs`,\n`$codex-seo:seo bing`, `$codex-seo:seo matomo`, `$codex-seo:seo profound`, `$codex-seo:seo seranking`, and\n`$codex-seo:seo unlighthouse`. Each installs as its own sub-skill, so the model also\nauto-routes to their descriptions without the `$codex-seo:seo` prefix.\n\n- **seo-firecrawl** -- Full-site crawling and site mapping via Firecrawl MCP. Install\n  via `extensions/firecrawl/install.sh` (Unix) or `extensions/firecrawl/install.ps1`\n  (Windows). Once installed, invoke via `$codex-seo:seo firecrawl <command>`.\n- **seo-matomo** -- Self-hosted or Matomo Cloud Reporting API as a GA4\n  alternative or complement. Install via\n  `extensions/matomo/install.sh` (Unix) or `extensions/matomo/install.ps1`\n  (Windows). Once installed, invoke via `$codex-seo:seo matomo <command>` or rely\n  on the audit orchestrator to spawn the seo-matomo agent automatically\n  when credentials are present.\n\n",
+      "new": "## Optional integrations\n\nThe DataForSEO and image-generation skill mirrors are bundled, but their MCP\nservices must be connected and authorized in Codex before use. The upstream\nClaude-specific extension installers are omitted. Firecrawl, Matomo, Ahrefs,\nBing, Profound, SERanking, and Unlighthouse extension skills are not bundled;\nrequest a separate Codex adaptation before invoking their extension workflows.\nIf an audit references an optional agent whose brief is absent, report that\ncheck as unavailable and continue the checks supported by the installed plugin.\n\n",
+      "count": 1
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": "./extensions/dataforseo/install.sh",
+      "new": "connect DataForSEO MCP in Codex",
+      "count": 2
+    },
+    {
+      "glob": "scripts/backlinks_auth.py",
+      "old": "./extensions/dataforseo/install.sh",
+      "new": "Connect the DataForSEO MCP service in Codex.",
+      "count": 1
+    },
+    {
+      "glob": "scripts/matomo_auth.py",
+      "old": "Configure Matomo via extensions/matomo/install.sh to unlock ",
+      "new": "Configure a Matomo API token for this Codex adapter to unlock ",
+      "count": 1
+    },
+    {
+      "glob": "skills/seo/SKILL.md",
+      "old": "A separate optional Firecrawl\nextension is also installable (see \"Optional Extensions\" below).",
+      "new": "Additional optional integrations need separate Codex adaptation; see \"Optional integrations\" below.",
+      "count": 1
+    },
+    {
+      "glob": "skills/seo-agentic/references/discovery-and-markdown.md",
+      "old": "references/llmstxt-evidence.md",
+      "new": "../../seo-geo/references/llmstxt-evidence.md",
+      "count": 1
+    }
+  ],
+  "compatibility": [
+    {
+      "component": "SEO skills and references",
+      "status": "adapted",
+      "reason": "All 26 core and mirrored skill trees are generated from the pinned source; large workflows load on demand with their original supporting resources."
+    },
+    {
+      "component": "Specialist agents",
+      "status": "adapted",
+      "reason": "19 role briefs are available to native delegation through the seo skill catalog. They are not separately registered agents; source Claude model selection, turn budgets and tool allowlists are not enforced."
+    },
+    {
+      "component": "Schema quality hook",
+      "status": "adapted",
+      "reason": "Codex edit/patch events are translated to the preserved upstream JSON-LD validator. Exact installed hook trust is required; a post-edit diagnostic does not undo the edit."
+    },
+    {
+      "component": "Python runtime",
+      "status": "conditional",
+      "reason": "The upstream managed environment and Chromium setup remain explicit. Application-specific CLAUDE_SEO_* overrides are retained; plugin transport variables and default persistent-state paths are adapted to Codex. Bounded requirements are not an exact dependency lock."
+    },
+    {
+      "component": "External APIs and MCP",
+      "status": "unverified",
+      "reason": "Google, Matomo, backlinks, DataForSEO and image generation require separately configured credentials/tools. No live API calls, paid operations or network SEO crawls are part of port verification."
+    },
+    {
+      "component": "Optional extension installers",
+      "status": "unsupported",
+      "reason": "Claude global installer/uninstaller scripts and settings mutations are omitted. Non-core extensions need separate Codex adaptation and configuration; the two core skill mirrors retain their prerequisite checks."
+    },
+    {
+      "component": "Public plugin directory",
+      "status": "manual",
+      "reason": "GitHub marketplace release includes the schema hook. Public-directory submission requires a separate hook-free package and review; publication is not automatic."
+    },
+    {
+      "component": "Attribution",
+      "status": "preserved",
+      "reason": "Upstream MIT notices and the nested FLOW CC BY 4.0 attribution, prompt headers and revision lock remain in generated artifacts."
+    },
+    {
+      "component": "Promotional footer",
+      "status": "adapted",
+      "reason": "The mandatory per-deliverable community advertisement is removed; origin attribution remains prominent in README, notices and artifact provenance."
+    }
+  ],
+  "smoke_skills": [
+    "seo",
+    "seo-schema",
+    "seo-content"
+  ],
+  "hook_fixture": {
+    "path": "schema-fixture.html",
+    "content": "<script type=\"application/ld+json\">{broken}</script>",
+    "expected_feedback": "Invalid JSON"
+  },
+  "marketplace": "codex-seo-adapter"
+}
