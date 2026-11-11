@@ -1,0 +1,270 @@
+{
+  "roles": [
+    {
+      "name": "seo-agentic",
+      "description": "Agent-readiness analyst. Explains the Lighthouse Agentic Browsing fraction and audits the accessibility tree for agents, robots.txt and Content-Signal for AI agents, llms.txt, Markdown delivery, ai-catalog.json, /.well-known discovery files, and WebMCP tools.",
+      "path": "references/roles/seo-agentic.md",
+      "source_sha256": "9cb0ae5efe6560789a6c4e4e5518acf76c357d25539461611abe5cf558a143ff"
+    },
+    {
+      "name": "seo-backlinks",
+      "description": "Backlink profile analyst using free and paid sources. Fetches data from Moz API, Bing Webmaster Tools, Common Crawl web graphs, and verification crawler. Merges multi-source data with confidence-weighted scoring.",
+      "path": "references/roles/seo-backlinks.md",
+      "source_sha256": "0c2e974a9ed0b20efe7e6f0dd84795656f8ad392dd9d3d5839e02c814cbe54d8"
+    },
+    {
+      "name": "seo-cluster",
+      "description": "Semantic topic clustering analysis using SERP overlap methodology. Expands seed keywords, performs pairwise SERP comparison, classifies intent, designs hub-and-spoke content architecture, and generates internal link matrices.",
+      "path": "references/roles/seo-cluster.md",
+      "source_sha256": "216909ec2d3bd9dd803869e7d426994498b6bddd319ad0e01b3fd0a8cd98338c"
+    },
+    {
+      "name": "seo-content",
+      "description": "Content quality reviewer. Evaluates E-E-A-T signals, readability, content depth, AI citation readiness, and thin content detection.",
+      "path": "references/roles/seo-content.md",
+      "source_sha256": "4894353ec9e307f26a6186db18e7601105ffa3d10b103196928fc5563d52cdd7"
+    },
+    {
+      "name": "seo-dataforseo",
+      "description": "DataForSEO data analyst. Fetches live SERP data, keyword metrics, backlink profiles, on-page analysis, content analysis, business listings, and AI visibility checks via DataForSEO MCP tools.",
+      "path": "references/roles/seo-dataforseo.md",
+      "source_sha256": "6481aea4c73109debab1539d0ad0966c2b73431e21bd8a5c9ce9d7bb83f1f92e"
+    },
+    {
+      "name": "seo-drift",
+      "description": "SEO drift analysis agent. Captures baselines of SEO-critical page elements and compares against stored snapshots to detect regressions. Reports changes with severity classification. Only spawned when a drift baseline exists for the URL.",
+      "path": "references/roles/seo-drift.md",
+      "source_sha256": "25a55aa8d69b659454bb1ec44235e1e50062fb1ec284fea9f051de6857118fc7"
+    },
+    {
+      "name": "seo-ecommerce",
+      "description": "E-commerce SEO analyst. Validates product schema, analyzes Google Shopping and Amazon marketplace visibility, identifies pricing gaps, and recommends product page optimizations. Spawned when e-commerce site detected during audits.",
+      "path": "references/roles/seo-ecommerce.md",
+      "source_sha256": "1e38cdd79e5ffa7644f6c5cde2f3edc343f917ed35f2621031b579e2ac3d5869"
+    },
+    {
+      "name": "seo-flow",
+      "description": "FLOW framework prompt analyst. Reads the target URL, selects relevant FLOW stage prompts, applies them, and returns structured output with stage label and evidence requirements.",
+      "path": "references/roles/seo-flow.md",
+      "source_sha256": "2524da988d1c02b113a735d56fd103dd2af5b72a02c59257cf9c0804e6050fa6"
+    },
+    {
+      "name": "seo-geo",
+      "description": "GEO and AI search specialist. Analyzes AI crawler accessibility, llms.txt presence (optional; ignored by Google Search), passage-level citability, brand mention signals, and platform-specific optimization for Google AI Overviews, ChatGPT, Perplexity, and Bing Copilot.",
+      "path": "references/roles/seo-geo.md",
+      "source_sha256": "53ac935893d2da19292aa86cea5f21e55ffb62acb3eb62c7f87249ad4817e7bf"
+    },
+    {
+      "name": "seo-google",
+      "description": "Google SEO API analyst. Fetches CWV field data via CrUX, indexation status via GSC, and organic traffic via GA4 for enriched audit data.",
+      "path": "references/roles/seo-google.md",
+      "source_sha256": "097d655af331f7aeb76fd51c7d76e3f17a8ebb3488ea94cf4764bb1c18990480"
+    },
+    {
+      "name": "seo-image-gen",
+      "description": "SEO image analyst. Audits existing OG/social preview images, identifies missing or low-quality images, and creates an image generation plan with prompts for key pages. Does NOT auto-generate images.",
+      "path": "references/roles/seo-image-gen.md",
+      "source_sha256": "01d0941b0e398fd052f15efc8fa79ef665d5620273ca16805f34725803618af0"
+    },
+    {
+      "name": "seo-local",
+      "description": "Local SEO specialist. Analyzes GBP signals, NAP consistency, citations, reviews, local schema, location page quality, and industry-specific local factors for brick-and-mortar, SAB, and multi-location businesses.",
+      "path": "references/roles/seo-local.md",
+      "source_sha256": "0fe7c0a25d6cf8313efa4d7c1f43107c038233b17e009b99850cf374338c0ec7"
+    },
+    {
+      "name": "seo-maps",
+      "description": "Maps intelligence specialist. Geo-grid rank tracking, GBP profile auditing, review intelligence, cross-platform NAP verification, and competitor radius mapping via DataForSEO and free APIs.",
+      "path": "references/roles/seo-maps.md",
+      "source_sha256": "4b0c7e2a2ca0bec2f444ead94a26d6f99c0f39b1ef73453281cf5ad81c426e5e"
+    },
+    {
+      "name": "seo-performance",
+      "description": "Performance analyzer. Measures and evaluates Core Web Vitals and page load performance.",
+      "path": "references/roles/seo-performance.md",
+      "source_sha256": "5ca6ce3830a42dc0b2d02b9ce85c819da22872ea41e5774d9cf8bf15074cd17f"
+    },
+    {
+      "name": "seo-schema",
+      "description": "Schema markup expert. Detects, validates, and generates Schema.org structured data in JSON-LD format.",
+      "path": "references/roles/seo-schema.md",
+      "source_sha256": "a4b709b433fd9c6be1654fecea712230097c97c06fa591c918d67fcc68190df5"
+    },
+    {
+      "name": "seo-sitemap",
+      "description": "Sitemap architect. Validates XML sitemaps, generates new ones with industry templates, and enforces quality gates for location pages.",
+      "path": "references/roles/seo-sitemap.md",
+      "source_sha256": "e86f6d3d11b007b8c85e6d1ab2c849281e28671c09b367356d30050f5c2b6488"
+    },
+    {
+      "name": "seo-sxo",
+      "description": "Search Experience Optimization analyst. Performs SERP backwards analysis to detect page-type mismatches, derives user stories from intent signals, and scores pages from multiple persona perspectives. Identifies why well-optimized content fails to rank.",
+      "path": "references/roles/seo-sxo.md",
+      "source_sha256": "26b672d2a97f670c1c573f4bbb1c4efed571a1f0287aebfa9c31d0b03f05c281"
+    },
+    {
+      "name": "seo-technical",
+      "description": "Technical SEO specialist. Analyzes crawlability, indexability, security, URL structure, mobile optimization, Core Web Vitals, and JavaScript rendering.",
+      "path": "references/roles/seo-technical.md",
+      "source_sha256": "2c1d7f0a5ad8e1f09aacecc728bc1514bfef0ba1ae321bd3fa9bc5f1367906bb"
+    },
+    {
+      "name": "seo-visual",
+      "description": "Visual analyzer. Captures screenshots, tests mobile rendering, and analyzes above-the-fold content using Playwright.",
+      "path": "references/roles/seo-visual.md",
+      "source_sha256": "0550d75e529f91d9100d36013010935681c9f0bc06ae793d416cf35d5c0139fe"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "seo-agentic",
+      "path": "../seo-agentic/SKILL.md",
+      "description": "Audit and fix agent readiness: the Lighthouse Agentic Browsing fraction, accessibility tree for agents, robots.txt and Content-Signal for AI agents, WAF treatment of agent traffic, llms.txt, Markdown delivery, ai-catalog.json, /.well-known discovery files, and WebMCP tools. Use when the user asks whether AI agents can use or browse the site, or about llms.txt or WebMCP. Exclude AI citability and brand signals (seo-geo) and commerce protocol depth (seo-ecommerce).\n",
+      "source_sha256": "e1cd3c30c5470241074fc1445a31f2d283fda68b7e883855a9049077092c68f0"
+    },
+    {
+      "name": "seo-audit",
+      "path": "../seo-audit/SKILL.md",
+      "description": "Run a full-site SEO audit and return a scored, prioritized report. Use only for site-wide checks; use seo-page for one URL or seo-technical for a technical-only review.",
+      "source_sha256": "5d9d1b8444f3fba311972ac4b4b5bcaaa32efc9e60fdf1e9ff1c13369623d492"
+    },
+    {
+      "name": "seo-backlinks",
+      "path": "../seo-backlinks/SKILL.md",
+      "description": "Analyze a site's backlink profile, anchors, toxic signals, competitors, gaps, and disavow candidates. Use only when links or referring domains are the requested focus.",
+      "source_sha256": "11d006e23ae103b5e6ca4cb02bd590d3ee4da30b670a92d5618f96eefe88fc88"
+    },
+    {
+      "name": "seo-cluster",
+      "path": "../seo-cluster/SKILL.md",
+      "description": "Cluster keywords by SERP overlap and design hub-and-spoke content architecture with internal links. Use for planning; `/seo cluster execute` then writes the posts with claude-blog's blog-write skill when it is installed, or content briefs when it is not.\n",
+      "source_sha256": "b8b5d2c2a6414b97057933b25f10892ca0fc0f49e62bcc13b284e1ec1ada1403"
+    },
+    {
+      "name": "seo-competitor-pages",
+      "path": "../seo-competitor-pages/SKILL.md",
+      "description": "Generate SEO-optimized competitor comparison and alternatives pages. Covers \"X vs Y\" layouts, \"alternatives to X\" pages, feature matrices, schema markup, and conversion optimization. Use when user says \"comparison page\", \"vs page\", \"alternatives page\", \"competitor comparison\", \"X vs Y\", \"versus\", \"compare competitors\", or \"alternative to\".\n",
+      "source_sha256": "6f6d06eb67cfb5539f1bf95f7af292588a2fe75b849a9f4b47da2eda3fa4b2d7"
+    },
+    {
+      "name": "seo-content",
+      "path": "../seo-content/SKILL.md",
+      "description": "Evaluate page content for usefulness, E-E-A-T, readability, thinness, and AI citation readiness, plus last-mile draft cleanup (AI-typical phrasing and invisible Unicode watermark characters). Use for content-only analysis, not full-page technical checks.\n",
+      "source_sha256": "a5be3738f743a4815372c7e5b8eacc6a2216f1a9e6c82b44971cc605e35e9fda"
+    },
+    {
+      "name": "seo-content-brief",
+      "path": "../seo-content-brief/SKILL.md",
+      "description": "Generate competitive SEO content briefs with per-section word counts, competitor scoring, keyword placement guidance, and page-type templates. Supports both new page briefs and improve-existing-page briefs. Use when user says \"content brief\", \"write a brief\", \"content outline\", \"blog brief\", \"service page brief\", \"brief for\", \"writing brief\", \"content plan\", or \"outline for\".\n",
+      "source_sha256": "82bb9b77327088cb34f96a60251e63f60c2a6d8fb09ae733c6c64bf29032e1ad"
+    },
+    {
+      "name": "seo-dataforseo",
+      "path": "../seo-dataforseo/SKILL.md",
+      "description": "Live SEO data via DataForSEO MCP server: SERP analysis, keyword research (volume, difficulty, intent, trends), backlink profiles, on-page analysis, competitor and content analysis, business listings, AI visibility (LLM mention tracking), and domain analytics. Requires DataForSEO extension installed. Use when user says \"dataforseo\", \"live SERP\", \"keyword volume\", \"backlink data\", \"AI visibility check\", or \"real search data\".\n",
+      "source_sha256": "128b9d5ee6d26eba9aff94c7f60e9b059e1eea3929daa7ddc3e2bc7a9e14ba90"
+    },
+    {
+      "name": "seo-drift",
+      "path": "../seo-drift/SKILL.md",
+      "description": "SEO drift monitoring: capture baselines of SEO-critical elements, detect changes, and track regressions over time. Git for SEO: baseline, diff, and track changes to your on-page SEO. Use when user says \"SEO drift\", \"baseline\", \"track changes\", \"did anything break\", \"SEO regression\", \"compare SEO\", \"before and after\", \"monitor SEO changes\", or \"deployment check\".\n",
+      "source_sha256": "b64b056196a5e6f5f15e286f7e581cebae266e0065167e44b0c570350a1f2218"
+    },
+    {
+      "name": "seo-ecommerce",
+      "path": "../seo-ecommerce/SKILL.md",
+      "description": "Analyze ecommerce SEO across product pages, product schema, Shopping visibility, marketplace signals, and keyword gaps. Use only for stores, catalogs, or product listings.\n",
+      "source_sha256": "111fab3b40eb0684283bb6f342938500ab1ece87a89769f602b7fb616069949a"
+    },
+    {
+      "name": "seo-flow",
+      "path": "../seo-flow/SKILL.md",
+      "description": "FLOW framework integration: evidence-led SEO using the Find → Leverage → Optimize → Win loop. Surfaces stage-specific AI prompts from the FLOW knowledge base (41 prompts, CC BY 4.0). Use when user says \"FLOW\", \"FLOW framework\", \"seo flow\", \"evidence-led SEO\", \"find leverage optimize win\", or wants stage-specific SEO prompts.\n",
+      "source_sha256": "75624425eb7e22070c19f845d4b6aec8bc12c04e9fcca7d8e2928ead4a81d91c"
+    },
+    {
+      "name": "seo-geo",
+      "path": "../seo-geo/SKILL.md",
+      "description": "Audit and improve content for AI Overviews and answer engines, including citability, entity clarity, crawler access, brand signals, and passage structure. Use when the user asks about AI Overviews, AI Mode, ChatGPT, Perplexity or Gemini citations, GEO, or AI search visibility.\n",
+      "source_sha256": "6c0b2f07b01f1f6603c6828c97c9d7da9f1d8f515494e756721223b24582ce13"
+    },
+    {
+      "name": "seo-google",
+      "path": "../seo-google/SKILL.md",
+      "description": "Google SEO APIs: Search Console (Search Analytics, URL Inspection, Sitemaps), PageSpeed Insights v5, CrUX field data with 25-week history, Indexing API v3, and GA4 organic traffic. Provides real Google field data for Core Web Vitals, indexation status, search performance, and organic traffic trends. Use when user says \"search console\", \"GSC\", \"PageSpeed\", \"CrUX\", \"field data\", \"indexing API\", \"GA4 organic\", \"URL inspection\", or \"real CWV data\".\n",
+      "source_sha256": "c33c268779f4ca333e9378b3c1b7296af35265bb17877aa2561b4dd7e802f5d5"
+    },
+    {
+      "name": "seo-hreflang",
+      "path": "../seo-hreflang/SKILL.md",
+      "description": "Hreflang and international SEO audit, validation, and generation. Detects common mistakes, validates language/region codes, and generates correct hreflang implementations. Use when user says \"hreflang\", \"i18n SEO\", \"international SEO\", \"multi-language\", \"multi-region\", or \"language tags\".\n",
+      "source_sha256": "e8ece7c24a84bf155f12ec3dfb10d49fd1df15534a9d457e5450127173645171"
+    },
+    {
+      "name": "seo-image-gen",
+      "path": "../seo-image-gen/SKILL.md",
+      "description": "AI image generation for SEO assets: OG/social preview images, blog hero images, schema images, product photography, infographics. Powered by Gemini via nanobanana-mcp. Requires banana extension installed. Use when the user wants an SEO asset and says \"OG image\", \"social preview\", \"hero image\", \"blog image\", \"product photo\", \"infographic\", \"seo image\", \"image-gen\", \"favicon\", \"schema image\", or \"pinterest pin\". Not for general artwork, banners, or thumbnails unrelated to SEO.",
+      "source_sha256": "e01b07ebd44cb25a0314d4e3c638020f7fcd8329e6a6dfae28f7581f5db6aabd"
+    },
+    {
+      "name": "seo-images",
+      "path": "../seo-images/SKILL.md",
+      "description": "Image optimization analysis for SEO and performance. Checks alt text, file sizes, formats, responsive images, lazy loading, CLS prevention, image SERP rankings (via DataForSEO), and image file optimization (WebP/AVIF conversion, IPTC/XMP metadata injection). Use when user says \"image optimization\", \"alt text\", \"image SEO\", \"image size\", \"image audit\", \"optimize images\", \"image metadata\", \"image SERP\", \"convert to webp\", or \"image file optimize\".\n",
+      "source_sha256": "28e6b03e4b8c872ca98cd73994265fab393103ff2b16c977bf5d3589a6956759"
+    },
+    {
+      "name": "seo-local",
+      "path": "../seo-local/SKILL.md",
+      "description": "Audit local SEO, including Google Business Profile, NAP consistency, citations, reviews, local schema, location pages, and multi-location structure. Use when the user asks about local SEO, a local business, the map pack, or a GBP profile; use seo-maps for geo-grid rank tracking.\n",
+      "source_sha256": "ea802a6d23bc66a605a84711246ac3197186b28be06f5e3052647cf6f96abeb7"
+    },
+    {
+      "name": "seo-maps",
+      "path": "../seo-maps/SKILL.md",
+      "description": "Maps intelligence for local SEO: geo-grid rank tracking, GBP profile auditing via API, review intelligence across Google/Tripadvisor/Trustpilot, cross-platform NAP verification, competitor radius mapping, and LocalBusiness schema generation. Three tiers: free (Overpass + Geoapify), DataForSEO, and DataForSEO + Google. Use when user says \"maps\", \"geo-grid\", \"rank tracking\", \"GBP audit\", \"review velocity\", \"competitor radius\", or \"SoLV\".\n",
+      "source_sha256": "1a4b3ca036a369ebccd489dafa617f75f985fdc1f8aa7deb066cb7d9b0b2d6f0"
+    },
+    {
+      "name": "seo-page",
+      "path": "../seo-page/SKILL.md",
+      "description": "Analyze one supplied URL across on-page, content, technical metadata, schema, images, and performance. Use only for a single-page review.\n",
+      "source_sha256": "c17efc5b95db026b372b4a239153a93e862fff9a1a8eb8db3b4977a8dbdf8402"
+    },
+    {
+      "name": "seo-plan",
+      "path": "../seo-plan/SKILL.md",
+      "description": "Strategic SEO planning for new or existing websites. Industry-specific templates, competitive analysis, content strategy, and implementation roadmap. Use when user says \"SEO plan\", \"SEO strategy\", \"SEO planning\", \"content strategy\", \"keyword strategy\", \"content calendar\", \"site architecture\", or \"SEO roadmap\".\n",
+      "source_sha256": "d3ad0c286ff9dde2d6085bc81a2fcd39cdf7f460dcf36d237a31fa3109a073b9"
+    },
+    {
+      "name": "seo-programmatic",
+      "path": "../seo-programmatic/SKILL.md",
+      "description": "Programmatic SEO planning and analysis for pages generated at scale from data sources. Covers template engines, URL patterns, internal linking automation, thin content safeguards, and index bloat prevention. Use when user says \"programmatic SEO\", \"pages at scale\", \"dynamic pages\", \"template pages\", \"generated pages\", or \"data-driven SEO\".\n",
+      "source_sha256": "416d981b450551394d18a02b1c5e4c425db5a294d51e1f8abc11169d7bedef05"
+    },
+    {
+      "name": "seo-schema",
+      "path": "../seo-schema/SKILL.md",
+      "description": "Detect, validate, or generate Schema.org JSON-LD for a supplied page or entity. Use only when structured data or rich-result markup is requested.\n",
+      "source_sha256": "98ab2562055d5d1a23ddb22654571a8327da232b0a76792dfd4dc51d06892f07"
+    },
+    {
+      "name": "seo-sitemap",
+      "path": "../seo-sitemap/SKILL.md",
+      "description": "Analyze existing XML sitemaps or generate new ones with industry templates. Validates format, URLs, and structure. Use when user says \"sitemap\", \"generate sitemap\", \"sitemap issues\", or \"XML sitemap\".\n",
+      "source_sha256": "70b8e56d745b71cc5b67aa49ed149238d3394f60c9cdc1dd1e7e271aa7a8fb11"
+    },
+    {
+      "name": "seo-sxo",
+      "path": "../seo-sxo/SKILL.md",
+      "description": "Diagnose search-experience and intent mismatches using SERP page types, user stories, and persona scoring. Use when ranking problems appear intent- or layout-driven.\n",
+      "source_sha256": "564db14d5d6b5ebb2052f9bf666e0f55e055dbf94dfcbb36a815fcc97124a719"
+    },
+    {
+      "name": "seo-technical",
+      "path": "../seo-technical/SKILL.md",
+      "description": "Audit technical SEO across crawlability, indexability, security, URLs, mobile, Core Web Vitals, rendering, structured data, and IndexNow. Use when the user asks for a technical SEO audit or about crawling, indexing, rendering, or site speed. Exclude content strategy and backlinks.\n",
+      "source_sha256": "cdf5b9ef43b3fd2f400d2c6884d2a064c320e17d6bc365aa3db92f9c6706392e"
+    }
+  ]
+}

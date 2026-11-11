@@ -1,0 +1,9 @@
+{
+  "source": "https://github.com/AgriciDaniel/claude-seo.git",
+  "commit": "734998e5fdbb16cd96dbaafe2da24eee6fb0d291",
+  "license": "MIT",
+  "source_counts": {
+    "roles": 19,
+    "workflows": 25
+  }
+}

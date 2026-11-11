@@ -1,0 +1,2491 @@
+{
+  "source": {
+    "repository": "https://github.com/AgriciDaniel/claude-seo.git",
+    "commit": "734998e5fdbb16cd96dbaafe2da24eee6fb0d291",
+    "directory": ".",
+    "license": "MIT",
+    "attribution": "Claude SEO by AgriciDaniel; Copyright (c) 2026 agricidaniel. FLOW prompt library is CC BY 4.0 from AgriciDaniel/flow; original headers and lock are preserved."
+  },
+  "converter": {
+    "repository": "https://github.com/EveryInc/compound-engineering-plugin.git",
+    "commit": "4ba48871919650d43a412e3faf0374272fdc209d"
+  },
+  "tool": {
+    "repository": "https://github.com/1337vak/claude-to-codex-plugin-port.git",
+    "commit": "a9cdde1b08266ede5febd1a1dd76ba1e749c8f0b"
+  },
+  "recipe_sha256": "dca245c8f2231a74a314e8eb8f5e432811b818537c749f086bbaea6c01c5640d",
+  "adapter_inputs": {
+    "overrides": {
+      "CODEX-COMPATIBILITY.md": {
+        "sha256": "3bf3d2a422837bac7549252995b232fc4519955f758606edc7d5681ceff7858c",
+        "executable": false
+      },
+      "hooks/codex-schema.py": {
+        "sha256": "05852e211ab44378f9d9b7f394ffdb5050464caf55328d5db82aadf985a6f49e",
+        "executable": false
+      }
+    },
+    "readme_sha256": "2909d2643c5bd6d72605d3aebba2edda3487dea3f0130709ec337d0551c55d13"
+  },
+  "source_inventory": {
+    ".claude-plugin/marketplace.json": {
+      "sha256": "34d3385feb3c53049a87b55942eeccbd66496f18f712a00e5d3f639544ecb690",
+      "executable": false
+    },
+    ".claude-plugin/plugin.json": {
+      "sha256": "d6ee6a62907900aceb35b0ac869c8221c3e6ebe37fa60525c9acbeedcf630bb4",
+      "executable": false
+    },
+    ".devcontainer/devcontainer.json": {
+      "sha256": "c87ba931052f3870b1c17ef159c45531e50a36d0319f04d6dcbb97b8c9cb24cb",
+      "executable": false
+    },
+    ".github/CODEOWNERS": {
+      "sha256": "4a9048ec80e3c256e4390aff312ed5ce703d1ef05c5cac5788a099e0f4a4381b",
+      "executable": false
+    },
+    ".github/FUNDING.yml": {
+      "sha256": "a108353ea90417f4a66aabeead564df231b23d480392c0ce7ff491160d15e5f4",
+      "executable": false
+    },
+    ".github/ISSUE_TEMPLATE/bug_report.yml": {
+      "sha256": "f9826aec43eecec8f7409685146c7afa8ecbc06c4da5f74c65bef1b4feb72bdd",
+      "executable": false
+    },
+    ".github/ISSUE_TEMPLATE/config.yml": {
+      "sha256": "250e7ea280dabcb03327c02f6db41d93fa31a49623caeca5476123239a86edc5",
+      "executable": false
+    },
+    ".github/ISSUE_TEMPLATE/feature_request.yml": {
+      "sha256": "8c95ffbbf7f4af03d6956d12c68a00dc7eb7ec1ca03e90fe261498e86007baf2",
+      "executable": false
+    },
+    ".github/ISSUE_TEMPLATE/task.yml": {
+      "sha256": "ddb05a746e2adc4c5a43bf6a5c44cc457760e72de6178c52db797adcec5adc90",
+      "executable": false
+    },
+    ".github/PULL_REQUEST_TEMPLATE.md": {
+      "sha256": "928d968f5e7e1687697367e9764d4efc2bc2b9b5b2a82b62e494233bc4aed3bd",
+      "executable": false
+    },
+    ".github/dependabot.yml": {
+      "sha256": "9468c0a7fe24c2620006a58092d86151193b7275e482631ad4b15667abac6e5c",
+      "executable": false
+    },
+    ".github/release.yml": {
+      "sha256": "08704cec3ae6a65d0b510075ad1d2869dd806257397353961065385c9086fa78",
+      "executable": false
+    },
+    ".github/workflows/ci.yml": {
+      "sha256": "f8d682beb6791b2dbe6a58f06a2afe04524c2c541ccfb4eba53c35a4b8876bfb",
+      "executable": false
+    },
+    ".github/workflows/v2.yml": {
+      "sha256": "e37a89c292f766c9e939d2a6a7e07c6896aa0ff7c9afa83066c718cbc2a6041a",
+      "executable": false
+    },
+    ".github/workflows/windows-smoke.yml": {
+      "sha256": "432740d734c362a8bf676c9523030e5f16ab366eb1bd46f1db9cff4c8e787b9a",
+      "executable": false
+    },
+    ".gitignore": {
+      "sha256": "71aeea20e5f0f666083a0b1b650c529f0b1f2de4ac57561e9c61f781a2c9422e",
+      "executable": false
+    },
+    "AGENTS.md": {
+      "sha256": "22ed6091a741ec33569767f1bb01076a5093271b57bc6e7a45c97efeef41214d",
+      "executable": false
+    },
+    "CHANGELOG.md": {
+      "sha256": "514a6ec23479fd9128a241e3f93d502df5e3367c932fe1ea285b520061b2cef0",
+      "executable": false
+    },
+    "CITATION.cff": {
+      "sha256": "782307d6ea6289fa81b0f0678e629892250f36745c3421dfbb0701e274e04414",
+      "executable": false
+    },
+    "CLAUDE.md": {
+      "sha256": "845ec0e6aea0211d621c3bb7d12d386337e0633b7ac1231d3f7f86886d3e5526",
+      "executable": false
+    },
+    "CODE_OF_CONDUCT.md": {
+      "sha256": "c7cda2e1d59d3dd149529e71927db0a5d2055efbb9318a2ad4b4071907030614",
+      "executable": false
+    },
+    "CONTRIBUTING.md": {
+      "sha256": "b42342775e5b39dd6479205b81fffb1d77aa9efa5c5fb356e9639da9577cf490",
+      "executable": false
+    },
+    "CONTRIBUTORS.md": {
+      "sha256": "881cc7ee7f04e196c334c74142c24683365be0499a23b069d075b9baecca5e9e",
+      "executable": false
+    },
+    "LICENSE": {
+      "sha256": "a42b3b0253cecea9af810c5207a67b0be8c9a0cfbf52b9302c3d26b063e7a86b",
+      "executable": false
+    },
+    "PRIVACY.md": {
+      "sha256": "39f90500834a72004345bfacc18652cd072e579f7a62b563816ba6d44ba7684d",
+      "executable": false
+    },
+    "README.md": {
+      "sha256": "3d9c05eded367c708dceb673a5d1ab3fc06816b74c563d3842e6ab6af27b9d58",
+      "executable": false
+    },
+    "SECURITY.md": {
+      "sha256": "de600b69b40a3d876a142df2573288de47f581af7d739fc841b148ca39b3b545",
+      "executable": false
+    },
+    "agents/seo-agentic.md": {
+      "sha256": "9cb0ae5efe6560789a6c4e4e5518acf76c357d25539461611abe5cf558a143ff",
+      "executable": false
+    },
+    "agents/seo-backlinks.md": {
+      "sha256": "0c2e974a9ed0b20efe7e6f0dd84795656f8ad392dd9d3d5839e02c814cbe54d8",
+      "executable": false
+    },
+    "agents/seo-cluster.md": {
+      "sha256": "216909ec2d3bd9dd803869e7d426994498b6bddd319ad0e01b3fd0a8cd98338c",
+      "executable": false
+    },
+    "agents/seo-content.md": {
+      "sha256": "4894353ec9e307f26a6186db18e7601105ffa3d10b103196928fc5563d52cdd7",
+      "executable": false
+    },
+    "agents/seo-dataforseo.md": {
+      "sha256": "6481aea4c73109debab1539d0ad0966c2b73431e21bd8a5c9ce9d7bb83f1f92e",
+      "executable": false
+    },
+    "agents/seo-drift.md": {
+      "sha256": "25a55aa8d69b659454bb1ec44235e1e50062fb1ec284fea9f051de6857118fc7",
+      "executable": false
+    },
+    "agents/seo-ecommerce.md": {
+      "sha256": "1e38cdd79e5ffa7644f6c5cde2f3edc343f917ed35f2621031b579e2ac3d5869",
+      "executable": false
+    },
+    "agents/seo-flow.md": {
+      "sha256": "2524da988d1c02b113a735d56fd103dd2af5b72a02c59257cf9c0804e6050fa6",
+      "executable": false
+    },
+    "agents/seo-geo.md": {
+      "sha256": "53ac935893d2da19292aa86cea5f21e55ffb62acb3eb62c7f87249ad4817e7bf",
+      "executable": false
+    },
+    "agents/seo-google.md": {
+      "sha256": "097d655af331f7aeb76fd51c7d76e3f17a8ebb3488ea94cf4764bb1c18990480",
+      "executable": false
+    },
+    "agents/seo-image-gen.md": {
+      "sha256": "01d0941b0e398fd052f15efc8fa79ef665d5620273ca16805f34725803618af0",
+      "executable": false
+    },
+    "agents/seo-local.md": {
+      "sha256": "0fe7c0a25d6cf8313efa4d7c1f43107c038233b17e009b99850cf374338c0ec7",
+      "executable": false
+    },
+    "agents/seo-maps.md": {
+      "sha256": "4b0c7e2a2ca0bec2f444ead94a26d6f99c0f39b1ef73453281cf5ad81c426e5e",
+      "executable": false
+    },
+    "agents/seo-performance.md": {
+      "sha256": "5ca6ce3830a42dc0b2d02b9ce85c819da22872ea41e5774d9cf8bf15074cd17f",
+      "executable": false
+    },
+    "agents/seo-schema.md": {
+      "sha256": "a4b709b433fd9c6be1654fecea712230097c97c06fa591c918d67fcc68190df5",
+      "executable": false
+    },
+    "agents/seo-sitemap.md": {
+      "sha256": "e86f6d3d11b007b8c85e6d1ab2c849281e28671c09b367356d30050f5c2b6488",
+      "executable": false
+    },
+    "agents/seo-sxo.md": {
+      "sha256": "26b672d2a97f670c1c573f4bbb1c4efed571a1f0287aebfa9c31d0b03f05c281",
+      "executable": false
+    },
+    "agents/seo-technical.md": {
+      "sha256": "2c1d7f0a5ad8e1f09aacecc728bc1514bfef0ba1ae321bd3fa9bc5f1367906bb",
+      "executable": false
+    },
+    "agents/seo-visual.md": {
+      "sha256": "0550d75e529f91d9100d36013010935681c9f0bc06ae793d416cf35d5c0139fe",
+      "executable": false
+    },
+    "assets/cover.svg": {
+      "sha256": "2f31636addfe29d202380d94f97f48ff7b9b27d17589523b236d19b4fefb29ba",
+      "executable": false
+    },
+    "assets/framework.svg": {
+      "sha256": "2616f676c0fb7724b3b89607abd539deba717755e928b5cd6fdb2bffb5709f63",
+      "executable": false
+    },
+    "assets/growth-3-months.png": {
+      "sha256": "056ec36ff5039223d6dc5b2a8a0f08f0e2e1f9465b90a146e0aa3f5932524d88",
+      "executable": false
+    },
+    "assets/readme/btn-hub.svg": {
+      "sha256": "707131773a25dd92e3be49d1422b9fb5d2f6fef574d13bf27bf1c77618690cf6",
+      "executable": false
+    },
+    "assets/readme/btn-pro.svg": {
+      "sha256": "99c7443ee36286cc1608dadbff0f23fc84ded2605a140769960838ae15844c22",
+      "executable": false
+    },
+    "assets/readme/btn-youtube.svg": {
+      "sha256": "7165a437271af2f2e0be290aefd1da46d91641ae331f6f31f1216cb1a36a46a8",
+      "executable": false
+    },
+    "assets/readme/homies-tour.jpg": {
+      "sha256": "bcf66286ca6b6b4bf7401107768214fe0eae34ec0559a7354dbb16ea0571bff0",
+      "executable": false
+    },
+    "assets/readme/screen.svg": {
+      "sha256": "416f8ad61d3a799a0675ecab00f07527de696ed94717b3adb5551bd870c766c7",
+      "executable": false
+    },
+    "assets/readme/v3/credits.svg": {
+      "sha256": "e895ad3ea19d10857850f4cd27232420f7df34223e7248e5bf0308a722991b8f",
+      "executable": false
+    },
+    "assets/readme/v3/hero.svg": {
+      "sha256": "6c794bef65182f0ea7c75a2b5c8b7cf4f858446414bcc05dd5e65c5814d964be",
+      "executable": false
+    },
+    "assets/readme/v3/install.svg": {
+      "sha256": "c3d5830d763cfbac53d38ca964f02af85d0a723cd51794cb2dcf402d0489f048",
+      "executable": false
+    },
+    "assets/readme/v3/map.svg": {
+      "sha256": "0e631bd7eaa907f4002fc23c7a87df0de89fb69e1e6de11ac1134ae96b41bda7",
+      "executable": false
+    },
+    "assets/readme/v3/plat-unix.svg": {
+      "sha256": "376ff1e5e49434030963d765460cc3d212d1bbb2df3f7a0c6f7c66dfa67fdb37",
+      "executable": false
+    },
+    "assets/readme/v3/plat-win.svg": {
+      "sha256": "560b128d4f7c2eb59e70bded0db77d442bb7fe0a7fd290a06675b4207e42cf6c",
+      "executable": false
+    },
+    "assets/readme/v3/shop.svg": {
+      "sha256": "d2073bcda432a87ed7b1e0d10d6773d15e5a77ad70547f631770bd68604c8cc3",
+      "executable": false
+    },
+    "assets/readme/v3/team.svg": {
+      "sha256": "0abd9f72890c5850e249d2bb292b453975aa9404b41bb22d07bd11afcf04e4e1",
+      "executable": false
+    },
+    "assets/signal-flow.svg": {
+      "sha256": "24d7da830835f42e9495a9ffac24aff1569837a57e52ac9a190ccefb01a0c740",
+      "executable": false
+    },
+    "assets/sub-skills.svg": {
+      "sha256": "1ad8f2cc3b3e7ae12b784774e2ab689f82ef39622d808c5ab69142f29f1a1a47",
+      "executable": false
+    },
+    "data/google-updates.json": {
+      "sha256": "22aa2c64a99e95c857b1318deba10183a6597da59538555b654f3cdd977bad2b",
+      "executable": false
+    },
+    "docs/ARCHITECTURE.md": {
+      "sha256": "d4aad3f2d9a56153760fb48d2ffac4eb6a124891d09d1e669872a98140fe432b",
+      "executable": false
+    },
+    "docs/COMMANDS.md": {
+      "sha256": "1ad0607b788d87b1b3a785b96949c59454f35f1b3e5aacdf0aaa085fd8938caa",
+      "executable": false
+    },
+    "docs/COMMUNITY-INTEGRATIONS.md": {
+      "sha256": "8588d8b54b19ba98b5618fe0ad9bed77831645ce17996914158d2a4ffd54ee43",
+      "executable": false
+    },
+    "docs/FINAL-VERIFICATION-v2.2.5-2026-08-26.md": {
+      "sha256": "0c6941dba65b9010ad784b6899a9c92dc99804619da5e2b9e7364d994b59b122",
+      "executable": false
+    },
+    "docs/INSTALLATION.md": {
+      "sha256": "c3f6cdffe789af1ca00994c3bb9b66788d4ff62c49e162cb5eb6dddd30d1e807",
+      "executable": false
+    },
+    "docs/MCP-INTEGRATION.md": {
+      "sha256": "5d116bdaea3f0982227f9bfba2b6856427d259d2e923a792c9749ac2d878415b",
+      "executable": false
+    },
+    "docs/MIGRATION-v1-to-v2.md": {
+      "sha256": "4c3102464630c8f1d1e54f260e010a679d7babbabf07af213870a153b6b7abee",
+      "executable": false
+    },
+    "docs/TROUBLESHOOTING.md": {
+      "sha256": "9dd8bcaed9aae04d577e4cc65f502b1020f7a647cc83ef35be6f9f29e9564b7b",
+      "executable": false
+    },
+    "docs/WORKFLOW-public-private.md": {
+      "sha256": "632633dee69a63eb72edb896802d5df941a4b60030333b355a3b9fd0260297a8",
+      "executable": false
+    },
+    "extensions/ahrefs/docs/AHREFS-SETUP.md": {
+      "sha256": "9624dba9c38242a46ce119d363a9de9bed9554ef833b7b9fc2cf811262d3d8d8",
+      "executable": false
+    },
+    "extensions/ahrefs/install.ps1": {
+      "sha256": "37679f2de440e6e0b62d9a9e21acb638c4add29c65da783eafe26065a70d4ecc",
+      "executable": false
+    },
+    "extensions/ahrefs/install.sh": {
+      "sha256": "075c47fda331746db31f4ece0995bcbfd56ad5de3911845fbacde34606835b82",
+      "executable": true
+    },
+    "extensions/ahrefs/skills/seo-ahrefs/SKILL.md": {
+      "sha256": "799588bd48895aab0a287b828cab69d7ebe26971ff4842f6ad4cbde685873d4e",
+      "executable": false
+    },
+    "extensions/ahrefs/uninstall.sh": {
+      "sha256": "4af70833d6e964e0901d23d430b23d6eacdee500dd4301fece09b7d2f8f69b05",
+      "executable": true
+    },
+    "extensions/banana/README.md": {
+      "sha256": "f106a5daa4f4f67cbc346b78ce3b2d2513b535e570c76efb1785fe81eefba47d",
+      "executable": false
+    },
+    "extensions/banana/agents/seo-image-gen.md": {
+      "sha256": "01d0941b0e398fd052f15efc8fa79ef665d5620273ca16805f34725803618af0",
+      "executable": false
+    },
+    "extensions/banana/docs/BANANA-SETUP.md": {
+      "sha256": "4389ea2d9c7ac1ff5fc102fb574eb8456e35bec395273de59be29b27d6415238",
+      "executable": false
+    },
+    "extensions/banana/install.sh": {
+      "sha256": "0fab461c233662630fb8603fbacccb551a18bf654697bccd11be817622caaf81",
+      "executable": true
+    },
+    "extensions/banana/references/cost-tracking.md": {
+      "sha256": "c86d39096a802044968f3810cda9427bf00e7abc680bba86cc1f296996405cf8",
+      "executable": false
+    },
+    "extensions/banana/references/gemini-models.md": {
+      "sha256": "d3a44907bfc9f10c636887f1b005a77080abeec483343b30ac3cc7aa49bb9f7d",
+      "executable": false
+    },
+    "extensions/banana/references/mcp-tools.md": {
+      "sha256": "d1b6aca6bbc9fa6f2265c26a519e0ac656ecf366be5f6d4b56bb5e5a9d577343",
+      "executable": false
+    },
+    "extensions/banana/references/post-processing.md": {
+      "sha256": "73f0ad0fff971ad1ec3abf2710d18eaa1c273ca298342b99af09afbecafa9609",
+      "executable": false
+    },
+    "extensions/banana/references/presets.md": {
+      "sha256": "074b2a54deae13cf9f1a79915cdad6ecd655658222b53dc10d2d312c637c9693",
+      "executable": false
+    },
+    "extensions/banana/references/prompt-adaptation-safety.md": {
+      "sha256": "b985df3778b253d2de7e4b10ef6b692d56f205ab2ba4df838d42a3442cf387e5",
+      "executable": false
+    },
+    "extensions/banana/references/prompt-engineering.md": {
+      "sha256": "891189574160c110cb7b146a86033ccb2257f73cc99ad823d281ce993e15ed66",
+      "executable": false
+    },
+    "extensions/banana/references/prompt-templates.md": {
+      "sha256": "add34be91b831cf97492cddc8f33af16785e672060f042144f9639eb4850788a",
+      "executable": false
+    },
+    "extensions/banana/references/seo-image-presets.md": {
+      "sha256": "47a2dc4dcf9424141db29405a7766a98fd11a48bc8c778e8ffda60e6715fde8c",
+      "executable": false
+    },
+    "extensions/banana/scripts/batch.py": {
+      "sha256": "658ef4c496e4ffd3d55ad34b2725291bcc9b2ecc4f72392eb7af42d4109d068e",
+      "executable": true
+    },
+    "extensions/banana/scripts/cost_tracker.py": {
+      "sha256": "dde30dd80c1597b82122cb34f3cc5c285270bac6fa64405e6352d6259f3b4876",
+      "executable": true
+    },
+    "extensions/banana/scripts/edit.py": {
+      "sha256": "93b3d880d8d40cab8a9f66cbe86d37bbcc8cb3c1b5943585c4346c29eb8a81ee",
+      "executable": true
+    },
+    "extensions/banana/scripts/generate.py": {
+      "sha256": "f241298d2e473b301097c06ccb0334361f43c7a86bb44331b9df98d61a6e65c9",
+      "executable": true
+    },
+    "extensions/banana/scripts/presets.py": {
+      "sha256": "5f5a063fa4b8d340fdb1e3657d40226f30a6a847fc79a55217a02fb5b2657a99",
+      "executable": true
+    },
+    "extensions/banana/scripts/setup_mcp.py": {
+      "sha256": "8c18f56f7a2597f3ba36c139289c100614741c4b774243235fbd8b340e7e685b",
+      "executable": true
+    },
+    "extensions/banana/scripts/validate_setup.py": {
+      "sha256": "a1e71a5afdd3fe975b94e9f14dad87d713703a3b030f40f895685cf23221c71b",
+      "executable": true
+    },
+    "extensions/banana/skills/seo-image-gen/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "extensions/banana/skills/seo-image-gen/SKILL.md": {
+      "sha256": "ee1149b57c9f53ee400d8f2e5b9f232c62d784738c97bae3bbf7bfbc545f3a24",
+      "executable": false
+    },
+    "extensions/banana/uninstall.sh": {
+      "sha256": "794cc9e70efa7e53bf53bb6ed40f306f014d6879ca809c3bf15526e297256ceb",
+      "executable": true
+    },
+    "extensions/bing-webmaster/docs/BING-WEBMASTER-SETUP.md": {
+      "sha256": "6c15fe898450e88a6a71ff87df8fc7d632649d0268bd40452f2e8aa15bc6689b",
+      "executable": false
+    },
+    "extensions/bing-webmaster/install.ps1": {
+      "sha256": "5702b1a01d8cb0a17011a0ff5326d71fe95cc4b7ee8e1bacdb681d2d7ec1d2bb",
+      "executable": false
+    },
+    "extensions/bing-webmaster/install.sh": {
+      "sha256": "4e5bab54d0b8935c33944b1290bedc3eb21b4a85c266c35cea87ce1da3e60abd",
+      "executable": true
+    },
+    "extensions/bing-webmaster/skills/seo-bing/SKILL.md": {
+      "sha256": "66f785856d497978aa6c482add2a9a66e7ae894fe1f568a2a69bc795b09aef56",
+      "executable": false
+    },
+    "extensions/bing-webmaster/uninstall.sh": {
+      "sha256": "37d43a92a072e3645e335298caaa5d393635534a00ba35dadaa2c01e7fb7f2c9",
+      "executable": true
+    },
+    "extensions/dataforseo/README.md": {
+      "sha256": "7edf8f8440d35a2d2680ab8fe6f9e5f02f5659f35373f2bed52415373c76736b",
+      "executable": false
+    },
+    "extensions/dataforseo/agents/seo-dataforseo.md": {
+      "sha256": "6481aea4c73109debab1539d0ad0966c2b73431e21bd8a5c9ce9d7bb83f1f92e",
+      "executable": false
+    },
+    "extensions/dataforseo/docs/DATAFORSEO-SETUP.md": {
+      "sha256": "a9e0e9bfeaafa343d692d5bc183d8d125a085799040984c7771258c645e8a403",
+      "executable": false
+    },
+    "extensions/dataforseo/field-config.json": {
+      "sha256": "d55349f2f7a349cd6336f3b4d8a22b203377c8b4448e7b6967f50e2391ad952b",
+      "executable": false
+    },
+    "extensions/dataforseo/install.ps1": {
+      "sha256": "5ff1fac80a1b2c6ccc434a0cb586d187be72eab88aff2f02f129835301c18489",
+      "executable": false
+    },
+    "extensions/dataforseo/install.sh": {
+      "sha256": "6bdeb2c6bc5727a6a920cced892a7214c55b687d30b3a187bd99130ac59185c8",
+      "executable": true
+    },
+    "extensions/dataforseo/skills/seo-dataforseo/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "extensions/dataforseo/skills/seo-dataforseo/SKILL.md": {
+      "sha256": "128b9d5ee6d26eba9aff94c7f60e9b059e1eea3929daa7ddc3e2bc7a9e14ba90",
+      "executable": false
+    },
+    "extensions/dataforseo/skills/seo-dataforseo/references/cost-tiers.md": {
+      "sha256": "a17c4d446f44cc5aae80539d235caa16ff57ecde9d1569d086e9557ac766be7d",
+      "executable": false
+    },
+    "extensions/dataforseo/skills/seo-dataforseo/references/tool-catalog.md": {
+      "sha256": "1fc02f7ea2d09fe5f40a9392dc17106f23385b02659ab06ee6bce3d718bf33da",
+      "executable": false
+    },
+    "extensions/dataforseo/uninstall.ps1": {
+      "sha256": "96f2181876bd7fa7736d390861164d0a3601c8d6b122fd46a80bfd8cdd6d9cab",
+      "executable": false
+    },
+    "extensions/dataforseo/uninstall.sh": {
+      "sha256": "b8b14b05361f24bfa574edccba44ebd9cfa729658906b714f27c141b6d2f92eb",
+      "executable": true
+    },
+    "extensions/firecrawl/README.md": {
+      "sha256": "e3846e2318fb34fda75f0ca804c18b675fed5cb3c1f30093557c8242836ff39a",
+      "executable": false
+    },
+    "extensions/firecrawl/docs/FIRECRAWL-SETUP.md": {
+      "sha256": "a48073a659934e8cfa1832617484a939f12158599cce0301dc7a54c6c84e8124",
+      "executable": false
+    },
+    "extensions/firecrawl/install.ps1": {
+      "sha256": "91d61c9a13e7345fa1fcc26d64d61258fe16adaf8f37a0125c0d15d189bcec29",
+      "executable": false
+    },
+    "extensions/firecrawl/install.sh": {
+      "sha256": "5b611a5600fe46ca98c0afd1cb1160fe435023bc49764b4fe4ba0f1017017d3e",
+      "executable": true
+    },
+    "extensions/firecrawl/skills/seo-firecrawl/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "extensions/firecrawl/skills/seo-firecrawl/SKILL.md": {
+      "sha256": "d69c57d4a07bb6d52ffbbf721ff4c3a7e900a71f16717e336ef02259d686b726",
+      "executable": false
+    },
+    "extensions/firecrawl/uninstall.ps1": {
+      "sha256": "14d93fc7bfb427bce17cff044472790909441f1b540e1379092e123f51521187",
+      "executable": false
+    },
+    "extensions/firecrawl/uninstall.sh": {
+      "sha256": "1f007a0be0c7ac01919a8bb258eed7e2d023f7bf0e36069b907a5e9d55475888",
+      "executable": true
+    },
+    "extensions/matomo/agents/seo-matomo.md": {
+      "sha256": "adddd8f860d208ea954760dd1b259c1afc82b12b854b396e99d9f8110d3fad8b",
+      "executable": false
+    },
+    "extensions/matomo/docs/MATOMO-SETUP.md": {
+      "sha256": "030191513c67fdc6bb08580483c51577480cb72d19b4595ba7db4736431a278a",
+      "executable": false
+    },
+    "extensions/matomo/install.ps1": {
+      "sha256": "c5dc4ce1b34877a80e4f80b813f3597e86fd2ba50e308d92b1b7caf425003643",
+      "executable": false
+    },
+    "extensions/matomo/install.sh": {
+      "sha256": "56d8eb99658564fa623e5f8cb548aa413b251da8a0bf0489f5edbb0a9186f4a7",
+      "executable": true
+    },
+    "extensions/matomo/skills/seo-matomo/SKILL.md": {
+      "sha256": "a7d7c1f9f84dbc81ecc86ebf0e6c1e08f465b19c3a746121dde985b9f4246751",
+      "executable": false
+    },
+    "extensions/matomo/uninstall.sh": {
+      "sha256": "e5be4121e374678d616a51c4b3ea7124a7581245fb41693230fdf007cc013cbe",
+      "executable": true
+    },
+    "extensions/profound/docs/PROFOUND-SETUP.md": {
+      "sha256": "e8d3c466ee22e1678b6da51a0f160b74e5b57eb443897f302a9dd33f89fe40cd",
+      "executable": false
+    },
+    "extensions/profound/install.ps1": {
+      "sha256": "102534a4c994e0ff017c6faaabbef0568f5550d3e54c9b4f371401701279f2be",
+      "executable": false
+    },
+    "extensions/profound/install.sh": {
+      "sha256": "6c88b717ed0176c130ca958f4de2471d5c34f95ac1e7f4d14cc462211f894da6",
+      "executable": true
+    },
+    "extensions/profound/skills/seo-profound/SKILL.md": {
+      "sha256": "18c1e8f4f52c29cd615ac721593c888251b07fa3ef31cdf2bcb9c0fab8fcdc22",
+      "executable": false
+    },
+    "extensions/profound/uninstall.sh": {
+      "sha256": "82c9e745599d3bb4364c67035450e1822b57b23c78bcdfb6e6981b93b79974df",
+      "executable": true
+    },
+    "extensions/seranking/docs/SERANKING-SETUP.md": {
+      "sha256": "489b346879ec58c303e4d9438b0da7b7a1e81267c4da5e40262e0aef2cbc9be2",
+      "executable": false
+    },
+    "extensions/seranking/install.ps1": {
+      "sha256": "d06053c443ecef99a40ac23fe8dc062fb2ed6a4ace7405c400331a67ec69da47",
+      "executable": false
+    },
+    "extensions/seranking/install.sh": {
+      "sha256": "aa467a1a2e4f5d840ca5b7a8666316c21e7f31bd92a2b396a3621ac39ce7c1ae",
+      "executable": true
+    },
+    "extensions/seranking/skills/seo-seranking/SKILL.md": {
+      "sha256": "d7cd67ef846d15bc6b68c99df273a0658544e60a84618634dd7638bf055e20b8",
+      "executable": false
+    },
+    "extensions/seranking/uninstall.sh": {
+      "sha256": "270e0b5a8f812c3c233c20fa1d175bbc75f65fbd89057028ed6e8eb02006210e",
+      "executable": true
+    },
+    "extensions/unlighthouse/docs/UNLIGHTHOUSE-SETUP.md": {
+      "sha256": "6bb8f8dbb45b608efba9b043cad08e480d11aec87a41c9a86f65132134e409ab",
+      "executable": false
+    },
+    "extensions/unlighthouse/install.ps1": {
+      "sha256": "85cea5fc48d4faddda4358b405a1e26e59e7fdbfffbc7ddafa66385ed066e4fa",
+      "executable": false
+    },
+    "extensions/unlighthouse/install.sh": {
+      "sha256": "8ff735d8456adba92dc639a3d5dc4fdf2c1b6d4d1726785a33291679b5aec67a",
+      "executable": true
+    },
+    "extensions/unlighthouse/skills/seo-unlighthouse/SKILL.md": {
+      "sha256": "ea9894e3c6cea2374ff562874b04bd9f9e31e1270d30825d5f7f69495d2a43e4",
+      "executable": false
+    },
+    "extensions/unlighthouse/uninstall.sh": {
+      "sha256": "a23d393886cc21101b9b469e61214905d437d95bf739d8080f9944dfc9eea31b",
+      "executable": true
+    },
+    "hooks/hooks.json": {
+      "sha256": "dc86601a9ea49f07c5d4b7b155fffa4336966798d3655735390d38b76f1ba438",
+      "executable": false
+    },
+    "hooks/run-python-hook.js": {
+      "sha256": "e5183ca054d88524117083678fa6dca5c41bc847e22f6dcb5bd77c4ab1b287c8",
+      "executable": false
+    },
+    "hooks/validate-schema.py": {
+      "sha256": "0addac8151ec24f6a9a30c98e5fa32e7882e703616edbbc9dd1782a3e8802d40",
+      "executable": true
+    },
+    "install.ps1": {
+      "sha256": "e46f4424d981ed6e70c2a2c5c94196876c2184c07c366131398852542bb40786",
+      "executable": false
+    },
+    "install.sh": {
+      "sha256": "58b2433f4c454d51475d07ff40342c813d2e15c4b12d5565561f9f92efcaa1af",
+      "executable": true
+    },
+    "pyproject.toml": {
+      "sha256": "435108f8935ece9929167d92a77da6739b3a3b47e02f5fddbda12737f9574487",
+      "executable": false
+    },
+    "requirements.txt": {
+      "sha256": "693fd9a043dad3f10f99e82bf70ef36214a67b8fcd1481b26f25e5897dc1c500",
+      "executable": false
+    },
+    "schema/templates.json": {
+      "sha256": "4bb417070cd51d0a5d91d54cda1af52bd88742bd868adfe2654e088d07fdda13",
+      "executable": false
+    },
+    "screenshots/seo-audit-demo.gif": {
+      "sha256": "7490a01452483f1be52bd8146837d441a81f36fc6b94ec62a4ed12df665f815d",
+      "executable": false
+    },
+    "screenshots/seo-command-demo.gif": {
+      "sha256": "299d47eea77aa192eb5874d434bf23de7111edccf35a08b84659d965b8a0f4e7",
+      "executable": false
+    },
+    "scripts/agent_ux_check.py": {
+      "sha256": "78ee10a25551728f820ff9c5e3e7c2f17473f868207aa2218a4471c898caf6da",
+      "executable": false
+    },
+    "scripts/agentic_check.py": {
+      "sha256": "d437457a1908790aa55e96e78981e1536836b2e811110257178b9fa98f1e5f60",
+      "executable": false
+    },
+    "scripts/agentic_fix.py": {
+      "sha256": "54d8b2270fd303edb794bc00c395dad41764855461dfbb871b4fddde8ce5161d",
+      "executable": false
+    },
+    "scripts/analyze_visual.py": {
+      "sha256": "03e930f7813775abb5992da85db3d8eb23577bbce00e1bb33c38255db98e9757",
+      "executable": true
+    },
+    "scripts/backlinks_auth.py": {
+      "sha256": "d0a82c941bdc5ce8b4c5fb67eda2392f5f38805da82cdcacdeb7329d74e672d9",
+      "executable": false
+    },
+    "scripts/bing_webmaster.py": {
+      "sha256": "eb9d30b3e99e3baa7dba8816da0092838bb1d843c905ca72efce9dd9a80983e9",
+      "executable": false
+    },
+    "scripts/capture_screenshot.py": {
+      "sha256": "fac774b97e71e491378e68e8a2b2abcf1379351c0e75e54e74bffacd32061ab1",
+      "executable": true
+    },
+    "scripts/claude-seo": {
+      "sha256": "ff87975206a143084486c9e381be29b78cf28af4deab6c510abb611d230deb30",
+      "executable": true
+    },
+    "scripts/commoncrawl_graph.py": {
+      "sha256": "b7253f5d8b7b905bdc269dff050f863702a41cfae1b3299480ae7b5683aa966e",
+      "executable": false
+    },
+    "scripts/consistency_check.py": {
+      "sha256": "f83fc0220d5b83f0eb7b66c8da5b584f3a492abd37ea696a8ea34e5595803b0f",
+      "executable": false
+    },
+    "scripts/content_humanize.py": {
+      "sha256": "8a2b262042ec3b2b3b13d7f1e9072526787cda14e981fb67896ea31e94dbfe8c",
+      "executable": false
+    },
+    "scripts/content_quality.py": {
+      "sha256": "90c1ed249aea55e15b153f85b38a38f53dfe111790be2105eae4681c87ceee02",
+      "executable": false
+    },
+    "scripts/content_verify.py": {
+      "sha256": "71b1a464b770bc3b2f8eec4c330330ef7c3d6e366f9d04feb5d4011e5c65e1e4",
+      "executable": false
+    },
+    "scripts/crux_history.py": {
+      "sha256": "c3d0105d8fe5e6965a3d8a37b4e29ad8e7efa6b4c52c971728467e44529ec495",
+      "executable": false
+    },
+    "scripts/dataforseo_costs.py": {
+      "sha256": "001d086ea778ec3412455d9a14e7a12eba7688851d079403d40ecb5a6f8763c9",
+      "executable": false
+    },
+    "scripts/dataforseo_merchant.py": {
+      "sha256": "97bbb420da21911a0dcf54b86da0a405b91ee32960ab8c4af5c6808732b45155",
+      "executable": true
+    },
+    "scripts/dataforseo_normalize.py": {
+      "sha256": "358a7424c45065a9d5e6da4af0d25cd30983f8af015c05882197fdd24cc24431",
+      "executable": true
+    },
+    "scripts/domain_history.py": {
+      "sha256": "f94d6b02100a978a792c060345785e07f01a5005add1732dcf5023c05222afc1",
+      "executable": false
+    },
+    "scripts/drift_baseline.py": {
+      "sha256": "dd58d91e56a93bbc82a0e84bfa3292a7a0617fba25c839d1261bb0fdbe8bdbe6",
+      "executable": false
+    },
+    "scripts/drift_compare.py": {
+      "sha256": "6be1c26042bede021d0e691a602e90252dc6b06513e45274eb489f048dd69348",
+      "executable": false
+    },
+    "scripts/drift_history.py": {
+      "sha256": "d31e35b1cc86748535411b2bb39f5d66a909c7b1ddac97f26aa3acc8187b27a1",
+      "executable": false
+    },
+    "scripts/drift_report.py": {
+      "sha256": "d1b522100ef9a3d4b4572e6966a376fabd47faf4d769acd47de6985486d3f540",
+      "executable": false
+    },
+    "scripts/fetch_page.py": {
+      "sha256": "05091e23caba50c81ea2a52cafc15c53fdda3eeb32109714fb0913a1c9514d21",
+      "executable": true
+    },
+    "scripts/ga4_report.py": {
+      "sha256": "b8a21ea55ad1e6325337ecd85e5f41fbac2c8184b802c1f778320a64e36fff5e",
+      "executable": false
+    },
+    "scripts/gbp_deprecation_lint.py": {
+      "sha256": "cec4d1c5bc102cbf280861b080a6214e8fe48ceb6c4430be3e07241cf7cdd053",
+      "executable": true
+    },
+    "scripts/google_auth.py": {
+      "sha256": "55f12d7d216476772e1f2066693bed2a219e7f297365aa9c7aaf28c14d9f3bb6",
+      "executable": false
+    },
+    "scripts/google_properties.py": {
+      "sha256": "efa6a3c4181dcaa02179cf2485d329c49ecdbf9ee0e041024a81a67b5dfafa2f",
+      "executable": false
+    },
+    "scripts/google_report.py": {
+      "sha256": "aac6570d71102255ba9a48b1f17d762fe605cc15156c1edf6ff5525e507716db",
+      "executable": false
+    },
+    "scripts/gsc_inspect.py": {
+      "sha256": "0003c77926ef0430bb4ba929a27abb96b18deac8b1cf16a90577c0edfd6f6683",
+      "executable": false
+    },
+    "scripts/gsc_query.py": {
+      "sha256": "e3fb7abce98a187f1d4036e4165093a308dabe5f4807f7fdc744daabc3dd3e1b",
+      "executable": false
+    },
+    "scripts/indexing_notify.py": {
+      "sha256": "ec6e2eb389cf2f6a33cf083f039c3ebf482c920f67e0834dab76c72bbc744b6c",
+      "executable": false
+    },
+    "scripts/indexnow_submit.py": {
+      "sha256": "be8037f45c9637c461594d83dec730d148201fc6fdd2134b62df13b1f38cc4c2",
+      "executable": false
+    },
+    "scripts/iptc_ai_label.py": {
+      "sha256": "49277f6c651bbeaa579939ac9dc705861c6351644c2b8e7d915403c67a7b89a8",
+      "executable": false
+    },
+    "scripts/keyword_planner.py": {
+      "sha256": "498a808a62f27abba04aba92568e85a309ffc0da6a93a290411dae56c20c0528",
+      "executable": false
+    },
+    "scripts/keywordseverywhere_api.py": {
+      "sha256": "c2c58f68d75f360e91b09b618d94dae557c8261a11fb8d4493e5009c22c1e4f6",
+      "executable": false
+    },
+    "scripts/lcp_subparts.py": {
+      "sha256": "92662c91275f4b2b30cfb78939efb3a9bb7e33ae18402336c7cc32e770a0cf06",
+      "executable": false
+    },
+    "scripts/lighthouse_agentic.py": {
+      "sha256": "5ff42f007411e8bed34f35b143f7c7d19f81b26abd99bf8baf981bfa87ddc324",
+      "executable": false
+    },
+    "scripts/matomo_auth.py": {
+      "sha256": "272dcfac8791864e2290e08c4d648df807c203291fe89d907be5277235c93d9c",
+      "executable": false
+    },
+    "scripts/matomo_report.py": {
+      "sha256": "67c1c2183f77e235fc9aff83ee8a55cc8276a4aea444e57946128da7c18b8b42",
+      "executable": false
+    },
+    "scripts/metadata_template.py": {
+      "sha256": "51b5eecfcf0bb91ca6643cb3675c87b001de9caed44aa898ad2c9b1ac3383070",
+      "executable": false
+    },
+    "scripts/moz_api.py": {
+      "sha256": "0dfa4d0d8c2f92c261d03e4082fb5869f38b4c4356760d037b4dec50aa3692c5",
+      "executable": false
+    },
+    "scripts/nlp_analyze.py": {
+      "sha256": "e53dc87fb863f89994c6365df229d215efb49d6b8817885aa402381063d18377",
+      "executable": false
+    },
+    "scripts/page_checks.py": {
+      "sha256": "c9b0c55a0ed726bf8f27f41244bbeeb2de61113675872735cffbe44b6dc9254e",
+      "executable": false
+    },
+    "scripts/pagespeed_check.py": {
+      "sha256": "11172b2dc8fa9d6f7cf19f78e9fe13b643834151f504a94fe9a1a885a5c0228a",
+      "executable": false
+    },
+    "scripts/parasite_risk.py": {
+      "sha256": "b4cccea1275f9f6f82c0b04d66495297ddcce87632d6805392af759a7e483ae9",
+      "executable": true
+    },
+    "scripts/parse_html.py": {
+      "sha256": "6504aa88820c9edeaa838bd16d8a9ce135f66e4c2c4c29a9d70ce2bfd4137228",
+      "executable": true
+    },
+    "scripts/portability_check.py": {
+      "sha256": "0875531ab12c929dc339a29d48383ac3e04f42db3fdd59a1a28ed657edeaacc1",
+      "executable": false
+    },
+    "scripts/preload_check.py": {
+      "sha256": "e1b5653a2497c1e07792f756d00b1c18c50a2d1b08cdb43791d5fe75e2a5a893",
+      "executable": false
+    },
+    "scripts/release_sign.py": {
+      "sha256": "97a04488f5f23419422e3c6ba4fa36028e4aa1e7168c87bed851dbbabe616e2b",
+      "executable": false
+    },
+    "scripts/render_page.py": {
+      "sha256": "acd3864bab77cff2ba4f113194b571facaae02d4678b1ab41dac9d49e69d1e17",
+      "executable": false
+    },
+    "scripts/runtime.py": {
+      "sha256": "878d1a7a0dbc869bad0dc20419785252d1caa61176d8ffcca8dbfc98aa361d57",
+      "executable": true
+    },
+    "scripts/schema_ecommerce_validate.py": {
+      "sha256": "d22f1527e9c81bab51858e482f3548bce1320ba12332c2d21f2aa1e83618be12",
+      "executable": false
+    },
+    "scripts/schema_generate.py": {
+      "sha256": "355c1d79378e99b603e3a9909d02197943b28f2b353043a32258f7b1b8c51995",
+      "executable": false
+    },
+    "scripts/seo_updates.py": {
+      "sha256": "fc0432ea236d29a9ed25122a9f6edc5842be95aa50c0c8400b0f43b58eb13b84",
+      "executable": false
+    },
+    "scripts/sitemap_discovery.py": {
+      "sha256": "be08094825e4be3b6bceba18b737fa6434bde8f65576b047aa8d64be1621ad64",
+      "executable": false
+    },
+    "scripts/sync_flow.py": {
+      "sha256": "9759792787b5f05990d77df0a79cc99c2454d9d7fcf5e256d987698a4c929adf",
+      "executable": false
+    },
+    "scripts/transport_check.py": {
+      "sha256": "9608dc62f024d73f2a30c461b9cdb521412037d06c635b00b79ea45844e0f6f1",
+      "executable": false
+    },
+    "scripts/ucp_check.py": {
+      "sha256": "6b172f605f52092637cdb44b33d5beefee4609c1a620f79a9baab2d65fd10911",
+      "executable": false
+    },
+    "scripts/unlighthouse_run.py": {
+      "sha256": "9709031a95082a4e03ebc63bd792fa21987483d222858ada27df39c84f0004ab",
+      "executable": false
+    },
+    "scripts/url_safety.py": {
+      "sha256": "19022633d182bced5f65e5ce66bc4e87834c5ca7ff70083f7396ace8131f16e4",
+      "executable": false
+    },
+    "scripts/validate_backlink_report.py": {
+      "sha256": "80e2d7b1180dbe95cebadf3ee83410c85afc843fce762ac3ac0feb3ff1a6c2c4",
+      "executable": false
+    },
+    "scripts/verify_backlinks.py": {
+      "sha256": "97e697a3bef87ad4cbad5f9c28d82aa2c3c42ce344e14d47ee56ea4e465736e2",
+      "executable": false
+    },
+    "scripts/verify_release.py": {
+      "sha256": "7868e3e6bf0dcec87a36ce3ec30ca197a4ef940dae8bb25897ec6a9a74e5d02f",
+      "executable": false
+    },
+    "scripts/youtube_search.py": {
+      "sha256": "f34e6a4ffdda436e42d457a09f3f26d4f907d440d50ba780e7102aeebda0e670",
+      "executable": false
+    },
+    "skills/seo/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "skills/seo/SKILL.md": {
+      "sha256": "bef82f13c10bdb9dfe72f607d5e1dbc735e51829c36bc8bcce568b82cbf63ae9",
+      "executable": false
+    },
+    "skills/seo/references/backlink-quality.md": {
+      "sha256": "86a39d009b19f4f17a3dc4461afe209111dc2e8df56b6bd3eecedf5b4a03f742",
+      "executable": false
+    },
+    "skills/seo/references/cwv-thresholds.md": {
+      "sha256": "285c63a0d98598114e4416d8cf4b72fdabb79e544623804253ef1281cc509182",
+      "executable": false
+    },
+    "skills/seo/references/eeat-framework.md": {
+      "sha256": "7d1f45cc9f42e9208c936af9e0d57dbdf29e52e733b5a8bed6eb65fa19475972",
+      "executable": false
+    },
+    "skills/seo/references/eeat-scoring-guide.md": {
+      "sha256": "da90342f0c97af529345d7824147c0a19c1a20de57d1470150c8838f5c445228",
+      "executable": false
+    },
+    "skills/seo/references/free-backlink-sources.md": {
+      "sha256": "969d6354515ffa7f4f73ab4c29cb5090eafe8cb6b4b85c2cbd4acae32531400b",
+      "executable": false
+    },
+    "skills/seo/references/local-schema-multilocation.md": {
+      "sha256": "15fcdea286dde09d6e2633973d67f5040b6dadabf92b8e2f3855f2e301da5524",
+      "executable": false
+    },
+    "skills/seo/references/local-schema-types.md": {
+      "sha256": "65f4e35e065afb7af24ac130f39f23e536e9ca3268ab81447f34fde143407d4e",
+      "executable": false
+    },
+    "skills/seo/references/local-search-behavior.md": {
+      "sha256": "f7870f17345a7d57e9d42b77ec85834f9aedc5ac5b54da57409e3f77f7fd47ba",
+      "executable": false
+    },
+    "skills/seo/references/local-seo-signals.md": {
+      "sha256": "a0fd5c9ad9160e076002d8b6d6c904e5e98cae62aa79e6c6b0ecb5c9401f6bae",
+      "executable": false
+    },
+    "skills/seo/references/maps-api-endpoints.md": {
+      "sha256": "7b5b15d2e50feb15d6d4c523a89e9a6f5291b82a0cd8c384053243119e35d9ab",
+      "executable": false
+    },
+    "skills/seo/references/maps-free-apis.md": {
+      "sha256": "18323486ddd52eaa8e86f7f22930fc065f7c9b529352eadda8c27dca44299b91",
+      "executable": false
+    },
+    "skills/seo/references/maps-gbp-checklist.md": {
+      "sha256": "9c90a6860af5574e7d3f4b47a19a44b83a60d3bf3252a17c78edc533ed0d934a",
+      "executable": false
+    },
+    "skills/seo/references/maps-geo-grid.md": {
+      "sha256": "76e08cd3fefb4d0367e0647895c482e1914a932dc86de4a82dc2d03b987855e4",
+      "executable": false
+    },
+    "skills/seo/references/quality-gates.md": {
+      "sha256": "e678bd245ab620b61e467cc25dff92ef9cee0e01f40caa832776cae46b6468e0",
+      "executable": false
+    },
+    "skills/seo/references/schema-types.md": {
+      "sha256": "fed009afae2148c7790dc0bb5d0d9ac3fc3f7bda65e7e537fa3aad64a2005e6b",
+      "executable": false
+    },
+    "skills/seo/references/thinking-framework-validate-act.md": {
+      "sha256": "8109404dfee9e732a10a8be10e48a311b3b6c000a1a542972bbd11c7b57f0c75",
+      "executable": false
+    },
+    "skills/seo/references/thinking-framework.md": {
+      "sha256": "e15560608df0b8216b06967f72658f35b320ebe314cd8e15a1b99d66ec2aa96f",
+      "executable": false
+    },
+    "skills/seo-agentic/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "skills/seo-agentic/SKILL.md": {
+      "sha256": "e1cd3c30c5470241074fc1445a31f2d283fda68b7e883855a9049077092c68f0",
+      "executable": false
+    },
+    "skills/seo-agentic/references/access-policy.md": {
+      "sha256": "9562de12060ee12a41bcc959f3820d8be9d7b7a08304d021995dc5e5bc51e0d7",
+      "executable": false
+    },
+    "skills/seo-agentic/references/agent-friendly-pages.md": {
+      "sha256": "42ada14d5ccb40864ade4a6c526887d16efb8b5ba6a6643a7b9e24d92ad4a4f1",
+      "executable": false
+    },
+    "skills/seo-agentic/references/discovery-and-markdown.md": {
+      "sha256": "bd1fa863e103a77c4303d38a104f20fc4d65b52c424be404f6341d16090cc151",
+      "executable": false
+    },
+    "skills/seo-agentic/references/lighthouse-agentic-category.md": {
+      "sha256": "3e99f0396f21bff5e7901a7b9c7dd0594d3c866006d0a551775cf189adfc2b1f",
+      "executable": false
+    },
+    "skills/seo-agentic/references/vendor-matrix.md": {
+      "sha256": "09297792722249a3a73c16c412b2899b3af30e4c8f98ecfe1033443773b27c4e",
+      "executable": false
+    },
+    "skills/seo-agentic/references/webmcp.md": {
+      "sha256": "5e71293f7baae8c04ef443aab43224637d06759170e0fc73422a2ea91fcb12a1",
+      "executable": false
+    },
+    "skills/seo-audit/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "skills/seo-audit/SKILL.md": {
+      "sha256": "5d9d1b8444f3fba311972ac4b4b5bcaaa32efc9e60fdf1e9ff1c13369623d492",
+      "executable": false
+    },
+    "skills/seo-backlinks/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "skills/seo-backlinks/SKILL.md": {
+      "sha256": "11d006e23ae103b5e6ca4cb02bd590d3ee4da30b670a92d5618f96eefe88fc88",
+      "executable": false
+    },
+    "skills/seo-cluster/SKILL.md": {
+      "sha256": "b8b5d2c2a6414b97057933b25f10892ca0fc0f49e62bcc13b284e1ec1ada1403",
+      "executable": false
+    },
+    "skills/seo-cluster/references/execution-workflow.md": {
+      "sha256": "7e5e067689a2ebe82d0a949a4b9b9c6568fc283e31a6b6e928fbb7677438f0db",
+      "executable": false
+    },
+    "skills/seo-cluster/references/hub-spoke-architecture.md": {
+      "sha256": "5553d9fd80145362073fde96c0c615df4ed9a000bf6f928a71641ec52e85c39b",
+      "executable": false
+    },
+    "skills/seo-cluster/references/serp-overlap-methodology.md": {
+      "sha256": "a0c02dcd394a0cfe4636c02ce03da4ff58dc68b6f55ee0b3b9e36e10f20f7662",
+      "executable": false
+    },
+    "skills/seo-cluster/templates/cluster-map.html": {
+      "sha256": "77070ced4b5b7ec28847ffeadb9a0350296b7b50305c80a5b5b54c0ece1e91f9",
+      "executable": false
+    },
+    "skills/seo-competitor-pages/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "skills/seo-competitor-pages/SKILL.md": {
+      "sha256": "6f6d06eb67cfb5539f1bf95f7af292588a2fe75b849a9f4b47da2eda3fa4b2d7",
+      "executable": false
+    },
+    "skills/seo-content/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "skills/seo-content/SKILL.md": {
+      "sha256": "a5be3738f743a4815372c7e5b8eacc6a2216f1a9e6c82b44971cc605e35e9fda",
+      "executable": false
+    },
+    "skills/seo-content-brief/LICENSE.txt": {
+      "sha256": "25bc881ab74d06a365261e004f44c445a78a5241ee322cdeeb4ba7d7669be9b1",
+      "executable": false
+    },
+    "skills/seo-content-brief/SKILL.md": {
+      "sha256": "82bb9b77327088cb34f96a60251e63f60c2a6d8fb09ae733c6c64bf29032e1ad",
+      "executable": false
+    },
+    "skills/seo-content-brief/references/excluded-domains.md": {
+      "sha256": "17b3fb0c9f0cd979c949d54a3e88eb7b39b5d3514baaaa0560022b16c3ed32b8",
+      "executable": false
+    },
+    "skills/seo-content-brief/references/keyword-density.md": {
+      "sha256": "965607f9e79bb472d789485e312faa694a4ab12bd5506af9a073e00e3e84578d",
+      "executable": false
+    },
+    "skills/seo-content-brief/references/page-type-templates.md": {
+      "sha256": "ac638c16ee6ef871d07d8d8172e23a491e11e5e9734f5a5f9ac070631156fd6d",
+      "executable": false
+    },
+    "skills/seo-dataforseo/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "skills/seo-dataforseo/SKILL.md": {
+      "sha256": "128b9d5ee6d26eba9aff94c7f60e9b059e1eea3929daa7ddc3e2bc7a9e14ba90",
+      "executable": false
+    },
+    "skills/seo-dataforseo/references/cost-tiers.md": {
+      "sha256": "a17c4d446f44cc5aae80539d235caa16ff57ecde9d1569d086e9557ac766be7d",
+      "executable": false
+    },
+    "skills/seo-dataforseo/references/tool-catalog.md": {
+      "sha256": "1fc02f7ea2d09fe5f40a9392dc17106f23385b02659ab06ee6bce3d718bf33da",
+      "executable": false
+    },
+    "skills/seo-drift/SKILL.md": {
+      "sha256": "b64b056196a5e6f5f15e286f7e581cebae266e0065167e44b0c570350a1f2218",
+      "executable": false
+    },
+    "skills/seo-drift/references/comparison-rules.md": {
+      "sha256": "45b806d8cfbc3d3fa03f2095562c84b26bcbad1359d7c45bba7304849f04fc20",
+      "executable": false
+    },
+    "skills/seo-ecommerce/SKILL.md": {
+      "sha256": "111fab3b40eb0684283bb6f342938500ab1ece87a89769f602b7fb616069949a",
+      "executable": false
+    },
+    "skills/seo-ecommerce/references/marketplace-endpoints.md": {
+      "sha256": "2126051c977c899ed4cc5fb12e6f0f5dc0caafe8a0236e59aeaab8d984b9021e",
+      "executable": false
+    },
+    "skills/seo-ecommerce/references/ucp-universal-commerce-protocol.md": {
+      "sha256": "ce30046ab217cc3f2de429713d54431607ecafb6f5ffa8e8ab28ac726c57d5cd",
+      "executable": false
+    },
+    "skills/seo-flow/SKILL.md": {
+      "sha256": "75624425eb7e22070c19f845d4b6aec8bc12c04e9fcca7d8e2928ead4a81d91c",
+      "executable": false
+    },
+    "skills/seo-flow/references/bibliography.md": {
+      "sha256": "1f7e5d60194c252a6b38ba1eb78970cdf5bea2f096563c508bfad36f7e445f75",
+      "executable": false
+    },
+    "skills/seo-flow/references/flow-framework.md": {
+      "sha256": "029c009e0fd5fc77763a530af24a83bf8cf21eb703158317bde8518446af0887",
+      "executable": false
+    },
+    "skills/seo-flow/references/flow-prompts.lock": {
+      "sha256": "d71316f8f2542e65990ce3df82f63ac9acd5da74b42325825d8fdb2de8e33030",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/README.md": {
+      "sha256": "26e434454595c47c63e3ef5c4c5d975a8a8208ca01887e51ab09a45eb679085a",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/find/content-planning-for-topical-relevance-prompt.md": {
+      "sha256": "0bab3257ca8c588ffe6e96adc97d2201fc1fb4cfd5a8674cfeb97a640ab78ce1",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/find/content-prioritization-prompt.md": {
+      "sha256": "e8d12ec0b02de03de7b0066a1b29b4e5523f49413bb276c3d936ca068f1645b0",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/find/keyword-research-prompt.md": {
+      "sha256": "3bd3c230f682c65c328324d37dada59a76ca85326bfe97fbf3acf6849e36525d",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/find/keyword-variations-for-topical-relevance-prompt.md": {
+      "sha256": "18b92580c0de1d0df6a8353efc0fd98864ed9e7090318cd4564cae84f79e2bd1",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/find/prompt-audience-avatar.md": {
+      "sha256": "450d58afe2499f7644f947725fcaaf9463931e09d8fdcb93765d25c6e0750d22",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/leverage/backlink-competition-prompt.md": {
+      "sha256": "88b5a6aca87c0f5ad12ed0a9cec601c23e944db2ff1014502fe7218064249be4",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/local/ai-homepage-rewrite-prompt.md": {
+      "sha256": "d33e8918c05d99136baf476165a57a94b7cc0c93bf3585d49bb7212d93bb0455",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/local/claude-deep-research-prompt.md": {
+      "sha256": "65a9876a959b4aba089e4aac9bb078eb2c487726285f0828535b9178f7410dcb",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/local/gbp-categories-prompt.md": {
+      "sha256": "f365d29c9bc3be0aa692a4b0f38515a0d75061ace60603285dbd2aed4a180ec8",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-1.md": {
+      "sha256": "80c73c39f7240ba87bdefd19babdde7f15e6dfe0cdebfa490d62dad2c3dc8702",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-2.md": {
+      "sha256": "d3ee5d748597d85cbd15b31a0e72a9d67a6f91d65f0f8a750ff7bd5ad0398f00",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-3.md": {
+      "sha256": "3c1eaca3250b854b025729aee39df6593518595eb6d2ec1f9cc24bc927ae3845",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/local/gbp-services-prompt.md": {
+      "sha256": "a82eebb02b5b5b9d2e02fd21f364dae9641aae69e9a8c2ddfd1ddd975d5ea0aa",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/local/prompt-generating-a-meta-description.md": {
+      "sha256": "82f9d16c7158978c50c7f2ee783d636e6e54c27bde4ae56aa4df0a729710fe6e",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/local/prompt-generating-a-title-tag.md": {
+      "sha256": "5db99be445c3d72fdaabf75ca92133981b586d6e48221e8df1bec06233ff62f7",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/local/prompt-rewriting-existing-homepage.md": {
+      "sha256": "b0000ade4e79a06e65d568e17a06ec98ababae5b33d16f61f1e101dd3f0b5720",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/local/prompt-rewriting-existing-service-page.md": {
+      "sha256": "6e24da4f82b486b614e9ca2b4ae4cd8554865aedd6043218334d9dfe245afed3",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/optimize/ai-detector-test-follow-up-prompt.md": {
+      "sha256": "23b75608644f51981e8421e307a1f9c51497587fe01a846828b9142525830fd0",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/optimize/ai-supporting-pages-rewrite-prompt.md": {
+      "sha256": "92e0f8e7fded7438ed86ac58fa9f0c66122308e36903eb064125b0a2e8a10f87",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/optimize/basic-prompt.md": {
+      "sha256": "5f8ddce6655b91e3bd23ff0174d0890d46db4c86b2074230793a834c51f87d34",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/optimize/blog-post-outline-prompt.md": {
+      "sha256": "4427a6ffbe45fbfa397cc3e7bb8ff2cc2d1e4652f2b2ddfff2e3ccd299ae79cc",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/optimize/blog-post-writing-prompt.md": {
+      "sha256": "e88b8781e6a1f69cc7043fbdd0b79365d87691daa1d0b910957fe61aa8a9964c",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/optimize/claude-prompt-1.md": {
+      "sha256": "ae0f7460bf85ac666af355d4b3960f31a07beb2a009154c2c3c336de45b8afe9",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/optimize/claude-prompt-2.md": {
+      "sha256": "881278d4c5872b2d2f03eef8df21fb1dbee499acab565d039531f96d455528c3",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/optimize/ctr-audit-prompt.md": {
+      "sha256": "cfe26d1f07bd98f5a98a3e6a825d0127cf7b003519fdfb595c4761393ac143ea",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/optimize/follow-up-prompt-1.md": {
+      "sha256": "d35a7f848aab67df85391acf5f6208bdcea6f51bf454a4e87129446bc928f3f0",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/optimize/follow-up-prompt-2.md": {
+      "sha256": "e8e55404737510c63080c93401a00097058eee7ef40f56f77659cccda29cc984",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/optimize/follow-up-prompt.md": {
+      "sha256": "454d9b9f684f2dfa54530819e2505361b165d54e3d1fa92a1be61367ac5da072",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/optimize/paa-question-rewording-prompt.md": {
+      "sha256": "770b5ba49150b2a48753a7c51d60d3b93c3091fb5aedc24a7c8f41c463517e55",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/optimize/prompt-core-30-content-audit.md": {
+      "sha256": "b58c751c5552592b5e7f0e176c21fb0c509924a7a98bc635e32e1b93e8dff3fd",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/optimize/property-content-with-authority-audit-prompt.md": {
+      "sha256": "4e7a894b86b03a20c4b9b06239fe97f224f680c6ab8d68d942a4e546182b7077",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/optimize/reddit-claude-prompt.md": {
+      "sha256": "be767e88a2b3b6c9a4bbbc4f2f2611e1606babdf9b18163cab8b5050966048ab",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/optimize/schema-prompt-1.md": {
+      "sha256": "a7b3f4fe17f7e0b5257b2cb940a00b005c44e21bfdb13de0d889b4a5cbd6fa09",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/optimize/step-1-the-chatgpt-discovery-prompt.md": {
+      "sha256": "45112ea78038130ff3d29d6e965401d234a4a2a540883e6c625a877defa46e24",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/optimize/step-2-the-follow-up-qualifying-prompt.md": {
+      "sha256": "f08df22ed90c0ba1b7b7f529331309161a886fd2e12bf4ff3ec955bb10fd22ee",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/optimize/technical-audit-prompt.md": {
+      "sha256": "51274ab6e21a62892171c53397f935242f55c3726f3d2a11850985839b047ff4",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/optimize/visibility-follow-up-prompt.md": {
+      "sha256": "0a76f9075c783957d45ab58cec04f4701f01e235a65e9d97ab7b52f7c10f3201",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/optimize/visiblity-prompt.md": {
+      "sha256": "769684b2895051491a7eed1eb1ff0e0065d2472cc395fee04fc99eed85df83de",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/win/bofu-page-brief-generator.md": {
+      "sha256": "dbbe1d51ef93bdc1918bfab1b0948a0d87500410ea8d6727f088e5e4f937dadf",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/win/conversion-audit-prompt.md": {
+      "sha256": "1fb96a2a2c0dcb096389992d14fc12738523c94e2559ebd71a46b8264f2049d7",
+      "executable": false
+    },
+    "skills/seo-flow/references/prompts/win/dual-surface-content-scorecard.md": {
+      "sha256": "9521283c3578d613a9a25f985d609995d92d284f982d0377160a646563fa7c18",
+      "executable": false
+    },
+    "skills/seo-geo/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "skills/seo-geo/SKILL.md": {
+      "sha256": "6c0b2f07b01f1f6603c6828c97c9d7da9f1d8f515494e756721223b24582ce13",
+      "executable": false
+    },
+    "skills/seo-geo/references/google-ai-optimization-guide.md": {
+      "sha256": "587dfbe3a298b625341883cffe389441f6acff61fb4e12be7586c7e1cf455348",
+      "executable": false
+    },
+    "skills/seo-geo/references/llmstxt-evidence.md": {
+      "sha256": "6cc60538738ddabdb6da0657d43cd187d63f377140a3d4deed52dac634c344a1",
+      "executable": false
+    },
+    "skills/seo-google/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "skills/seo-google/SKILL.md": {
+      "sha256": "c33c268779f4ca333e9378b3c1b7296af35265bb17877aa2561b4dd7e802f5d5",
+      "executable": false
+    },
+    "skills/seo-google/assets/templates/cwv-audit-report.md": {
+      "sha256": "94e81dd051757c8fe588756206eb83cc2d1c3907a76610862f01a1bcd1c2ac5d",
+      "executable": false
+    },
+    "skills/seo-google/assets/templates/gsc-performance-report.md": {
+      "sha256": "6b1d42af50c7cf052ea071466c0c2dbf7bb8e76c0c7a4891c7d5f559607aba9a",
+      "executable": false
+    },
+    "skills/seo-google/assets/templates/indexation-status-report.md": {
+      "sha256": "afc337905d82f83659a229382432876edba9bd9af6e589b3e4de4786974f13b3",
+      "executable": false
+    },
+    "skills/seo-google/references/auth-setup.md": {
+      "sha256": "e29dad5611c2ada55d7df9d9edf49e33d4a96173477f3be0025b78f82cee21d6",
+      "executable": false
+    },
+    "skills/seo-google/references/crux-history-api.md": {
+      "sha256": "73da146d03fa60e8a7d300698c0949c7f1c7ad48acb809d9dc183f0ac8922966",
+      "executable": false
+    },
+    "skills/seo-google/references/dma-consent-mode-v2.md": {
+      "sha256": "18ff25a0a9a9679cc5301cc1d76bea25046f6e3991ff2771d7eb2f6419b9aef8",
+      "executable": false
+    },
+    "skills/seo-google/references/ga4-data-api.md": {
+      "sha256": "b6c29f9d830df1a406339c5776a7aebd648c5d2fd33eb7a2689106c5b3c7bbb9",
+      "executable": false
+    },
+    "skills/seo-google/references/indexing-api.md": {
+      "sha256": "c2b5bd20d028c7d667f5da1fab628f66bba7b45948b155ede815d27b5ac1bd09",
+      "executable": false
+    },
+    "skills/seo-google/references/keyword-planner-api.md": {
+      "sha256": "5581b74899f9515481e861e5c42fef642b782ad65cc4990c6d4db9f66a3625cd",
+      "executable": false
+    },
+    "skills/seo-google/references/nlp-api.md": {
+      "sha256": "448da97c9577cbb8940cc78ede177549ed75ab25ec12846cd7bfdfd27fe8fb11",
+      "executable": false
+    },
+    "skills/seo-google/references/pagespeed-crux-api.md": {
+      "sha256": "70bd5ad30369caa89f559698acf29b689c317d9c2e8d39ce1260510c2793bdd8",
+      "executable": false
+    },
+    "skills/seo-google/references/rate-limits-quotas.md": {
+      "sha256": "ad1f7d096e229526c8fe9026a98124a05221f53636eb6023f362dfd5fd3c2f96",
+      "executable": false
+    },
+    "skills/seo-google/references/search-console-api.md": {
+      "sha256": "85d81675748e7cb22e4d86c5639b8078dff341dcfabe22dc7b7acd8290e380bc",
+      "executable": false
+    },
+    "skills/seo-google/references/supplementary-apis.md": {
+      "sha256": "b8937fb31fa09b2c2a09ad2573191183cad219cebafc09136a88eac133cddbc1",
+      "executable": false
+    },
+    "skills/seo-google/references/youtube-api.md": {
+      "sha256": "9db7a517b3f9b3e5191465ebe6168ac3f7b2ce0edd8f605817e2abd65f295d13",
+      "executable": false
+    },
+    "skills/seo-hreflang/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "skills/seo-hreflang/SKILL.md": {
+      "sha256": "e8ece7c24a84bf155f12ec3dfb10d49fd1df15534a9d457e5450127173645171",
+      "executable": false
+    },
+    "skills/seo-hreflang/references/content-parity.md": {
+      "sha256": "b6691601644bfa06393bfdd5144a44e75b8845cef32ce60f9a84ab1b9250c67e",
+      "executable": false
+    },
+    "skills/seo-hreflang/references/cultural-profiles.md": {
+      "sha256": "b9719c15c897af247aa1601dc59b7ef856efd0f5226112f741145091e67166eb",
+      "executable": false
+    },
+    "skills/seo-hreflang/references/locale-formats.md": {
+      "sha256": "f9278680533041a72e3fe7fc29244453a7bf9542e9f25f16da9a5c1590f7b310",
+      "executable": false
+    },
+    "skills/seo-hreflang/references/machine-translation-qa.md": {
+      "sha256": "8cccc6d268f93af80a6d321ce42c28f6ab60cf5117ebb0d93018063f6f881836",
+      "executable": false
+    },
+    "skills/seo-image-gen/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "skills/seo-image-gen/SKILL.md": {
+      "sha256": "e01b07ebd44cb25a0314d4e3c638020f7fcd8329e6a6dfae28f7581f5db6aabd",
+      "executable": false
+    },
+    "skills/seo-image-gen/references/cost-tracking.md": {
+      "sha256": "68db26647d0dee334a00afbb15d15430633823651349844e9066992ab2631ff6",
+      "executable": false
+    },
+    "skills/seo-image-gen/references/gemini-models.md": {
+      "sha256": "ffc32ac2c2837835feb9eb2e7822a9e410ff39edfcd0e7ec4c5245775a3bd133",
+      "executable": false
+    },
+    "skills/seo-image-gen/references/mcp-tools.md": {
+      "sha256": "0b26374fa7e059468ff81ffbf78cb6ec9fdde8f38ddef761e47a01634f99c413",
+      "executable": false
+    },
+    "skills/seo-image-gen/references/post-processing.md": {
+      "sha256": "73f0ad0fff971ad1ec3abf2710d18eaa1c273ca298342b99af09afbecafa9609",
+      "executable": false
+    },
+    "skills/seo-image-gen/references/presets.md": {
+      "sha256": "074b2a54deae13cf9f1a79915cdad6ecd655658222b53dc10d2d312c637c9693",
+      "executable": false
+    },
+    "skills/seo-image-gen/references/prompt-adaptation-safety.md": {
+      "sha256": "b985df3778b253d2de7e4b10ef6b692d56f205ab2ba4df838d42a3442cf387e5",
+      "executable": false
+    },
+    "skills/seo-image-gen/references/prompt-engineering.md": {
+      "sha256": "c1730838c7f40d9547b521c935233b60ca253951f26bebd41c8fae2754cdcc6f",
+      "executable": false
+    },
+    "skills/seo-image-gen/references/prompt-templates.md": {
+      "sha256": "add34be91b831cf97492cddc8f33af16785e672060f042144f9639eb4850788a",
+      "executable": false
+    },
+    "skills/seo-image-gen/references/seo-image-presets.md": {
+      "sha256": "7c806dd2bfdbc683b6b48bbcc5f7e109ab31a26209f308bccfd4b2ae668088a5",
+      "executable": false
+    },
+    "skills/seo-images/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "skills/seo-images/SKILL.md": {
+      "sha256": "28e6b03e4b8c872ca98cd73994265fab393103ff2b16c977bf5d3589a6956759",
+      "executable": false
+    },
+    "skills/seo-local/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "skills/seo-local/SKILL.md": {
+      "sha256": "ea802a6d23bc66a605a84711246ac3197186b28be06f5e3052647cf6f96abeb7",
+      "executable": false
+    },
+    "skills/seo-maps/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "skills/seo-maps/SKILL.md": {
+      "sha256": "1a4b3ca036a369ebccd489dafa617f75f985fdc1f8aa7deb066cb7d9b0b2d6f0",
+      "executable": false
+    },
+    "skills/seo-page/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "skills/seo-page/SKILL.md": {
+      "sha256": "c17efc5b95db026b372b4a239153a93e862fff9a1a8eb8db3b4977a8dbdf8402",
+      "executable": false
+    },
+    "skills/seo-plan/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "skills/seo-plan/SKILL.md": {
+      "sha256": "d3ad0c286ff9dde2d6085bc81a2fcd39cdf7f460dcf36d237a31fa3109a073b9",
+      "executable": false
+    },
+    "skills/seo-plan/assets/agency.md": {
+      "sha256": "63f159b62a81c91b0570a67eba779c7c9961f0222b15accb8dc4115455d60016",
+      "executable": false
+    },
+    "skills/seo-plan/assets/ecommerce.md": {
+      "sha256": "f25619c871f85542cd1d656598607023b63805ed0f7f030b50d1b09f98563f16",
+      "executable": false
+    },
+    "skills/seo-plan/assets/generic.md": {
+      "sha256": "f6ae9d03d98361ce032d6bf1af60f6d5e124aa46babeb34e24028fb32c7a45f9",
+      "executable": false
+    },
+    "skills/seo-plan/assets/local-service.md": {
+      "sha256": "310530e66741e7d155e131850009bcc4a3148b9510905227ac09fd0f3fd00ab6",
+      "executable": false
+    },
+    "skills/seo-plan/assets/publisher.md": {
+      "sha256": "30e3f4b9158053ea01a58e2aff6476f7162ba037b9f3998a68596ea8f6e22694",
+      "executable": false
+    },
+    "skills/seo-plan/assets/saas.md": {
+      "sha256": "cec7c2e52f65c6e13460793758ae9ae169d861c7507f735f3dd5cb0975a51b1b",
+      "executable": false
+    },
+    "skills/seo-programmatic/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "skills/seo-programmatic/SKILL.md": {
+      "sha256": "416d981b450551394d18a02b1c5e4c425db5a294d51e1f8abc11169d7bedef05",
+      "executable": false
+    },
+    "skills/seo-schema/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "skills/seo-schema/SKILL.md": {
+      "sha256": "98ab2562055d5d1a23ddb22654571a8327da232b0a76792dfd4dc51d06892f07",
+      "executable": false
+    },
+    "skills/seo-schema/references/deprecated-types-2024-2026.md": {
+      "sha256": "2a47cfa1119322e3a88b19e3275068d2ea41fe95b7bda03a3a6aff5af86d63b1",
+      "executable": false
+    },
+    "skills/seo-sitemap/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "skills/seo-sitemap/SKILL.md": {
+      "sha256": "70b8e56d745b71cc5b67aa49ed149238d3394f60c9cdc1dd1e7e271aa7a8fb11",
+      "executable": false
+    },
+    "skills/seo-sxo/SKILL.md": {
+      "sha256": "564db14d5d6b5ebb2052f9bf666e0f55e055dbf94dfcbb36a815fcc97124a719",
+      "executable": false
+    },
+    "skills/seo-sxo/references/page-type-taxonomy.md": {
+      "sha256": "489c6bdf108e519b482b1ea7ee295f438c0d31d292d7bf904a7371ca48643dae",
+      "executable": false
+    },
+    "skills/seo-sxo/references/persona-scoring.md": {
+      "sha256": "487955f23af4a089b65b3f89a2df68782e7b8af0c8f14a6b21a6cc3360ee8b34",
+      "executable": false
+    },
+    "skills/seo-sxo/references/user-story-framework.md": {
+      "sha256": "329ecef0cf1194c3f012f314419bef784c8ef2d08a9f0d2fe0616b5f46c68ae8",
+      "executable": false
+    },
+    "skills/seo-sxo/references/wireframe-templates.md": {
+      "sha256": "10d9cbe4b0d92346280f5d70dfbf21892a75fefb91ec48db205eb13143690d92",
+      "executable": false
+    },
+    "skills/seo-technical/LICENSE.txt": {
+      "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+      "executable": false
+    },
+    "skills/seo-technical/SKILL.md": {
+      "sha256": "cdf5b9ef43b3fd2f400d2c6884d2a064c320e17d6bc365aa3db92f9c6706392e",
+      "executable": false
+    },
+    "skills/seo-technical/references/stack-cve-exposure.md": {
+      "sha256": "a6aa63975ac47dc3a1fcdfe6e17b2a2c4db91d98e8c5593aeea09bd3c1681170",
+      "executable": false
+    },
+    "tests/fixtures/dataforseo_mcp_2_8_10_tools.txt": {
+      "sha256": "9e3cb0b8daf6b4a720707d96500072ba659d1f013d15896d3059d03fb426b3ea",
+      "executable": false
+    },
+    "tests/fixtures/lighthouse_agentic_13_5_psi.json": {
+      "sha256": "05eb3ac181fab640b53e30868dad23de88fe86bf58caa0f1beecf297f65466f1",
+      "executable": false
+    },
+    "tests/test_agent_mcp_permissions.py": {
+      "sha256": "0dca4a88755dcac04c1af532ee7c32f367df2c1ebbc9eaa3599d69ff9665a49d",
+      "executable": false
+    },
+    "tests/test_agent_untrusted_content.py": {
+      "sha256": "369f2e397f6e5b6fddcc5a3cde007d2671fbb624321d029f5263726afc6c8af3",
+      "executable": false
+    },
+    "tests/test_agentic.py": {
+      "sha256": "79269a530acf64738fda514c4bb767977e0d47be63cf6f43d560b8c3c383397d",
+      "executable": false
+    },
+    "tests/test_ai_crawler_claims.py": {
+      "sha256": "38b92f4dc4de9173244ed857f5bb04443a86821c89d6bbfd83488765972c0f25",
+      "executable": false
+    },
+    "tests/test_audit_agent_turn_budget.py": {
+      "sha256": "be2c9a2d1a12473e029ac6e1e05686608faf4480476d1b398cede352f3fdcd76",
+      "executable": false
+    },
+    "tests/test_audit_instructions.py": {
+      "sha256": "775cd154c4270e47d279892df0276bac3fdd60e83a1c97c98a2ad69396d3525c",
+      "executable": false
+    },
+    "tests/test_backlink_score_gate.py": {
+      "sha256": "56f33c53f44dacd42b076743aaabfc9c8ba2dfec52f78e3e05419770f4a991f7",
+      "executable": false
+    },
+    "tests/test_backlinks_auth_hardening.py": {
+      "sha256": "304552f087ff16bdcd5299f0c3ce1fb00ae7d26c25b652857f5932c32f48190a",
+      "executable": false
+    },
+    "tests/test_banana_api_key_safety.py": {
+      "sha256": "ffa526543c2ec6313713755c542fbf91a056824f212a7c1929edce7a92004e17",
+      "executable": false
+    },
+    "tests/test_banana_cost_tracker.py": {
+      "sha256": "69eca4b88ca2aee4aafd8fa9e62ecf3fd0bdcc87ef7b7e4983fbdccc075bc15e",
+      "executable": false
+    },
+    "tests/test_banana_install_layout.py": {
+      "sha256": "d6932b062d499b56db555233118eb59768a73472a5bfd73a997d23cab288ef5c",
+      "executable": false
+    },
+    "tests/test_banana_key_masking.py": {
+      "sha256": "b66d639af61e2e0ef1c8d580c946793aea280c405b82e840f741d190b4743b30",
+      "executable": false
+    },
+    "tests/test_banana_setup_mcp_atomic_write.py": {
+      "sha256": "d6039fd823b4916e90ed11efe4659b36fde0967666a3246aed5c94ba98c83afb",
+      "executable": false
+    },
+    "tests/test_bing_webmaster.py": {
+      "sha256": "6d79e70ca6f54777588c6ed25eec54e7c35afa93b3bd16d16a86d1c9ec196210",
+      "executable": false
+    },
+    "tests/test_canonical_facts.py": {
+      "sha256": "278a959f0511f5a69a88bfc7ba25f20f45184b53eb461db4a3a96e7cffe17498",
+      "executable": false
+    },
+    "tests/test_capture_screenshot_hygiene.py": {
+      "sha256": "d30679a0651d0420751a64659a7bf85845ed1eac7ae55a4e622eb11b37bab649",
+      "executable": false
+    },
+    "tests/test_capture_screenshot_paths.py": {
+      "sha256": "fe51318669a4b7a36af56c827db37c9abeb11a4e5ca7f972ab57fe2fc71f090c",
+      "executable": false
+    },
+    "tests/test_cluster_map_escaping.py": {
+      "sha256": "46b7dea55ce02044c5f9ae522ecc1157aec1a3fe646c437f60fb9a56b4f5d212",
+      "executable": false
+    },
+    "tests/test_commoncrawl_graph.py": {
+      "sha256": "ce9de0c911ff3477abfd22856b2573d002d9ff8171154b6c55535f6e9f0a0a5b",
+      "executable": false
+    },
+    "tests/test_consistency_check.py": {
+      "sha256": "0be10e9bbc5ad487147d9c0351a03ea41fef09aa7726b6e5c11386b96b643805",
+      "executable": false
+    },
+    "tests/test_content_humanize.py": {
+      "sha256": "703e513bb8d86153d300c114f98d316288751c70f39768d531281a02e0e9f18d",
+      "executable": false
+    },
+    "tests/test_content_quality.py": {
+      "sha256": "8cfba4a33b00ec465e8f29327babf41e75b5c58934d334090a086a488a9849bc",
+      "executable": false
+    },
+    "tests/test_contributors.py": {
+      "sha256": "e7e5e83d73bd573bd16b9a7fd033c7095718be89dc5efcb3e0eba92ec5b3b57f",
+      "executable": false
+    },
+    "tests/test_cross_platform_hooks.py": {
+      "sha256": "7fadf89db9c8a05e89397b82bb2a90c0e30681ebdb17b9401c206db0c7e6973e",
+      "executable": false
+    },
+    "tests/test_crux_history_trends.py": {
+      "sha256": "b102b33b95fb556686391193d0534469dfa4967489606ec41d118b39173f1fb3",
+      "executable": false
+    },
+    "tests/test_dataforseo_costs.py": {
+      "sha256": "90039aa4f89c8a86ce73d06cf4cbee3977ddb83bed612765958dd1e9f1e5b95f",
+      "executable": false
+    },
+    "tests/test_dataforseo_merchant_polling.py": {
+      "sha256": "254f0863717529ae7a2844cf5eb7e40494351f7eb6a9e1f488692126bb17f568",
+      "executable": false
+    },
+    "tests/test_dataforseo_normalize_currency.py": {
+      "sha256": "3eab033afda1c2d02f5f13b1106b5dba2a7891e6edbad244008b02515dae3a28",
+      "executable": false
+    },
+    "tests/test_dataforseo_tool_names.py": {
+      "sha256": "12abe0d1ce50f549f67bd46d3a980e83c6ad2db9a8b4c86b75f6077ea781f4c4",
+      "executable": false
+    },
+    "tests/test_document_base_url.py": {
+      "sha256": "673256ed1cb76f974175c50e79a611dc18e9882f5d5f74d3cd74711046f55b9d",
+      "executable": false
+    },
+    "tests/test_domain_history.py": {
+      "sha256": "bcb0ebe2d701297ad0bab82184fa9e8fb1c2b4fb74360728b46dc17f7bda5fb5",
+      "executable": false
+    },
+    "tests/test_drift_portability.py": {
+      "sha256": "5f45e15a17b2eae56b712377f241fa64d615dd66c93f1bfab7383cd4e89f6803",
+      "executable": false
+    },
+    "tests/test_drift_robots_directives.py": {
+      "sha256": "60300a473a23b9dfc9d14df9698dbc0c96fe348134d6b77fd98cc9aea4fa129e",
+      "executable": false
+    },
+    "tests/test_drift_url_normalization.py": {
+      "sha256": "d8cc80abeb0801992c988c80998dc240797cc5699eeaa72ac5289a32ebbb400c",
+      "executable": false
+    },
+    "tests/test_extension_installer_injection.py": {
+      "sha256": "7e5eba49aded3cd2972d0fc76717edc735f7caeb5b2099a623949c4ccc4586c8",
+      "executable": false
+    },
+    "tests/test_extension_mirrors.py": {
+      "sha256": "fb40e89303bcc6a7e117ccffbbbe6118af40396e84ab1c197efdc12334f0702f",
+      "executable": false
+    },
+    "tests/test_fetch_page_cli.py": {
+      "sha256": "5a66c2a1256b5de5d62c5960843067b42332f718db02651c47d194b4bc8e1bda",
+      "executable": false
+    },
+    "tests/test_fetch_page_decoding.py": {
+      "sha256": "f56da6055f2a4a598562786ecbf259b97166cb642e485e770eac0c4627739767",
+      "executable": false
+    },
+    "tests/test_fetch_page_size_cap.py": {
+      "sha256": "cb386026be4a29f1391d9d3f6bf88458ca27370eeb5003a91a7ef4080bca3350",
+      "executable": false
+    },
+    "tests/test_fetch_page_timing.py": {
+      "sha256": "a086b51e14c94612dfe43b7764a4b43107ae186cc6ea440d6fb88c5f2296e622",
+      "executable": false
+    },
+    "tests/test_file_size_limits.py": {
+      "sha256": "9d50ba0e9a3a24779f35232c79f77ffe10d77e864fdf2a920f13f192f020c2ed",
+      "executable": false
+    },
+    "tests/test_firecrawl_install_atomic_write.py": {
+      "sha256": "403aaea5be5490d306ec69f0efc3dc0465ed9ef04684cf2075d6a223974e8ba8",
+      "executable": false
+    },
+    "tests/test_ga4_top_pages_errors.py": {
+      "sha256": "1bb2cab33d7964e4467481f2df8761fa626f97d152d66d27fa9e8255ce04ae32",
+      "executable": false
+    },
+    "tests/test_gbp_checklist_mapping.py": {
+      "sha256": "eb77263fd2cea8b95fa56a29d6fcef460d8b5a45accbebd496d5aaa414ffdf2c",
+      "executable": false
+    },
+    "tests/test_gbp_lint_and_polish.py": {
+      "sha256": "f7d6919eacf1b6954dd330f6d59b2ec20ee944a5d5b72b292c8fc0dd4baaf0ef",
+      "executable": false
+    },
+    "tests/test_google_api_key_safety.py": {
+      "sha256": "674c576f1edec90c57e10364b20baf605d18f08c6cc576c87aa3722388572b04",
+      "executable": false
+    },
+    "tests/test_google_gcloud_adc.py": {
+      "sha256": "a97ede982d1362d7c7164eef2b2c3914c988e634c7b69acc40b39e9fa898a58f",
+      "executable": false
+    },
+    "tests/test_google_oauth_flow.py": {
+      "sha256": "5f4dc47c0ae88192805cd14a41bd646e25997869f686584426c4c790403ee7d8",
+      "executable": false
+    },
+    "tests/test_google_property_cli.py": {
+      "sha256": "89cff6785c909f91ced631d97db52b2fb0cea6f14b33c3230c4451756d2dd6e8",
+      "executable": false
+    },
+    "tests/test_google_property_resolution.py": {
+      "sha256": "a02de54a18b0cc5f04642e82931b9b9b0693ad5fc96a2e1738984d2e26feb332",
+      "executable": false
+    },
+    "tests/test_google_report_full_audit.py": {
+      "sha256": "911f463e518ab418efac641f5db639a7557766b67f7008879bb5301a58cd7109",
+      "executable": false
+    },
+    "tests/test_gsc_pagination.py": {
+      "sha256": "026aa298dc3c0e9039a42d0924602069e99a63afa9d131aecbd45b2b59a4d355",
+      "executable": false
+    },
+    "tests/test_gsc_query.py": {
+      "sha256": "280199c33436dcf84e4253a77e96edf17efc4e56741ebfd8b7cba85708a66007",
+      "executable": false
+    },
+    "tests/test_gsc_totals_aggregate.py": {
+      "sha256": "e41c69d93f4314a0d595a7c76038d4c462421433afd642c46332f0e804745e74",
+      "executable": false
+    },
+    "tests/test_hosted_plugin_layout.py": {
+      "sha256": "031ecfc80a14a80e8e06656a617cbc151640341b6ae214a09b608491f9c33e64",
+      "executable": false
+    },
+    "tests/test_hostile_inputs.py": {
+      "sha256": "947338153d17678d2b181cca0ce6856da5d6531b5feff5b9a26d2bde0ea9eb8c",
+      "executable": false
+    },
+    "tests/test_image_format_probe.py": {
+      "sha256": "5a96b2a04f7eb50af2a123705f146b8e4f7ca60e1e231034cc0fa33328299e35",
+      "executable": false
+    },
+    "tests/test_indexing_notify.py": {
+      "sha256": "2a537959a6d2903e46b5747cc6627dd83ea370499ecd458f1a2c751dcf42b18c",
+      "executable": false
+    },
+    "tests/test_indexing_notify_quota.py": {
+      "sha256": "96d2765e0aa32e4c1a040e987dd54efd93e9d1aca26eab33bd451657ee89c0cf",
+      "executable": false
+    },
+    "tests/test_indexnow_cli_errors.py": {
+      "sha256": "ac84bee484d031a27ed2016bf4162797105d01a93a6c996fd2f8ce95b118bae0",
+      "executable": false
+    },
+    "tests/test_indexnow_submit.py": {
+      "sha256": "27e7fac69cce1c425ca7ecde8d038bc667f977bdeb1c7bd1db5b5234f5ab3beb",
+      "executable": false
+    },
+    "tests/test_keywordseverywhere_api.py": {
+      "sha256": "1b9e0d667568d8798bc09d032a591377f9dd368ce9ebd9d1f348ad1d602ec586",
+      "executable": false
+    },
+    "tests/test_lazy_detection.py": {
+      "sha256": "795e7971ec3f602aa6d6e52671205be3562ad5db69a7861cc651b36cfc73980b",
+      "executable": false
+    },
+    "tests/test_llms_txt_validation.py": {
+      "sha256": "ff069901f24766cf9d608996b8c5d9a0ea38840bee759ae39dad265b5d3cf54b",
+      "executable": false
+    },
+    "tests/test_manifest_consistency.py": {
+      "sha256": "55c592ef1ea78f7e4aa9de1d204ac9bab8a72326b77ef88c12ef3d33baf01904",
+      "executable": false
+    },
+    "tests/test_manual_install_layout.py": {
+      "sha256": "f11dfdbf51a3a91fa51e6e5a44de19147ee794172479aa9893eecacd7d59e1e2",
+      "executable": false
+    },
+    "tests/test_matomo_report.py": {
+      "sha256": "03a6db6b540c5947019f4361cf96c7bd6c05a1d7c1dbff4e151579c431600adb",
+      "executable": false
+    },
+    "tests/test_metadata_template.py": {
+      "sha256": "64f2018f5b3b60eb0c3e6ae3521d2e0fe9748c2404fd037cefc2ab64871c2071",
+      "executable": false
+    },
+    "tests/test_moz_api.py": {
+      "sha256": "c7e6b25ef7493f8356663835f9b89dd1ea897b3c835dc9d9536025ca195fe8aa",
+      "executable": false
+    },
+    "tests/test_nlp_analyze.py": {
+      "sha256": "74cc7dc96d251ea73105886b042ecc3c5a3d6802f9af8c197ad7dd28f6aeb7b0",
+      "executable": false
+    },
+    "tests/test_no_em_dash.py": {
+      "sha256": "6f93becffa2043ddb7600e9943e1a168a0971d29dc4273298568e92fa387de8e",
+      "executable": false
+    },
+    "tests/test_page_checks.py": {
+      "sha256": "8fc3d641fb26e697329c4e64acf3e906e4c32bafcb4f7e14185b316291b81006",
+      "executable": false
+    },
+    "tests/test_pagespeed_null_category_score.py": {
+      "sha256": "8f75c24d2d466d1eb702971654a97cc4e032d6f31f594b2adc93615f819e772c",
+      "executable": false
+    },
+    "tests/test_pagespeed_psi_only_exit.py": {
+      "sha256": "217897a3b7f0d3db4a9f7a4f29db536b444a02ee137d29611b50a4810d261133",
+      "executable": false
+    },
+    "tests/test_parasite_risk_and_extensions.py": {
+      "sha256": "71ec4c1f1007ae678cb891871c252aa38fc1cfc4678883adf5633d9891f0fb0a",
+      "executable": false
+    },
+    "tests/test_parse_html_extraction.py": {
+      "sha256": "f96c35297332dfd023d06e52050d5cfd5a6da33ae8a7dd7f212bb5a5cd4c7417",
+      "executable": false
+    },
+    "tests/test_parse_html_inline_spacing.py": {
+      "sha256": "ad15ab6133eec7dce8437245eaf78b743cb5436cff418de18895e0b9aa4142d2",
+      "executable": false
+    },
+    "tests/test_parse_html_malformed_urls.py": {
+      "sha256": "54dc644a5f33223be9a5f7943dbc5ec153e56d76c72e20b288824aed1d2bffd5",
+      "executable": false
+    },
+    "tests/test_parse_html_rel_case.py": {
+      "sha256": "36e6f766c019655026e22e418646696d8b746b9b350e642dae67a6175037ceb6",
+      "executable": false
+    },
+    "tests/test_phase_j_executable.py": {
+      "sha256": "901ca2aadc2c580ed5a3420dcea3eef0cf32cd2f121f261e268f172ffe3856b7",
+      "executable": false
+    },
+    "tests/test_portability.py": {
+      "sha256": "5184fb0ee342bf87441c1cf2168fbc142e67a34071473270e24532c2c0746603",
+      "executable": false
+    },
+    "tests/test_powershell_ascii.py": {
+      "sha256": "d93783497c8237bd263bcd2b74e746f947e472a5e3e059f00c2c22a865209481",
+      "executable": false
+    },
+    "tests/test_preload_check.py": {
+      "sha256": "435d034643d83254b4a38f2ff04633b179de4984b8d9295fd2a23aa7fceaf623",
+      "executable": false
+    },
+    "tests/test_pyproject_metadata.py": {
+      "sha256": "a25ea54567df049ad5430b92b06b4da80d2253f0a7b3fa2ff2324fc6b5534a44",
+      "executable": false
+    },
+    "tests/test_python_range.py": {
+      "sha256": "bde9abeca1014f8cc9725ddad46ee224fc44b086622ac0ca1c36d46c6843cedb",
+      "executable": false
+    },
+    "tests/test_redirect_body_cap.py": {
+      "sha256": "0292e2d87bdda99b8eb152dd8f0d5da4544bc7e6756a6eb4e2146bde8f133f13",
+      "executable": false
+    },
+    "tests/test_render_js_gap.py": {
+      "sha256": "923dab7d768080138155370e360c90daa5c6a754d772b99c44c5cceef749ca97",
+      "executable": false
+    },
+    "tests/test_render_page.py": {
+      "sha256": "dd9806a197aa75226ba2324c3a007e52d5879f62d8b035bc8d23121232c58cab",
+      "executable": false
+    },
+    "tests/test_runtime.py": {
+      "sha256": "c7fea6880596d9f4d40fdb7f9d01670e5a41ec4947f1c26cbe825675f6e47b21",
+      "executable": false
+    },
+    "tests/test_runtime_installers.py": {
+      "sha256": "56d7780baf2dba776d26e61023f8f9f429b4b77c99c6647f557e801a8067dd66",
+      "executable": false
+    },
+    "tests/test_schema_graph_semantics.py": {
+      "sha256": "b821f4f0bd98dae8d0edb59039da55861810a665e55db452228f4d6a266551b2",
+      "executable": false
+    },
+    "tests/test_schema_hook_detection.py": {
+      "sha256": "8d2d31251f376e66ff4e3c0ec8413508b566c9f7529b73171312c92558879157",
+      "executable": false
+    },
+    "tests/test_schema_hook_policy.py": {
+      "sha256": "01f38e043fa2d9035d92e0d5170f66958124f5d7a35d5d4fae10d9f1281494d8",
+      "executable": false
+    },
+    "tests/test_schema_hook_redos.py": {
+      "sha256": "024a5b1eda56d9b1de2a5324b6401d673a7f58373d87ea595e3828fcae41fbec",
+      "executable": false
+    },
+    "tests/test_schema_v2.py": {
+      "sha256": "282edf4c969188e10406ecb4956f81255af0d06c0d919196f55f2870f1c1612c",
+      "executable": false
+    },
+    "tests/test_sitemap_bom.py": {
+      "sha256": "7efc9bde168e8875f74ebc0d165e0cc2970aa37e960b50ac395818401b723644",
+      "executable": false
+    },
+    "tests/test_sitemap_discovery.py": {
+      "sha256": "544614c50c10bd83a106e766170ba15bf5ab4bf2ef18cdcad73531ecb8a31c5e",
+      "executable": false
+    },
+    "tests/test_sitemap_expand.py": {
+      "sha256": "d88ed122e1a294bc87b74cfd315020876a6090b13bc464503ce47ba43cbf823c",
+      "executable": false
+    },
+    "tests/test_sitemap_news_limit.py": {
+      "sha256": "7c97190f870303836915e5037d02181d90206ae56f6fc367ec7735bf8d0df977",
+      "executable": false
+    },
+    "tests/test_sync_flow.py": {
+      "sha256": "825b92372b3f500590cbd16165652f2a260ba5dc5aef6b60734d1f99d8f12613",
+      "executable": false
+    },
+    "tests/test_technical_depth.py": {
+      "sha256": "db7d00a6a9b42df8d6bf6d89c9d0f620e846080d1bba9340eff53228da06d021",
+      "executable": false
+    },
+    "tests/test_transport_check.py": {
+      "sha256": "999f97c2411ce018890ac8820f479efcd13a6cf64b91258c87f5b50b6524c4cf",
+      "executable": false
+    },
+    "tests/test_unlighthouse_run.py": {
+      "sha256": "bcb4c62de0ae629bca2009621d2efa9102dca6438e44fa64a4b75b5102ac1363",
+      "executable": false
+    },
+    "tests/test_url_safety.py": {
+      "sha256": "5a176155086c6d035867947f6f0dc5ba00724002894009f1029ce6996970a9af",
+      "executable": false
+    },
+    "tests/test_url_safety_ipv6.py": {
+      "sha256": "7c96ff9da20f27c5f6784242645e0e10b3e1c5eb7f1a64ec58b27ec89a2dc94b",
+      "executable": false
+    },
+    "tests/test_url_safety_port_pin.py": {
+      "sha256": "883d1fa7befd896f236ae9abb3895c04fcf1bac11b87af3b5cab3bc0a28b3e31",
+      "executable": false
+    },
+    "tests/test_validate_backlink_report.py": {
+      "sha256": "bb33515eab2b3cbd60262b6e4f0a959acfbfeaf4138f7837ac9d931a4ea659c2",
+      "executable": false
+    },
+    "tests/test_verify_backlinks.py": {
+      "sha256": "415a0aa5d614c891af724ee9aa6405430862e277258d8f5adbc7308ccc4e903b",
+      "executable": false
+    },
+    "tests/test_windows_uninstaller.py": {
+      "sha256": "f8ddc2bdd9a15378bea480769b9161669f005b4e3dce448fb8fc2666cdd04943",
+      "executable": false
+    },
+    "uninstall.ps1": {
+      "sha256": "a1ee55ea8578217637f00b656cd070e0855481723a76da44c82a1ba76f5ad161",
+      "executable": false
+    },
+    "uninstall.sh": {
+      "sha256": "6e2c008e5961d84b2f537de561e980c2f5294b32f4a0ac350879fc4deabbb954",
+      "executable": true
+    },
+    "uv.lock": {
+      "sha256": "f4b5f0fa92e982fd5b17d58c429d438cf1e6483b897c14e60c2b19dda398e4ee",
+      "executable": false
+    }
+  },
+  "source_components": {
+    "skills": [
+      {
+        "name": "seo",
+        "description": "Comprehensive SEO analysis for any website or business type. Full site audits, single-page analysis, technical SEO (crawlability, indexability, Core Web Vitals with INP), schema markup, content quality (E-E-A-T), image optimization, sitemap analysis, and GEO for AI Overviews/ChatGPT/Perplexity. Industry detection for SaaS, e-commerce, local, publishers, agencies. Triggers on: SEO, audit, schema, Core Web Vitals, sitemap, E-E-A-T, AI Overviews, GEO, technical SEO, content quality, page speed. Use this hub only when the SEO domain is clear and the requested workflow is not; otherwise use the specific seo-* skill.",
+        "source": "skills/seo/SKILL.md"
+      },
+      {
+        "name": "seo-agentic",
+        "description": "Audit and fix agent readiness: the Lighthouse Agentic Browsing fraction, accessibility tree for agents, robots.txt and Content-Signal for AI agents, WAF treatment of agent traffic, llms.txt, Markdown delivery, ai-catalog.json, /.well-known discovery files, and WebMCP tools. Use when the user asks whether AI agents can use or browse the site, or about llms.txt or WebMCP. Exclude AI citability and brand signals (seo-geo) and commerce protocol depth (seo-ecommerce).\n",
+        "source": "skills/seo-agentic/SKILL.md"
+      },
+      {
+        "name": "seo-audit",
+        "description": "Run a full-site SEO audit and return a scored, prioritized report. Use only for site-wide checks; use seo-page for one URL or seo-technical for a technical-only review.",
+        "source": "skills/seo-audit/SKILL.md"
+      },
+      {
+        "name": "seo-backlinks",
+        "description": "Analyze a site's backlink profile, anchors, toxic signals, competitors, gaps, and disavow candidates. Use only when links or referring domains are the requested focus.",
+        "source": "skills/seo-backlinks/SKILL.md"
+      },
+      {
+        "name": "seo-cluster",
+        "description": "Cluster keywords by SERP overlap and design hub-and-spoke content architecture with internal links. Use for planning; `/seo cluster execute` then writes the posts with claude-blog's blog-write skill when it is installed, or content briefs when it is not.\n",
+        "source": "skills/seo-cluster/SKILL.md"
+      },
+      {
+        "name": "seo-competitor-pages",
+        "description": "Generate SEO-optimized competitor comparison and alternatives pages. Covers \"X vs Y\" layouts, \"alternatives to X\" pages, feature matrices, schema markup, and conversion optimization. Use when user says \"comparison page\", \"vs page\", \"alternatives page\", \"competitor comparison\", \"X vs Y\", \"versus\", \"compare competitors\", or \"alternative to\".\n",
+        "source": "skills/seo-competitor-pages/SKILL.md"
+      },
+      {
+        "name": "seo-content",
+        "description": "Evaluate page content for usefulness, E-E-A-T, readability, thinness, and AI citation readiness, plus last-mile draft cleanup (AI-typical phrasing and invisible Unicode watermark characters). Use for content-only analysis, not full-page technical checks.\n",
+        "source": "skills/seo-content/SKILL.md"
+      },
+      {
+        "name": "seo-content-brief",
+        "description": "Generate competitive SEO content briefs with per-section word counts, competitor scoring, keyword placement guidance, and page-type templates. Supports both new page briefs and improve-existing-page briefs. Use when user says \"content brief\", \"write a brief\", \"content outline\", \"blog brief\", \"service page brief\", \"brief for\", \"writing brief\", \"content plan\", or \"outline for\".\n",
+        "source": "skills/seo-content-brief/SKILL.md"
+      },
+      {
+        "name": "seo-dataforseo",
+        "description": "Live SEO data via DataForSEO MCP server: SERP analysis, keyword research (volume, difficulty, intent, trends), backlink profiles, on-page analysis, competitor and content analysis, business listings, AI visibility (LLM mention tracking), and domain analytics. Requires DataForSEO extension installed. Use when user says \"dataforseo\", \"live SERP\", \"keyword volume\", \"backlink data\", \"AI visibility check\", or \"real search data\".\n",
+        "source": "skills/seo-dataforseo/SKILL.md"
+      },
+      {
+        "name": "seo-drift",
+        "description": "SEO drift monitoring: capture baselines of SEO-critical elements, detect changes, and track regressions over time. Git for SEO: baseline, diff, and track changes to your on-page SEO. Use when user says \"SEO drift\", \"baseline\", \"track changes\", \"did anything break\", \"SEO regression\", \"compare SEO\", \"before and after\", \"monitor SEO changes\", or \"deployment check\".\n",
+        "source": "skills/seo-drift/SKILL.md"
+      },
+      {
+        "name": "seo-ecommerce",
+        "description": "Analyze ecommerce SEO across product pages, product schema, Shopping visibility, marketplace signals, and keyword gaps. Use only for stores, catalogs, or product listings.\n",
+        "source": "skills/seo-ecommerce/SKILL.md"
+      },
+      {
+        "name": "seo-flow",
+        "description": "FLOW framework integration: evidence-led SEO using the Find → Leverage → Optimize → Win loop. Surfaces stage-specific AI prompts from the FLOW knowledge base (41 prompts, CC BY 4.0). Use when user says \"FLOW\", \"FLOW framework\", \"seo flow\", \"evidence-led SEO\", \"find leverage optimize win\", or wants stage-specific SEO prompts.\n",
+        "source": "skills/seo-flow/SKILL.md"
+      },
+      {
+        "name": "seo-geo",
+        "description": "Audit and improve content for AI Overviews and answer engines, including citability, entity clarity, crawler access, brand signals, and passage structure. Use when the user asks about AI Overviews, AI Mode, ChatGPT, Perplexity or Gemini citations, GEO, or AI search visibility.\n",
+        "source": "skills/seo-geo/SKILL.md"
+      },
+      {
+        "name": "seo-google",
+        "description": "Google SEO APIs: Search Console (Search Analytics, URL Inspection, Sitemaps), PageSpeed Insights v5, CrUX field data with 25-week history, Indexing API v3, and GA4 organic traffic. Provides real Google field data for Core Web Vitals, indexation status, search performance, and organic traffic trends. Use when user says \"search console\", \"GSC\", \"PageSpeed\", \"CrUX\", \"field data\", \"indexing API\", \"GA4 organic\", \"URL inspection\", or \"real CWV data\".\n",
+        "source": "skills/seo-google/SKILL.md"
+      },
+      {
+        "name": "seo-hreflang",
+        "description": "Hreflang and international SEO audit, validation, and generation. Detects common mistakes, validates language/region codes, and generates correct hreflang implementations. Use when user says \"hreflang\", \"i18n SEO\", \"international SEO\", \"multi-language\", \"multi-region\", or \"language tags\".\n",
+        "source": "skills/seo-hreflang/SKILL.md"
+      },
+      {
+        "name": "seo-image-gen",
+        "description": "AI image generation for SEO assets: OG/social preview images, blog hero images, schema images, product photography, infographics. Powered by Gemini via nanobanana-mcp. Requires banana extension installed. Use when the user wants an SEO asset and says \"OG image\", \"social preview\", \"hero image\", \"blog image\", \"product photo\", \"infographic\", \"seo image\", \"image-gen\", \"favicon\", \"schema image\", or \"pinterest pin\". Not for general artwork, banners, or thumbnails unrelated to SEO.",
+        "source": "skills/seo-image-gen/SKILL.md"
+      },
+      {
+        "name": "seo-images",
+        "description": "Image optimization analysis for SEO and performance. Checks alt text, file sizes, formats, responsive images, lazy loading, CLS prevention, image SERP rankings (via DataForSEO), and image file optimization (WebP/AVIF conversion, IPTC/XMP metadata injection). Use when user says \"image optimization\", \"alt text\", \"image SEO\", \"image size\", \"image audit\", \"optimize images\", \"image metadata\", \"image SERP\", \"convert to webp\", or \"image file optimize\".\n",
+        "source": "skills/seo-images/SKILL.md"
+      },
+      {
+        "name": "seo-local",
+        "description": "Audit local SEO, including Google Business Profile, NAP consistency, citations, reviews, local schema, location pages, and multi-location structure. Use when the user asks about local SEO, a local business, the map pack, or a GBP profile; use seo-maps for geo-grid rank tracking.\n",
+        "source": "skills/seo-local/SKILL.md"
+      },
+      {
+        "name": "seo-maps",
+        "description": "Maps intelligence for local SEO: geo-grid rank tracking, GBP profile auditing via API, review intelligence across Google/Tripadvisor/Trustpilot, cross-platform NAP verification, competitor radius mapping, and LocalBusiness schema generation. Three tiers: free (Overpass + Geoapify), DataForSEO, and DataForSEO + Google. Use when user says \"maps\", \"geo-grid\", \"rank tracking\", \"GBP audit\", \"review velocity\", \"competitor radius\", or \"SoLV\".\n",
+        "source": "skills/seo-maps/SKILL.md"
+      },
+      {
+        "name": "seo-page",
+        "description": "Analyze one supplied URL across on-page, content, technical metadata, schema, images, and performance. Use only for a single-page review.\n",
+        "source": "skills/seo-page/SKILL.md"
+      },
+      {
+        "name": "seo-plan",
+        "description": "Strategic SEO planning for new or existing websites. Industry-specific templates, competitive analysis, content strategy, and implementation roadmap. Use when user says \"SEO plan\", \"SEO strategy\", \"SEO planning\", \"content strategy\", \"keyword strategy\", \"content calendar\", \"site architecture\", or \"SEO roadmap\".\n",
+        "source": "skills/seo-plan/SKILL.md"
+      },
+      {
+        "name": "seo-programmatic",
+        "description": "Programmatic SEO planning and analysis for pages generated at scale from data sources. Covers template engines, URL patterns, internal linking automation, thin content safeguards, and index bloat prevention. Use when user says \"programmatic SEO\", \"pages at scale\", \"dynamic pages\", \"template pages\", \"generated pages\", or \"data-driven SEO\".\n",
+        "source": "skills/seo-programmatic/SKILL.md"
+      },
+      {
+        "name": "seo-schema",
+        "description": "Detect, validate, or generate Schema.org JSON-LD for a supplied page or entity. Use only when structured data or rich-result markup is requested.\n",
+        "source": "skills/seo-schema/SKILL.md"
+      },
+      {
+        "name": "seo-sitemap",
+        "description": "Analyze existing XML sitemaps or generate new ones with industry templates. Validates format, URLs, and structure. Use when user says \"sitemap\", \"generate sitemap\", \"sitemap issues\", or \"XML sitemap\".\n",
+        "source": "skills/seo-sitemap/SKILL.md"
+      },
+      {
+        "name": "seo-sxo",
+        "description": "Diagnose search-experience and intent mismatches using SERP page types, user stories, and persona scoring. Use when ranking problems appear intent- or layout-driven.\n",
+        "source": "skills/seo-sxo/SKILL.md"
+      },
+      {
+        "name": "seo-technical",
+        "description": "Audit technical SEO across crawlability, indexability, security, URLs, mobile, Core Web Vitals, rendering, structured data, and IndexNow. Use when the user asks for a technical SEO audit or about crawling, indexing, rendering, or site speed. Exclude content strategy and backlinks.\n",
+        "source": "skills/seo-technical/SKILL.md"
+      }
+    ],
+    "commands": [],
+    "agents": [
+      {
+        "name": "seo-agentic",
+        "model": "sonnet",
+        "source": "agents/seo-agentic.md"
+      },
+      {
+        "name": "seo-backlinks",
+        "model": "sonnet",
+        "source": "agents/seo-backlinks.md"
+      },
+      {
+        "name": "seo-cluster",
+        "model": "opus",
+        "source": "agents/seo-cluster.md"
+      },
+      {
+        "name": "seo-content",
+        "model": "opus",
+        "source": "agents/seo-content.md"
+      },
+      {
+        "name": "seo-dataforseo",
+        "model": "sonnet",
+        "source": "agents/seo-dataforseo.md"
+      },
+      {
+        "name": "seo-drift",
+        "model": "opus",
+        "source": "agents/seo-drift.md"
+      },
+      {
+        "name": "seo-ecommerce",
+        "model": "sonnet",
+        "source": "agents/seo-ecommerce.md"
+      },
+      {
+        "name": "seo-flow",
+        "model": "sonnet",
+        "source": "agents/seo-flow.md"
+      },
+      {
+        "name": "seo-geo",
+        "model": "opus",
+        "source": "agents/seo-geo.md"
+      },
+      {
+        "name": "seo-google",
+        "model": "sonnet",
+        "source": "agents/seo-google.md"
+      },
+      {
+        "name": "seo-image-gen",
+        "model": "sonnet",
+        "source": "agents/seo-image-gen.md"
+      },
+      {
+        "name": "seo-local",
+        "model": "sonnet",
+        "source": "agents/seo-local.md"
+      },
+      {
+        "name": "seo-maps",
+        "model": "sonnet",
+        "source": "agents/seo-maps.md"
+      },
+      {
+        "name": "seo-performance",
+        "model": "sonnet",
+        "source": "agents/seo-performance.md"
+      },
+      {
+        "name": "seo-schema",
+        "model": "sonnet",
+        "source": "agents/seo-schema.md"
+      },
+      {
+        "name": "seo-sitemap",
+        "model": "sonnet",
+        "source": "agents/seo-sitemap.md"
+      },
+      {
+        "name": "seo-sxo",
+        "model": "opus",
+        "source": "agents/seo-sxo.md"
+      },
+      {
+        "name": "seo-technical",
+        "model": "sonnet",
+        "source": "agents/seo-technical.md"
+      },
+      {
+        "name": "seo-visual",
+        "model": "sonnet",
+        "source": "agents/seo-visual.md"
+      }
+    ],
+    "source_manifest_fields": [
+      "author",
+      "description",
+      "homepage",
+      "keywords",
+      "license",
+      "name",
+      "repository",
+      "version"
+    ],
+    "withheld_capabilities": [
+      "hooks"
+    ]
+  },
+  "transformations": [
+    {
+      "glob": "scripts/*.py",
+      "old": "CLAUDE_PLUGIN_ROOT",
+      "new": "PLUGIN_ROOT",
+      "count": 6
+    },
+    {
+      "glob": "scripts/*.py",
+      "old": "CLAUDE_PLUGIN_DATA",
+      "new": "PLUGIN_DATA",
+      "count": 2
+    },
+    {
+      "glob": "scripts/runtime.py",
+      "old": ".claude-plugin",
+      "new": ".codex-plugin",
+      "count": 2
+    },
+    {
+      "glob": "scripts/runtime.py",
+      "old": "base / \"claude-seo\"",
+      "new": "base / \"codex-seo\"",
+      "count": 1
+    },
+    {
+      "glob": "scripts/*.py",
+      "old": "~/.config/claude-seo",
+      "new": "~/.config/codex-seo",
+      "count": 15
+    },
+    {
+      "glob": "scripts/*.py",
+      "old": "~/.cache/claude-seo",
+      "new": "~/.cache/codex-seo",
+      "count": 4
+    },
+    {
+      "glob": "scripts/dataforseo_costs.py",
+      "old": "Path.home() / \".config\" / \"claude-seo\"",
+      "new": "Path.home() / \".config\" / \"codex-seo\"",
+      "count": 1
+    },
+    {
+      "glob": "hooks/validate-schema.py",
+      "old": "flagged for Claude",
+      "new": "flagged for Codex",
+      "count": 1
+    },
+    {
+      "glob": "skills/seo/SKILL.md",
+      "old": "**Runtime:** Run bundled Python tools through\n`\"${CLAUDE_PLUGIN_ROOT}/scripts/claude-seo\" run <script.py>`. That is the single\ncanonical form used by every skill and agent. Claude Code expands\n`${CLAUDE_PLUGIN_ROOT}` to the installed plugin directory, so the launcher is\nfound without any `PATH` entry; the repository ships no top-level `bin/`\ndirectory because hosted marketplaces reject one. Repository users run\n`./scripts/claude-seo`; manual installers rewrite the canonical form to\n`\"$HOME/.codex/skills/seo/scripts/claude-seo\"`. Never invoke bundled scripts\nwith a bare Python interpreter.\n",
+      "new": "**Runtime:** Run bundled tools through `\"${PLUGIN_ROOT}/scripts/claude-seo\" run <script.py>`.\nResolve `PLUGIN_ROOT` to the absolute installed plugin directory containing\n`.codex-plugin/plugin.json`, and export it before running shell commands. The\nlauncher keeps its upstream filename. Use its managed environment and explicit\nsetup/doctor commands; never guess a user-global skill path or install packages\nglobally.\n",
+      "count": 1
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": "CLAUDE_PLUGIN_ROOT",
+      "new": "PLUGIN_ROOT",
+      "count": 264
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": "the seo skill",
+      "new": "$codex-seo:seo",
+      "count": 304
+    },
+    {
+      "glob": "skills/seo/SKILL.md",
+      "old": "**Invocation:** `$codex-seo:seo $ARGUMENTS`, where the first word is the command and the rest is the URL or argument.",
+      "new": "**Invocation:** `$codex-seo:seo <command> <arguments>`. The first word selects the workflow; the rest is the URL or task input.",
+      "count": 1
+    },
+    {
+      "glob": "skills/seo/SKILL.md",
+      "old": "## Community Footer\n\nAfter completing any **major deliverable**, append this footer as the very last output:\n\n```\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nBuilt by agricidaniel. Join the AI Marketing Hub community\n🆓 Free  → https://www.skool.com/ai-marketing-hub\n⚡ Pro   → https://www.skool.com/ai-marketing-hub-pro\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n```\n\n### When to show\n\nDisplay after these commands complete their full output:\n- `$codex-seo:seo audit` (after full site audit report + action plan)\n- `$codex-seo:seo page` (after deep single-page analysis)\n- `$codex-seo:seo technical` (after technical audit report)\n- `$codex-seo:seo content` (after E-E-A-T content assessment)\n- `$codex-seo:seo schema` (after schema detection/validation report)\n- `$codex-seo:seo sitemap` (after sitemap analysis or generation)\n- `$codex-seo:seo geo` (after GEO optimization report)\n- `$codex-seo:seo agentic` (after agent-readiness report)\n- `$codex-seo:seo plan` (after strategic SEO plan)\n- `$codex-seo:seo local` (after local SEO audit)\n- `$codex-seo:seo maps` (after maps intelligence report)\n- `$codex-seo:seo google` (after Google API data report)\n- `$codex-seo:seo backlinks` (after backlink profile analysis)\n- `$codex-seo:seo cluster` (after cluster plan generation)\n- `$codex-seo:seo sxo` (after SXO analysis report)\n- `$codex-seo:seo drift compare` (after drift comparison report)\n- `$codex-seo:seo ecommerce` (after e-commerce analysis)\n\n### When to skip\n\nDo NOT show the footer after:\n- `$codex-seo:seo images` (quick image check, too small)\n- `$codex-seo:seo hreflang` (quick validation, too small)\n- `$codex-seo:seo competitor-pages` (page generation step)\n- `$codex-seo:seo programmatic` (quick analysis)\n- `$codex-seo:seo dataforseo` (data fetching utility)\n- `$codex-seo:seo image-gen` (asset generation)\n- Context intake questions (before analysis starts)\n- Error messages or \"missing data\" prompts\n\n",
+      "new": "",
+      "count": 1
+    },
+    {
+      "glob": "skills/seo-dataforseo/SKILL.md",
+      "old": "This skill requires the DataForSEO extension to be installed:\n```bash\n./extensions/dataforseo/install.sh\n```",
+      "new": "This skill requires the DataForSEO MCP service to be connected and authorized in Codex. The upstream Claude installer is not included. Verify the named tools are available before using this workflow.",
+      "count": 1
+    },
+    {
+      "glob": "skills/seo-dataforseo/SKILL.md",
+      "old": "./extensions/dataforseo/install.sh",
+      "new": "connect the DataForSEO MCP service in Codex",
+      "count": 1
+    },
+    {
+      "glob": "skills/seo-image-gen/SKILL.md",
+      "old": "This skill requires the banana extension to be installed:\n```bash\n./extensions/banana/install.sh\n```",
+      "new": "This skill requires the Banana image-generation MCP service to be connected and authorized in Codex. The upstream Claude installer is not included. Verify the named tools are available before using this workflow.",
+      "count": 1
+    },
+    {
+      "glob": "skills/seo-image-gen/SKILL.md",
+      "old": "./extensions/banana/install.sh",
+      "new": "connect the Banana image-generation MCP service in Codex",
+      "count": 3
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": "agents/seo-",
+      "new": "skills/seo/references/roles/seo-",
+      "count": 1
+    },
+    {
+      "glob": "skills/seo/SKILL.md",
+      "old": "## Optional Extensions\n\nThe following ship in `extensions/` rather than `skills/` and require a separate\ninstaller to activate (see each extension's `install.sh`/`install.ps1`):\n\nAll optional extensions are reachable through `$codex-seo:seo` subcommands once\ninstalled: firecrawl, dataforseo, and image-gen, plus `$codex-seo:seo ahrefs`,\n`$codex-seo:seo bing`, `$codex-seo:seo matomo`, `$codex-seo:seo profound`, `$codex-seo:seo seranking`, and\n`$codex-seo:seo unlighthouse`. Each installs as its own sub-skill, so the model also\nauto-routes to their descriptions without the `$codex-seo:seo` prefix.\n\n- **seo-firecrawl** -- Full-site crawling and site mapping via Firecrawl MCP. Install\n  via `extensions/firecrawl/install.sh` (Unix) or `extensions/firecrawl/install.ps1`\n  (Windows). Once installed, invoke via `$codex-seo:seo firecrawl <command>`.\n- **seo-matomo** -- Self-hosted or Matomo Cloud Reporting API as a GA4\n  alternative or complement. Install via\n  `extensions/matomo/install.sh` (Unix) or `extensions/matomo/install.ps1`\n  (Windows). Once installed, invoke via `$codex-seo:seo matomo <command>` or rely\n  on the audit orchestrator to spawn the seo-matomo agent automatically\n  when credentials are present.\n\n",
+      "new": "## Optional integrations\n\nThe DataForSEO and image-generation skill mirrors are bundled, but their MCP\nservices must be connected and authorized in Codex before use. The upstream\nClaude-specific extension installers are omitted. Firecrawl, Matomo, Ahrefs,\nBing, Profound, SERanking, and Unlighthouse extension skills are not bundled;\nrequest a separate Codex adaptation before invoking their extension workflows.\nIf an audit references an optional agent whose brief is absent, report that\ncheck as unavailable and continue the checks supported by the installed plugin.\n\n",
+      "count": 1
+    },
+    {
+      "glob": "skills/**/*.md",
+      "old": "./extensions/dataforseo/install.sh",
+      "new": "connect DataForSEO MCP in Codex",
+      "count": 2
+    },
+    {
+      "glob": "scripts/backlinks_auth.py",
+      "old": "./extensions/dataforseo/install.sh",
+      "new": "Connect the DataForSEO MCP service in Codex.",
+      "count": 1
+    },
+    {
+      "glob": "scripts/matomo_auth.py",
+      "old": "Configure Matomo via extensions/matomo/install.sh to unlock ",
+      "new": "Configure a Matomo API token for this Codex adapter to unlock ",
+      "count": 1
+    },
+    {
+      "glob": "skills/seo/SKILL.md",
+      "old": "A separate optional Firecrawl\nextension is also installable (see \"Optional Extensions\" below).",
+      "new": "Additional optional integrations need separate Codex adaptation; see \"Optional integrations\" below.",
+      "count": 1
+    },
+    {
+      "glob": "skills/seo-agentic/references/discovery-and-markdown.md",
+      "old": "references/llmstxt-evidence.md",
+      "new": "../../seo-geo/references/llmstxt-evidence.md",
+      "count": 1
+    }
+  ],
+  "compatibility": [
+    {
+      "component": "SEO skills and references",
+      "status": "adapted",
+      "reason": "All 26 core and mirrored skill trees are generated from the pinned source; large workflows load on demand with their original supporting resources."
+    },
+    {
+      "component": "Specialist agents",
+      "status": "adapted",
+      "reason": "19 role briefs are available to native delegation through the seo skill catalog. They are not separately registered agents; source Claude model selection, turn budgets and tool allowlists are not enforced."
+    },
+    {
+      "component": "Schema quality hook",
+      "status": "adapted",
+      "reason": "Codex edit/patch events are translated to the preserved upstream JSON-LD validator. Exact installed hook trust is required; a post-edit diagnostic does not undo the edit."
+    },
+    {
+      "component": "Python runtime",
+      "status": "conditional",
+      "reason": "The upstream managed environment and Chromium setup remain explicit. Application-specific CLAUDE_SEO_* overrides are retained; plugin transport variables and default persistent-state paths are adapted to Codex. Bounded requirements are not an exact dependency lock."
+    },
+    {
+      "component": "External APIs and MCP",
+      "status": "unverified",
+      "reason": "Google, Matomo, backlinks, DataForSEO and image generation require separately configured credentials/tools. No live API calls, paid operations or network SEO crawls are part of port verification."
+    },
+    {
+      "component": "Optional extension installers",
+      "status": "unsupported",
+      "reason": "Claude global installer/uninstaller scripts and settings mutations are omitted. Non-core extensions need separate Codex adaptation and configuration; the two core skill mirrors retain their prerequisite checks."
+    },
+    {
+      "component": "Public plugin directory",
+      "status": "manual",
+      "reason": "GitHub marketplace release includes the schema hook. Public-directory submission requires a separate hook-free package and review; publication is not automatic."
+    },
+    {
+      "component": "Attribution",
+      "status": "preserved",
+      "reason": "Upstream MIT notices and the nested FLOW CC BY 4.0 attribution, prompt headers and revision lock remain in generated artifacts."
+    },
+    {
+      "component": "Promotional footer",
+      "status": "adapted",
+      "reason": "The mandatory per-deliverable community advertisement is removed; origin attribution remains prominent in README, notices and artifact provenance."
+    }
+  ]
+}

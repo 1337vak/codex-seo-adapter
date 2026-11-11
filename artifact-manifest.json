@@ -1,0 +1,1174 @@
+{
+  ".agents/plugins/marketplace.json": {
+    "sha256": "3798c0edeeedb0c53cd67ae69f24434489a611e6eae74c51ec7000ec8a926b91",
+    "executable": false
+  },
+  ".codex-plugin/plugin.json": {
+    "sha256": "94a460bf277dba990e8410afdd20b82af3e38c48239e7f134a6c24bcfdc0c980",
+    "executable": false
+  },
+  "CODEX-COMPATIBILITY.md": {
+    "sha256": "3bf3d2a422837bac7549252995b232fc4519955f758606edc7d5681ceff7858c",
+    "executable": false
+  },
+  "COMPATIBILITY.md": {
+    "sha256": "069a95e7885b96a82e8fb2998c1b53a12b834fe6f22056bc81b336c084de2123",
+    "executable": false
+  },
+  "LICENSE": {
+    "sha256": "a42b3b0253cecea9af810c5207a67b0be8c9a0cfbf52b9302c3d26b063e7a86b",
+    "executable": false
+  },
+  "README.md": {
+    "sha256": "2909d2643c5bd6d72605d3aebba2edda3487dea3f0130709ec337d0551c55d13",
+    "executable": false
+  },
+  "data/google-updates.json": {
+    "sha256": "22aa2c64a99e95c857b1318deba10183a6597da59538555b654f3cdd977bad2b",
+    "executable": false
+  },
+  "hooks/codex-schema.py": {
+    "sha256": "05852e211ab44378f9d9b7f394ffdb5050464caf55328d5db82aadf985a6f49e",
+    "executable": false
+  },
+  "hooks/hooks.json": {
+    "sha256": "41f08536732eb86c1c5ba31e5934cdbd623f0a4df68a1fa06a1592601a57ac6c",
+    "executable": false
+  },
+  "hooks/validate-schema.py": {
+    "sha256": "7e497b99724802e459bb592a4f1e323fcb7a98526c923b21d954d20c75a0535b",
+    "executable": true
+  },
+  "provenance.json": {
+    "sha256": "34390b1ee923ad4003cca7b37b62885ba5142e6820dd6d442f5e4a37564fa8f0",
+    "executable": false
+  },
+  "pyproject.toml": {
+    "sha256": "435108f8935ece9929167d92a77da6739b3a3b47e02f5fddbda12737f9574487",
+    "executable": false
+  },
+  "requirements.txt": {
+    "sha256": "693fd9a043dad3f10f99e82bf70ef36214a67b8fcd1481b26f25e5897dc1c500",
+    "executable": false
+  },
+  "schema/templates.json": {
+    "sha256": "4bb417070cd51d0a5d91d54cda1af52bd88742bd868adfe2654e088d07fdda13",
+    "executable": false
+  },
+  "scripts/agent_ux_check.py": {
+    "sha256": "78ee10a25551728f820ff9c5e3e7c2f17473f868207aa2218a4471c898caf6da",
+    "executable": false
+  },
+  "scripts/agentic_check.py": {
+    "sha256": "d437457a1908790aa55e96e78981e1536836b2e811110257178b9fa98f1e5f60",
+    "executable": false
+  },
+  "scripts/agentic_fix.py": {
+    "sha256": "54d8b2270fd303edb794bc00c395dad41764855461dfbb871b4fddde8ce5161d",
+    "executable": false
+  },
+  "scripts/analyze_visual.py": {
+    "sha256": "03e930f7813775abb5992da85db3d8eb23577bbce00e1bb33c38255db98e9757",
+    "executable": true
+  },
+  "scripts/backlinks_auth.py": {
+    "sha256": "40f6ea188e9603192b820b1776be7ee9ed23eaf48316d932b27890e3c0110cde",
+    "executable": false
+  },
+  "scripts/bing_webmaster.py": {
+    "sha256": "eb9d30b3e99e3baa7dba8816da0092838bb1d843c905ca72efce9dd9a80983e9",
+    "executable": false
+  },
+  "scripts/capture_screenshot.py": {
+    "sha256": "fac774b97e71e491378e68e8a2b2abcf1379351c0e75e54e74bffacd32061ab1",
+    "executable": true
+  },
+  "scripts/claude-seo": {
+    "sha256": "ff87975206a143084486c9e381be29b78cf28af4deab6c510abb611d230deb30",
+    "executable": true
+  },
+  "scripts/commoncrawl_graph.py": {
+    "sha256": "b7253f5d8b7b905bdc269dff050f863702a41cfae1b3299480ae7b5683aa966e",
+    "executable": false
+  },
+  "scripts/consistency_check.py": {
+    "sha256": "aac0132d487450ca283014a015463ba1a657d84a2908375b80b976f8c200401f",
+    "executable": false
+  },
+  "scripts/content_humanize.py": {
+    "sha256": "8a2b262042ec3b2b3b13d7f1e9072526787cda14e981fb67896ea31e94dbfe8c",
+    "executable": false
+  },
+  "scripts/content_quality.py": {
+    "sha256": "90c1ed249aea55e15b153f85b38a38f53dfe111790be2105eae4681c87ceee02",
+    "executable": false
+  },
+  "scripts/content_verify.py": {
+    "sha256": "71b1a464b770bc3b2f8eec4c330330ef7c3d6e366f9d04feb5d4011e5c65e1e4",
+    "executable": false
+  },
+  "scripts/crux_history.py": {
+    "sha256": "c3d0105d8fe5e6965a3d8a37b4e29ad8e7efa6b4c52c971728467e44529ec495",
+    "executable": false
+  },
+  "scripts/dataforseo_costs.py": {
+    "sha256": "7a8d17607f7e6e0880530daf6c6878e55f942c54a0cc4b554958341bf61fc86f",
+    "executable": false
+  },
+  "scripts/dataforseo_merchant.py": {
+    "sha256": "97bbb420da21911a0dcf54b86da0a405b91ee32960ab8c4af5c6808732b45155",
+    "executable": true
+  },
+  "scripts/dataforseo_normalize.py": {
+    "sha256": "358a7424c45065a9d5e6da4af0d25cd30983f8af015c05882197fdd24cc24431",
+    "executable": true
+  },
+  "scripts/domain_history.py": {
+    "sha256": "f94d6b02100a978a792c060345785e07f01a5005add1732dcf5023c05222afc1",
+    "executable": false
+  },
+  "scripts/drift_baseline.py": {
+    "sha256": "792af5fcb7ec9c4a7203e688d62f19575fc9c978bafb362c70e3a971623ee838",
+    "executable": false
+  },
+  "scripts/drift_compare.py": {
+    "sha256": "6be1c26042bede021d0e691a602e90252dc6b06513e45274eb489f048dd69348",
+    "executable": false
+  },
+  "scripts/drift_history.py": {
+    "sha256": "d31e35b1cc86748535411b2bb39f5d66a909c7b1ddac97f26aa3acc8187b27a1",
+    "executable": false
+  },
+  "scripts/drift_report.py": {
+    "sha256": "d1b522100ef9a3d4b4572e6966a376fabd47faf4d769acd47de6985486d3f540",
+    "executable": false
+  },
+  "scripts/fetch_page.py": {
+    "sha256": "05091e23caba50c81ea2a52cafc15c53fdda3eeb32109714fb0913a1c9514d21",
+    "executable": true
+  },
+  "scripts/ga4_report.py": {
+    "sha256": "b8a21ea55ad1e6325337ecd85e5f41fbac2c8184b802c1f778320a64e36fff5e",
+    "executable": false
+  },
+  "scripts/gbp_deprecation_lint.py": {
+    "sha256": "cec4d1c5bc102cbf280861b080a6214e8fe48ceb6c4430be3e07241cf7cdd053",
+    "executable": true
+  },
+  "scripts/google_auth.py": {
+    "sha256": "5a650bad90d6615745011d55df8162a40ce2d03f85d6aa17d940d93485fa5cea",
+    "executable": false
+  },
+  "scripts/google_properties.py": {
+    "sha256": "efa6a3c4181dcaa02179cf2485d329c49ecdbf9ee0e041024a81a67b5dfafa2f",
+    "executable": false
+  },
+  "scripts/google_report.py": {
+    "sha256": "aac6570d71102255ba9a48b1f17d762fe605cc15156c1edf6ff5525e507716db",
+    "executable": false
+  },
+  "scripts/gsc_inspect.py": {
+    "sha256": "0003c77926ef0430bb4ba929a27abb96b18deac8b1cf16a90577c0edfd6f6683",
+    "executable": false
+  },
+  "scripts/gsc_query.py": {
+    "sha256": "e3fb7abce98a187f1d4036e4165093a308dabe5f4807f7fdc744daabc3dd3e1b",
+    "executable": false
+  },
+  "scripts/indexing_notify.py": {
+    "sha256": "ec6e2eb389cf2f6a33cf083f039c3ebf482c920f67e0834dab76c72bbc744b6c",
+    "executable": false
+  },
+  "scripts/indexnow_submit.py": {
+    "sha256": "be8037f45c9637c461594d83dec730d148201fc6fdd2134b62df13b1f38cc4c2",
+    "executable": false
+  },
+  "scripts/iptc_ai_label.py": {
+    "sha256": "49277f6c651bbeaa579939ac9dc705861c6351644c2b8e7d915403c67a7b89a8",
+    "executable": false
+  },
+  "scripts/keyword_planner.py": {
+    "sha256": "cb0263cc10861a66b0710cde2d637688e9a4d687a836c58a44faa3f8c2267f14",
+    "executable": false
+  },
+  "scripts/keywordseverywhere_api.py": {
+    "sha256": "c2c58f68d75f360e91b09b618d94dae557c8261a11fb8d4493e5009c22c1e4f6",
+    "executable": false
+  },
+  "scripts/lcp_subparts.py": {
+    "sha256": "92662c91275f4b2b30cfb78939efb3a9bb7e33ae18402336c7cc32e770a0cf06",
+    "executable": false
+  },
+  "scripts/lighthouse_agentic.py": {
+    "sha256": "5ff42f007411e8bed34f35b143f7c7d19f81b26abd99bf8baf981bfa87ddc324",
+    "executable": false
+  },
+  "scripts/matomo_auth.py": {
+    "sha256": "4b23eb8bed81c3635ebba4d82b1d22f2f597fbceccc66594d7fe7ef5c994034f",
+    "executable": false
+  },
+  "scripts/matomo_report.py": {
+    "sha256": "67c1c2183f77e235fc9aff83ee8a55cc8276a4aea444e57946128da7c18b8b42",
+    "executable": false
+  },
+  "scripts/metadata_template.py": {
+    "sha256": "51b5eecfcf0bb91ca6643cb3675c87b001de9caed44aa898ad2c9b1ac3383070",
+    "executable": false
+  },
+  "scripts/moz_api.py": {
+    "sha256": "484ed25362a6365e00c0c6c501f4e4e09d92dccb0b0d5079638b7852e04d2f14",
+    "executable": false
+  },
+  "scripts/nlp_analyze.py": {
+    "sha256": "e53dc87fb863f89994c6365df229d215efb49d6b8817885aa402381063d18377",
+    "executable": false
+  },
+  "scripts/page_checks.py": {
+    "sha256": "c9b0c55a0ed726bf8f27f41244bbeeb2de61113675872735cffbe44b6dc9254e",
+    "executable": false
+  },
+  "scripts/pagespeed_check.py": {
+    "sha256": "11172b2dc8fa9d6f7cf19f78e9fe13b643834151f504a94fe9a1a885a5c0228a",
+    "executable": false
+  },
+  "scripts/parasite_risk.py": {
+    "sha256": "b4cccea1275f9f6f82c0b04d66495297ddcce87632d6805392af759a7e483ae9",
+    "executable": true
+  },
+  "scripts/parse_html.py": {
+    "sha256": "6504aa88820c9edeaa838bd16d8a9ce135f66e4c2c4c29a9d70ce2bfd4137228",
+    "executable": true
+  },
+  "scripts/portability_check.py": {
+    "sha256": "0875531ab12c929dc339a29d48383ac3e04f42db3fdd59a1a28ed657edeaacc1",
+    "executable": false
+  },
+  "scripts/preload_check.py": {
+    "sha256": "e1b5653a2497c1e07792f756d00b1c18c50a2d1b08cdb43791d5fe75e2a5a893",
+    "executable": false
+  },
+  "scripts/release_sign.py": {
+    "sha256": "97a04488f5f23419422e3c6ba4fa36028e4aa1e7168c87bed851dbbabe616e2b",
+    "executable": false
+  },
+  "scripts/render_page.py": {
+    "sha256": "acd3864bab77cff2ba4f113194b571facaae02d4678b1ab41dac9d49e69d1e17",
+    "executable": false
+  },
+  "scripts/runtime.py": {
+    "sha256": "f970f609476ccec07f8a5fae0f9aac010bd0a3dbbc593bcd8b39135dd1db236c",
+    "executable": true
+  },
+  "scripts/schema_ecommerce_validate.py": {
+    "sha256": "d22f1527e9c81bab51858e482f3548bce1320ba12332c2d21f2aa1e83618be12",
+    "executable": false
+  },
+  "scripts/schema_generate.py": {
+    "sha256": "355c1d79378e99b603e3a9909d02197943b28f2b353043a32258f7b1b8c51995",
+    "executable": false
+  },
+  "scripts/seo_updates.py": {
+    "sha256": "fc0432ea236d29a9ed25122a9f6edc5842be95aa50c0c8400b0f43b58eb13b84",
+    "executable": false
+  },
+  "scripts/sitemap_discovery.py": {
+    "sha256": "be08094825e4be3b6bceba18b737fa6434bde8f65576b047aa8d64be1621ad64",
+    "executable": false
+  },
+  "scripts/sync_flow.py": {
+    "sha256": "9759792787b5f05990d77df0a79cc99c2454d9d7fcf5e256d987698a4c929adf",
+    "executable": false
+  },
+  "scripts/transport_check.py": {
+    "sha256": "9608dc62f024d73f2a30c461b9cdb521412037d06c635b00b79ea45844e0f6f1",
+    "executable": false
+  },
+  "scripts/ucp_check.py": {
+    "sha256": "6b172f605f52092637cdb44b33d5beefee4609c1a620f79a9baab2d65fd10911",
+    "executable": false
+  },
+  "scripts/unlighthouse_run.py": {
+    "sha256": "9709031a95082a4e03ebc63bd792fa21987483d222858ada27df39c84f0004ab",
+    "executable": false
+  },
+  "scripts/url_safety.py": {
+    "sha256": "19022633d182bced5f65e5ce66bc4e87834c5ca7ff70083f7396ace8131f16e4",
+    "executable": false
+  },
+  "scripts/validate_backlink_report.py": {
+    "sha256": "80e2d7b1180dbe95cebadf3ee83410c85afc843fce762ac3ac0feb3ff1a6c2c4",
+    "executable": false
+  },
+  "scripts/verify_backlinks.py": {
+    "sha256": "97e697a3bef87ad4cbad5f9c28d82aa2c3c42ce344e14d47ee56ea4e465736e2",
+    "executable": false
+  },
+  "scripts/verify_release.py": {
+    "sha256": "7868e3e6bf0dcec87a36ce3ec30ca197a4ef940dae8bb25897ec6a9a74e5d02f",
+    "executable": false
+  },
+  "scripts/youtube_search.py": {
+    "sha256": "f34e6a4ffdda436e42d457a09f3f26d4f907d440d50ba780e7102aeebda0e670",
+    "executable": false
+  },
+  "skills/seo/LICENSE": {
+    "sha256": "a42b3b0253cecea9af810c5207a67b0be8c9a0cfbf52b9302c3d26b063e7a86b",
+    "executable": false
+  },
+  "skills/seo/LICENSE.txt": {
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "executable": false
+  },
+  "skills/seo/SKILL.md": {
+    "sha256": "bd8b938f3cad3a2efb04c9e7e62f7267708798ffd0e7b620983822e6493c796f",
+    "executable": false
+  },
+  "skills/seo/WORKFLOW.md": {
+    "sha256": "7acff26f18962d1c4da074b4047c8cf56856bd127740db6e543f544455b42a28",
+    "executable": false
+  },
+  "skills/seo/catalog.json": {
+    "sha256": "6258ea1fa888dc15a312fb5f380abf1036b64e1d4fa155bf7853805a9b259dfd",
+    "executable": false
+  },
+  "skills/seo/provenance.json": {
+    "sha256": "f09d6ac10f606ad26f814a07947531d7f537970e95a96df3f85c2020a658626b",
+    "executable": false
+  },
+  "skills/seo/references/backlink-quality.md": {
+    "sha256": "86a39d009b19f4f17a3dc4461afe209111dc2e8df56b6bd3eecedf5b4a03f742",
+    "executable": false
+  },
+  "skills/seo/references/cwv-thresholds.md": {
+    "sha256": "b1066a97a1c4e9698f99f880eac968f469fb9ecc65bfdc070e902238db6c6261",
+    "executable": false
+  },
+  "skills/seo/references/eeat-framework.md": {
+    "sha256": "7d1f45cc9f42e9208c936af9e0d57dbdf29e52e733b5a8bed6eb65fa19475972",
+    "executable": false
+  },
+  "skills/seo/references/eeat-scoring-guide.md": {
+    "sha256": "da90342f0c97af529345d7824147c0a19c1a20de57d1470150c8838f5c445228",
+    "executable": false
+  },
+  "skills/seo/references/free-backlink-sources.md": {
+    "sha256": "e1aaef0d3ce1782c91f9832bcf009bd9b5d582805b61bd0ef289a701e07f4353",
+    "executable": false
+  },
+  "skills/seo/references/local-schema-multilocation.md": {
+    "sha256": "15fcdea286dde09d6e2633973d67f5040b6dadabf92b8e2f3855f2e301da5524",
+    "executable": false
+  },
+  "skills/seo/references/local-schema-types.md": {
+    "sha256": "65f4e35e065afb7af24ac130f39f23e536e9ca3268ab81447f34fde143407d4e",
+    "executable": false
+  },
+  "skills/seo/references/local-search-behavior.md": {
+    "sha256": "f7870f17345a7d57e9d42b77ec85834f9aedc5ac5b54da57409e3f77f7fd47ba",
+    "executable": false
+  },
+  "skills/seo/references/local-seo-signals.md": {
+    "sha256": "a0fd5c9ad9160e076002d8b6d6c904e5e98cae62aa79e6c6b0ecb5c9401f6bae",
+    "executable": false
+  },
+  "skills/seo/references/maps-api-endpoints.md": {
+    "sha256": "7b5b15d2e50feb15d6d4c523a89e9a6f5291b82a0cd8c384053243119e35d9ab",
+    "executable": false
+  },
+  "skills/seo/references/maps-free-apis.md": {
+    "sha256": "18323486ddd52eaa8e86f7f22930fc065f7c9b529352eadda8c27dca44299b91",
+    "executable": false
+  },
+  "skills/seo/references/maps-gbp-checklist.md": {
+    "sha256": "9c90a6860af5574e7d3f4b47a19a44b83a60d3bf3252a17c78edc533ed0d934a",
+    "executable": false
+  },
+  "skills/seo/references/maps-geo-grid.md": {
+    "sha256": "76e08cd3fefb4d0367e0647895c482e1914a932dc86de4a82dc2d03b987855e4",
+    "executable": false
+  },
+  "skills/seo/references/quality-gates.md": {
+    "sha256": "3b3969cf725bb973509077953ebaaa8de51ea0db0c8ed6405e0ecabbfa0a5102",
+    "executable": false
+  },
+  "skills/seo/references/roles/seo-agentic.md": {
+    "sha256": "a0c4e99a0e6e188aa2f26a8db2eb083445a4106c1b3d4b1e11941c9564ab03c9",
+    "executable": false
+  },
+  "skills/seo/references/roles/seo-backlinks.md": {
+    "sha256": "29f4fd1da7988be8d3a9d54bbf30c942465e3000f42ec835d7b835f47b1408af",
+    "executable": false
+  },
+  "skills/seo/references/roles/seo-cluster.md": {
+    "sha256": "1b18b7810a1e5fb3a594cadc35c7d1b77df72810674ec434ecf7c01bc7667802",
+    "executable": false
+  },
+  "skills/seo/references/roles/seo-content.md": {
+    "sha256": "6c608ffe5a990e1abdd9d6faad9ef40421b96fd313b23a829bfc7101bbfae51e",
+    "executable": false
+  },
+  "skills/seo/references/roles/seo-dataforseo.md": {
+    "sha256": "1a5f869dc36961dcb9fed4a97ee0d55f6b2fa9110368cbc4ccbb944007764efb",
+    "executable": false
+  },
+  "skills/seo/references/roles/seo-drift.md": {
+    "sha256": "a406f1416716851b90581f30503cdf8594ceb137fb7fbf92dcc5d915d05359e5",
+    "executable": false
+  },
+  "skills/seo/references/roles/seo-ecommerce.md": {
+    "sha256": "f33bdd60d90c6fe17eab2715d2f1d889e259a25450ea0782d739f1f97e77547c",
+    "executable": false
+  },
+  "skills/seo/references/roles/seo-flow.md": {
+    "sha256": "e4baf516689d0116a728dc1fdbe4e66a29a776a90a35bd57483e563ef5809093",
+    "executable": false
+  },
+  "skills/seo/references/roles/seo-geo.md": {
+    "sha256": "4d75d3fbff8afbb9a5418dddcd1ec0d6ff0c9f1cec6c7b6c2200a3770f6b364d",
+    "executable": false
+  },
+  "skills/seo/references/roles/seo-google.md": {
+    "sha256": "6deb4f35f62a1bade93ecbfbf3f4297d38d4879b6acc04c117c1b52e41a48b0a",
+    "executable": false
+  },
+  "skills/seo/references/roles/seo-image-gen.md": {
+    "sha256": "c3abf6662954c4beb9237a63fa61852bae70f6f9f8e2740b3a05c7038768023e",
+    "executable": false
+  },
+  "skills/seo/references/roles/seo-local.md": {
+    "sha256": "625d1ae089b73fd3db367249de38e0c77d3396583ee9a03349f6b4e9eb21c17f",
+    "executable": false
+  },
+  "skills/seo/references/roles/seo-maps.md": {
+    "sha256": "21fdca90b5fbcfab0d7a5ee066149d54bf47a9e0f30b5fe3418606c093e849ce",
+    "executable": false
+  },
+  "skills/seo/references/roles/seo-performance.md": {
+    "sha256": "c300e9131bb11f74271ff14324a9d541abd38012bc1fc2f41c9dc54ffa4b0e10",
+    "executable": false
+  },
+  "skills/seo/references/roles/seo-schema.md": {
+    "sha256": "08e33458138d6b9044cc37596828d1b0b9632269003e2a3c58c928ad60131c68",
+    "executable": false
+  },
+  "skills/seo/references/roles/seo-sitemap.md": {
+    "sha256": "497b4951e114af662e3132339734c9fc2eb92bb1e7cec85948a3d93b9f9e8161",
+    "executable": false
+  },
+  "skills/seo/references/roles/seo-sxo.md": {
+    "sha256": "8a9c9e2430f26a13b3b8a0bd0e9150084f445cb4cc4d5187dca6b4015dd9f604",
+    "executable": false
+  },
+  "skills/seo/references/roles/seo-technical.md": {
+    "sha256": "728edaf0af32820b7c1810b6a8daa7d1426fd2e0d6c7017724e5397547fbb86f",
+    "executable": false
+  },
+  "skills/seo/references/roles/seo-visual.md": {
+    "sha256": "f39f8619bf70b39894e16a22c8850d792dd4e1c64dd53a1192ba9f6a70a43684",
+    "executable": false
+  },
+  "skills/seo/references/schema-types.md": {
+    "sha256": "b4f748eca6a98a2c353cb6ac1b149b19e258ba0569308808ca0c59f77ded4702",
+    "executable": false
+  },
+  "skills/seo/references/thinking-framework-validate-act.md": {
+    "sha256": "a6c8b84e36d29d9ff7b6f47d56f649412cd825bc0324a6f97136acc8e0b768ac",
+    "executable": false
+  },
+  "skills/seo/references/thinking-framework.md": {
+    "sha256": "ce7cd0afaac82bc346aefca023f2caa915edf4f9f76a58b395d5dac5794622d6",
+    "executable": false
+  },
+  "skills/seo-agentic/LICENSE.txt": {
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "executable": false
+  },
+  "skills/seo-agentic/SKILL.md": {
+    "sha256": "62ecde959ecec921bb335daa1d4091b7b663f807ec691dbdaf1108aa5e228fee",
+    "executable": false
+  },
+  "skills/seo-agentic/WORKFLOW.md": {
+    "sha256": "19e3b45416b696c92a8d180ffd35247db34387c2b13303999f59e1907638c011",
+    "executable": false
+  },
+  "skills/seo-agentic/references/access-policy.md": {
+    "sha256": "9562de12060ee12a41bcc959f3820d8be9d7b7a08304d021995dc5e5bc51e0d7",
+    "executable": false
+  },
+  "skills/seo-agentic/references/agent-friendly-pages.md": {
+    "sha256": "e609aa008fde89198250c8455c06a6636f01430c150275c87eceb11b428374a8",
+    "executable": false
+  },
+  "skills/seo-agentic/references/discovery-and-markdown.md": {
+    "sha256": "c8d3dff86080d8e088b8ea913fbdf2d657d68efeb7868b9717823207c76392a9",
+    "executable": false
+  },
+  "skills/seo-agentic/references/lighthouse-agentic-category.md": {
+    "sha256": "3e99f0396f21bff5e7901a7b9c7dd0594d3c866006d0a551775cf189adfc2b1f",
+    "executable": false
+  },
+  "skills/seo-agentic/references/vendor-matrix.md": {
+    "sha256": "09297792722249a3a73c16c412b2899b3af30e4c8f98ecfe1033443773b27c4e",
+    "executable": false
+  },
+  "skills/seo-agentic/references/webmcp.md": {
+    "sha256": "5e71293f7baae8c04ef443aab43224637d06759170e0fc73422a2ea91fcb12a1",
+    "executable": false
+  },
+  "skills/seo-audit/LICENSE.txt": {
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "executable": false
+  },
+  "skills/seo-audit/SKILL.md": {
+    "sha256": "c7d9797a74be77f4cf48c248c35fc0b3d77d6ff2b7ac4d1dabd626aa8931b488",
+    "executable": false
+  },
+  "skills/seo-audit/WORKFLOW.md": {
+    "sha256": "bc5953fee4139e0ea37fd776d78cc3249bb988f09260a77ae5b12c667f621f0b",
+    "executable": false
+  },
+  "skills/seo-backlinks/LICENSE.txt": {
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "executable": false
+  },
+  "skills/seo-backlinks/SKILL.md": {
+    "sha256": "025c8b2c5d6eb35c2f1160929ae64b0e4ab601378b2991dd9f6d9388803171b6",
+    "executable": false
+  },
+  "skills/seo-backlinks/WORKFLOW.md": {
+    "sha256": "edae919ba77217409f13f51f0e706bdf07ca20aca337a8ce6bb80bfa9083d07f",
+    "executable": false
+  },
+  "skills/seo-cluster/SKILL.md": {
+    "sha256": "42c86c8b3853d46070395be21d31cf559c7b50af7fdc71bb0df6f90194ddda26",
+    "executable": false
+  },
+  "skills/seo-cluster/WORKFLOW.md": {
+    "sha256": "000013a8890a5495d166606e9c7f3975a08774c71680d98dc007f52f57f6f038",
+    "executable": false
+  },
+  "skills/seo-cluster/references/execution-workflow.md": {
+    "sha256": "7e5e067689a2ebe82d0a949a4b9b9c6568fc283e31a6b6e928fbb7677438f0db",
+    "executable": false
+  },
+  "skills/seo-cluster/references/hub-spoke-architecture.md": {
+    "sha256": "5553d9fd80145362073fde96c0c615df4ed9a000bf6f928a71641ec52e85c39b",
+    "executable": false
+  },
+  "skills/seo-cluster/references/serp-overlap-methodology.md": {
+    "sha256": "a0c02dcd394a0cfe4636c02ce03da4ff58dc68b6f55ee0b3b9e36e10f20f7662",
+    "executable": false
+  },
+  "skills/seo-cluster/templates/cluster-map.html": {
+    "sha256": "77070ced4b5b7ec28847ffeadb9a0350296b7b50305c80a5b5b54c0ece1e91f9",
+    "executable": false
+  },
+  "skills/seo-competitor-pages/LICENSE.txt": {
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "executable": false
+  },
+  "skills/seo-competitor-pages/SKILL.md": {
+    "sha256": "e63c0dcbf7ab6140428257be026731b22cfca9d559ee6700f9a7c2c5ea7db70f",
+    "executable": false
+  },
+  "skills/seo-competitor-pages/WORKFLOW.md": {
+    "sha256": "3d8139ab17f35a9f006cf6117707456ad8c0bf79dd1c2a98ad7d0f13d33648db",
+    "executable": false
+  },
+  "skills/seo-content/LICENSE.txt": {
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "executable": false
+  },
+  "skills/seo-content/SKILL.md": {
+    "sha256": "25b395baff3ab696025929e1e68405054946edffb3321d4dafa023766869c135",
+    "executable": false
+  },
+  "skills/seo-content/WORKFLOW.md": {
+    "sha256": "eb5f61335fbc8459e273ce7b011453e0e68a0cdfbc56a8feedac2ebbd2005997",
+    "executable": false
+  },
+  "skills/seo-content-brief/LICENSE.txt": {
+    "sha256": "25bc881ab74d06a365261e004f44c445a78a5241ee322cdeeb4ba7d7669be9b1",
+    "executable": false
+  },
+  "skills/seo-content-brief/SKILL.md": {
+    "sha256": "9d2a2a74057845f5c06e0c59ffbb6cc69f0d5b736fdb04d48485f900274404d1",
+    "executable": false
+  },
+  "skills/seo-content-brief/WORKFLOW.md": {
+    "sha256": "47a09b55194f549a5f2e358f69015937e5313131eb1f09bb5679ca7f637a8117",
+    "executable": false
+  },
+  "skills/seo-content-brief/references/excluded-domains.md": {
+    "sha256": "17b3fb0c9f0cd979c949d54a3e88eb7b39b5d3514baaaa0560022b16c3ed32b8",
+    "executable": false
+  },
+  "skills/seo-content-brief/references/keyword-density.md": {
+    "sha256": "965607f9e79bb472d789485e312faa694a4ab12bd5506af9a073e00e3e84578d",
+    "executable": false
+  },
+  "skills/seo-content-brief/references/page-type-templates.md": {
+    "sha256": "ac638c16ee6ef871d07d8d8172e23a491e11e5e9734f5a5f9ac070631156fd6d",
+    "executable": false
+  },
+  "skills/seo-dataforseo/LICENSE.txt": {
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "executable": false
+  },
+  "skills/seo-dataforseo/SKILL.md": {
+    "sha256": "b5ecc752ad5f0cbc5ef7d5b69f2a8dd43a8893784f27770d3f41a7102768944d",
+    "executable": false
+  },
+  "skills/seo-dataforseo/WORKFLOW.md": {
+    "sha256": "d93f854b72267fa4985db525f9905d7dec3f19bb96da60299a6c86c947ede940",
+    "executable": false
+  },
+  "skills/seo-dataforseo/references/cost-tiers.md": {
+    "sha256": "3f6cb31baae9cefa4b8dca152929bdfa53a9a5abd28ea3213db046ff7b303037",
+    "executable": false
+  },
+  "skills/seo-dataforseo/references/tool-catalog.md": {
+    "sha256": "1fc02f7ea2d09fe5f40a9392dc17106f23385b02659ab06ee6bce3d718bf33da",
+    "executable": false
+  },
+  "skills/seo-drift/SKILL.md": {
+    "sha256": "65fcb5935021533d4c7a0fea4e943b53ce519059c2cc4f50aa5a3d26075e9e66",
+    "executable": false
+  },
+  "skills/seo-drift/WORKFLOW.md": {
+    "sha256": "d2866a2ed6965b9af3df00504eca49632c461a9928a523ce2349fa41cce198e4",
+    "executable": false
+  },
+  "skills/seo-drift/references/comparison-rules.md": {
+    "sha256": "45b806d8cfbc3d3fa03f2095562c84b26bcbad1359d7c45bba7304849f04fc20",
+    "executable": false
+  },
+  "skills/seo-ecommerce/SKILL.md": {
+    "sha256": "156975017955d46d935b53df995f1a1cd51b9f1fe9c2e5e08eb918d5a66cc960",
+    "executable": false
+  },
+  "skills/seo-ecommerce/WORKFLOW.md": {
+    "sha256": "ea630c3a4421a95726149790545ec8a4079c3cdaeda2990e7b31774a7d008993",
+    "executable": false
+  },
+  "skills/seo-ecommerce/references/marketplace-endpoints.md": {
+    "sha256": "6e81632ee3512497fac960ce58370e71021614e4cd8fe1f02555ca69f68da393",
+    "executable": false
+  },
+  "skills/seo-ecommerce/references/ucp-universal-commerce-protocol.md": {
+    "sha256": "ce30046ab217cc3f2de429713d54431607ecafb6f5ffa8e8ab28ac726c57d5cd",
+    "executable": false
+  },
+  "skills/seo-flow/SKILL.md": {
+    "sha256": "4b3524be601862b6e5310a65f37df14e6cc7d2fd65a14117153a1cf36aa0c8ea",
+    "executable": false
+  },
+  "skills/seo-flow/references/bibliography.md": {
+    "sha256": "1f7e5d60194c252a6b38ba1eb78970cdf5bea2f096563c508bfad36f7e445f75",
+    "executable": false
+  },
+  "skills/seo-flow/references/flow-framework.md": {
+    "sha256": "029c009e0fd5fc77763a530af24a83bf8cf21eb703158317bde8518446af0887",
+    "executable": false
+  },
+  "skills/seo-flow/references/flow-prompts.lock": {
+    "sha256": "d71316f8f2542e65990ce3df82f63ac9acd5da74b42325825d8fdb2de8e33030",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/README.md": {
+    "sha256": "26e434454595c47c63e3ef5c4c5d975a8a8208ca01887e51ab09a45eb679085a",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/find/content-planning-for-topical-relevance-prompt.md": {
+    "sha256": "0bab3257ca8c588ffe6e96adc97d2201fc1fb4cfd5a8674cfeb97a640ab78ce1",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/find/content-prioritization-prompt.md": {
+    "sha256": "e8d12ec0b02de03de7b0066a1b29b4e5523f49413bb276c3d936ca068f1645b0",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/find/keyword-research-prompt.md": {
+    "sha256": "3bd3c230f682c65c328324d37dada59a76ca85326bfe97fbf3acf6849e36525d",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/find/keyword-variations-for-topical-relevance-prompt.md": {
+    "sha256": "18b92580c0de1d0df6a8353efc0fd98864ed9e7090318cd4564cae84f79e2bd1",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/find/prompt-audience-avatar.md": {
+    "sha256": "450d58afe2499f7644f947725fcaaf9463931e09d8fdcb93765d25c6e0750d22",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/leverage/backlink-competition-prompt.md": {
+    "sha256": "88b5a6aca87c0f5ad12ed0a9cec601c23e944db2ff1014502fe7218064249be4",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/local/ai-homepage-rewrite-prompt.md": {
+    "sha256": "d33e8918c05d99136baf476165a57a94b7cc0c93bf3585d49bb7212d93bb0455",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/local/claude-deep-research-prompt.md": {
+    "sha256": "65a9876a959b4aba089e4aac9bb078eb2c487726285f0828535b9178f7410dcb",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/local/gbp-categories-prompt.md": {
+    "sha256": "f365d29c9bc3be0aa692a4b0f38515a0d75061ace60603285dbd2aed4a180ec8",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-1.md": {
+    "sha256": "80c73c39f7240ba87bdefd19babdde7f15e6dfe0cdebfa490d62dad2c3dc8702",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-2.md": {
+    "sha256": "d3ee5d748597d85cbd15b31a0e72a9d67a6f91d65f0f8a750ff7bd5ad0398f00",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-3.md": {
+    "sha256": "3c1eaca3250b854b025729aee39df6593518595eb6d2ec1f9cc24bc927ae3845",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/local/gbp-services-prompt.md": {
+    "sha256": "a82eebb02b5b5b9d2e02fd21f364dae9641aae69e9a8c2ddfd1ddd975d5ea0aa",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/local/prompt-generating-a-meta-description.md": {
+    "sha256": "82f9d16c7158978c50c7f2ee783d636e6e54c27bde4ae56aa4df0a729710fe6e",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/local/prompt-generating-a-title-tag.md": {
+    "sha256": "5db99be445c3d72fdaabf75ca92133981b586d6e48221e8df1bec06233ff62f7",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/local/prompt-rewriting-existing-homepage.md": {
+    "sha256": "b0000ade4e79a06e65d568e17a06ec98ababae5b33d16f61f1e101dd3f0b5720",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/local/prompt-rewriting-existing-service-page.md": {
+    "sha256": "6e24da4f82b486b614e9ca2b4ae4cd8554865aedd6043218334d9dfe245afed3",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/optimize/ai-detector-test-follow-up-prompt.md": {
+    "sha256": "23b75608644f51981e8421e307a1f9c51497587fe01a846828b9142525830fd0",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/optimize/ai-supporting-pages-rewrite-prompt.md": {
+    "sha256": "92e0f8e7fded7438ed86ac58fa9f0c66122308e36903eb064125b0a2e8a10f87",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/optimize/basic-prompt.md": {
+    "sha256": "5f8ddce6655b91e3bd23ff0174d0890d46db4c86b2074230793a834c51f87d34",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/optimize/blog-post-outline-prompt.md": {
+    "sha256": "4427a6ffbe45fbfa397cc3e7bb8ff2cc2d1e4652f2b2ddfff2e3ccd299ae79cc",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/optimize/blog-post-writing-prompt.md": {
+    "sha256": "e88b8781e6a1f69cc7043fbdd0b79365d87691daa1d0b910957fe61aa8a9964c",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/optimize/claude-prompt-1.md": {
+    "sha256": "ae0f7460bf85ac666af355d4b3960f31a07beb2a009154c2c3c336de45b8afe9",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/optimize/claude-prompt-2.md": {
+    "sha256": "881278d4c5872b2d2f03eef8df21fb1dbee499acab565d039531f96d455528c3",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/optimize/ctr-audit-prompt.md": {
+    "sha256": "cfe26d1f07bd98f5a98a3e6a825d0127cf7b003519fdfb595c4761393ac143ea",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/optimize/follow-up-prompt-1.md": {
+    "sha256": "d35a7f848aab67df85391acf5f6208bdcea6f51bf454a4e87129446bc928f3f0",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/optimize/follow-up-prompt-2.md": {
+    "sha256": "e8e55404737510c63080c93401a00097058eee7ef40f56f77659cccda29cc984",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/optimize/follow-up-prompt.md": {
+    "sha256": "454d9b9f684f2dfa54530819e2505361b165d54e3d1fa92a1be61367ac5da072",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/optimize/paa-question-rewording-prompt.md": {
+    "sha256": "770b5ba49150b2a48753a7c51d60d3b93c3091fb5aedc24a7c8f41c463517e55",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/optimize/prompt-core-30-content-audit.md": {
+    "sha256": "b58c751c5552592b5e7f0e176c21fb0c509924a7a98bc635e32e1b93e8dff3fd",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/optimize/property-content-with-authority-audit-prompt.md": {
+    "sha256": "4e7a894b86b03a20c4b9b06239fe97f224f680c6ab8d68d942a4e546182b7077",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/optimize/reddit-claude-prompt.md": {
+    "sha256": "be767e88a2b3b6c9a4bbbc4f2f2611e1606babdf9b18163cab8b5050966048ab",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/optimize/schema-prompt-1.md": {
+    "sha256": "a7b3f4fe17f7e0b5257b2cb940a00b005c44e21bfdb13de0d889b4a5cbd6fa09",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/optimize/step-1-the-chatgpt-discovery-prompt.md": {
+    "sha256": "45112ea78038130ff3d29d6e965401d234a4a2a540883e6c625a877defa46e24",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/optimize/step-2-the-follow-up-qualifying-prompt.md": {
+    "sha256": "f08df22ed90c0ba1b7b7f529331309161a886fd2e12bf4ff3ec955bb10fd22ee",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/optimize/technical-audit-prompt.md": {
+    "sha256": "51274ab6e21a62892171c53397f935242f55c3726f3d2a11850985839b047ff4",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/optimize/visibility-follow-up-prompt.md": {
+    "sha256": "0a76f9075c783957d45ab58cec04f4701f01e235a65e9d97ab7b52f7c10f3201",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/optimize/visiblity-prompt.md": {
+    "sha256": "769684b2895051491a7eed1eb1ff0e0065d2472cc395fee04fc99eed85df83de",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/win/bofu-page-brief-generator.md": {
+    "sha256": "dbbe1d51ef93bdc1918bfab1b0948a0d87500410ea8d6727f088e5e4f937dadf",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/win/conversion-audit-prompt.md": {
+    "sha256": "1fb96a2a2c0dcb096389992d14fc12738523c94e2559ebd71a46b8264f2049d7",
+    "executable": false
+  },
+  "skills/seo-flow/references/prompts/win/dual-surface-content-scorecard.md": {
+    "sha256": "9521283c3578d613a9a25f985d609995d92d284f982d0377160a646563fa7c18",
+    "executable": false
+  },
+  "skills/seo-geo/LICENSE.txt": {
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "executable": false
+  },
+  "skills/seo-geo/SKILL.md": {
+    "sha256": "28e844ab0fea43d130389477d45eee156efab138ea63acc84bded0ea8975b311",
+    "executable": false
+  },
+  "skills/seo-geo/WORKFLOW.md": {
+    "sha256": "26e728b8db3d4dd9cc0dd5a8e3dd566e8e35697a6c369f4ca36f4f929cd96614",
+    "executable": false
+  },
+  "skills/seo-geo/references/google-ai-optimization-guide.md": {
+    "sha256": "ef26c0a93cfc58ebb5bdcce69d44453ec22d2a3179535fa75f8e73198a6e96a3",
+    "executable": false
+  },
+  "skills/seo-geo/references/llmstxt-evidence.md": {
+    "sha256": "6cc60538738ddabdb6da0657d43cd187d63f377140a3d4deed52dac634c344a1",
+    "executable": false
+  },
+  "skills/seo-google/LICENSE.txt": {
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "executable": false
+  },
+  "skills/seo-google/SKILL.md": {
+    "sha256": "91108ae9607835aeda1a6521bf712138b7b116e8853c386c7cd22a6d2e3285c0",
+    "executable": false
+  },
+  "skills/seo-google/WORKFLOW.md": {
+    "sha256": "cd459913247fe5c6904ba9b500aba7563e4ecfef4f1db0aa54fd90b16af8ba20",
+    "executable": false
+  },
+  "skills/seo-google/assets/templates/cwv-audit-report.md": {
+    "sha256": "94e81dd051757c8fe588756206eb83cc2d1c3907a76610862f01a1bcd1c2ac5d",
+    "executable": false
+  },
+  "skills/seo-google/assets/templates/gsc-performance-report.md": {
+    "sha256": "6b1d42af50c7cf052ea071466c0c2dbf7bb8e76c0c7a4891c7d5f559607aba9a",
+    "executable": false
+  },
+  "skills/seo-google/assets/templates/indexation-status-report.md": {
+    "sha256": "afc337905d82f83659a229382432876edba9bd9af6e589b3e4de4786974f13b3",
+    "executable": false
+  },
+  "skills/seo-google/references/auth-setup.md": {
+    "sha256": "d9b54412418a69f46dcca0e8aedaa13040f6bf5c3f635c4f297eb85a5a34c579",
+    "executable": false
+  },
+  "skills/seo-google/references/crux-history-api.md": {
+    "sha256": "73da146d03fa60e8a7d300698c0949c7f1c7ad48acb809d9dc183f0ac8922966",
+    "executable": false
+  },
+  "skills/seo-google/references/dma-consent-mode-v2.md": {
+    "sha256": "18ff25a0a9a9679cc5301cc1d76bea25046f6e3991ff2771d7eb2f6419b9aef8",
+    "executable": false
+  },
+  "skills/seo-google/references/ga4-data-api.md": {
+    "sha256": "b6c29f9d830df1a406339c5776a7aebd648c5d2fd33eb7a2689106c5b3c7bbb9",
+    "executable": false
+  },
+  "skills/seo-google/references/indexing-api.md": {
+    "sha256": "c2b5bd20d028c7d667f5da1fab628f66bba7b45948b155ede815d27b5ac1bd09",
+    "executable": false
+  },
+  "skills/seo-google/references/keyword-planner-api.md": {
+    "sha256": "5581b74899f9515481e861e5c42fef642b782ad65cc4990c6d4db9f66a3625cd",
+    "executable": false
+  },
+  "skills/seo-google/references/nlp-api.md": {
+    "sha256": "448da97c9577cbb8940cc78ede177549ed75ab25ec12846cd7bfdfd27fe8fb11",
+    "executable": false
+  },
+  "skills/seo-google/references/pagespeed-crux-api.md": {
+    "sha256": "70bd5ad30369caa89f559698acf29b689c317d9c2e8d39ce1260510c2793bdd8",
+    "executable": false
+  },
+  "skills/seo-google/references/rate-limits-quotas.md": {
+    "sha256": "ad1f7d096e229526c8fe9026a98124a05221f53636eb6023f362dfd5fd3c2f96",
+    "executable": false
+  },
+  "skills/seo-google/references/search-console-api.md": {
+    "sha256": "85d81675748e7cb22e4d86c5639b8078dff341dcfabe22dc7b7acd8290e380bc",
+    "executable": false
+  },
+  "skills/seo-google/references/supplementary-apis.md": {
+    "sha256": "b8937fb31fa09b2c2a09ad2573191183cad219cebafc09136a88eac133cddbc1",
+    "executable": false
+  },
+  "skills/seo-google/references/youtube-api.md": {
+    "sha256": "9db7a517b3f9b3e5191465ebe6168ac3f7b2ce0edd8f605817e2abd65f295d13",
+    "executable": false
+  },
+  "skills/seo-hreflang/LICENSE.txt": {
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "executable": false
+  },
+  "skills/seo-hreflang/SKILL.md": {
+    "sha256": "839e1c3675222c170fd73d447ee40981d9e1258fc2fc7c20a555e04d4ff2e902",
+    "executable": false
+  },
+  "skills/seo-hreflang/WORKFLOW.md": {
+    "sha256": "a3fd3fb98dce57125d07dc12131ec2f859e62da7e2d42db60d415a86a9eb2ca1",
+    "executable": false
+  },
+  "skills/seo-hreflang/references/content-parity.md": {
+    "sha256": "b6691601644bfa06393bfdd5144a44e75b8845cef32ce60f9a84ab1b9250c67e",
+    "executable": false
+  },
+  "skills/seo-hreflang/references/cultural-profiles.md": {
+    "sha256": "b9719c15c897af247aa1601dc59b7ef856efd0f5226112f741145091e67166eb",
+    "executable": false
+  },
+  "skills/seo-hreflang/references/locale-formats.md": {
+    "sha256": "f9278680533041a72e3fe7fc29244453a7bf9542e9f25f16da9a5c1590f7b310",
+    "executable": false
+  },
+  "skills/seo-hreflang/references/machine-translation-qa.md": {
+    "sha256": "11b498b9ff2275a68055f47ed51426bc0a605fd0e0465022194f24c8a408ec6e",
+    "executable": false
+  },
+  "skills/seo-image-gen/LICENSE.txt": {
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "executable": false
+  },
+  "skills/seo-image-gen/SKILL.md": {
+    "sha256": "7f80cf004e2fabe9ec47013c57243fe613bdded300db334881afe8a73a596113",
+    "executable": false
+  },
+  "skills/seo-image-gen/WORKFLOW.md": {
+    "sha256": "a157fb97fd5cf527591e266372eb0c4f4b4033b060d2bd079adc5440e88927c6",
+    "executable": false
+  },
+  "skills/seo-image-gen/references/cost-tracking.md": {
+    "sha256": "68db26647d0dee334a00afbb15d15430633823651349844e9066992ab2631ff6",
+    "executable": false
+  },
+  "skills/seo-image-gen/references/gemini-models.md": {
+    "sha256": "ffc32ac2c2837835feb9eb2e7822a9e410ff39edfcd0e7ec4c5245775a3bd133",
+    "executable": false
+  },
+  "skills/seo-image-gen/references/mcp-tools.md": {
+    "sha256": "0b26374fa7e059468ff81ffbf78cb6ec9fdde8f38ddef761e47a01634f99c413",
+    "executable": false
+  },
+  "skills/seo-image-gen/references/post-processing.md": {
+    "sha256": "73f0ad0fff971ad1ec3abf2710d18eaa1c273ca298342b99af09afbecafa9609",
+    "executable": false
+  },
+  "skills/seo-image-gen/references/presets.md": {
+    "sha256": "074b2a54deae13cf9f1a79915cdad6ecd655658222b53dc10d2d312c637c9693",
+    "executable": false
+  },
+  "skills/seo-image-gen/references/prompt-adaptation-safety.md": {
+    "sha256": "b985df3778b253d2de7e4b10ef6b692d56f205ab2ba4df838d42a3442cf387e5",
+    "executable": false
+  },
+  "skills/seo-image-gen/references/prompt-engineering.md": {
+    "sha256": "c1730838c7f40d9547b521c935233b60ca253951f26bebd41c8fae2754cdcc6f",
+    "executable": false
+  },
+  "skills/seo-image-gen/references/prompt-templates.md": {
+    "sha256": "add34be91b831cf97492cddc8f33af16785e672060f042144f9639eb4850788a",
+    "executable": false
+  },
+  "skills/seo-image-gen/references/seo-image-presets.md": {
+    "sha256": "7c806dd2bfdbc683b6b48bbcc5f7e109ab31a26209f308bccfd4b2ae668088a5",
+    "executable": false
+  },
+  "skills/seo-images/LICENSE.txt": {
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "executable": false
+  },
+  "skills/seo-images/SKILL.md": {
+    "sha256": "894b92ac006c32b72bac650aa6d81a0c0e51eec1d2492a4760b5f019f211d92d",
+    "executable": false
+  },
+  "skills/seo-images/WORKFLOW.md": {
+    "sha256": "f7099542003f32f0555a886421cdb3e4aeecf42d44bc4f8c7fbe5c07b91464a9",
+    "executable": false
+  },
+  "skills/seo-local/LICENSE.txt": {
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "executable": false
+  },
+  "skills/seo-local/SKILL.md": {
+    "sha256": "c9df91469b373f2d7dd0a88ce9e1ce89f9f301d1cfef63c88b09e3ce670c21f5",
+    "executable": false
+  },
+  "skills/seo-local/WORKFLOW.md": {
+    "sha256": "a9f1d31674f26d482a2b82bcc44fe06a94382c7e0c2697552402eac0a296c9b6",
+    "executable": false
+  },
+  "skills/seo-maps/LICENSE.txt": {
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "executable": false
+  },
+  "skills/seo-maps/SKILL.md": {
+    "sha256": "45fa7d47f8ce097daafa21eb7149188eb262643f08f3be0b9dc2961cafb0abde",
+    "executable": false
+  },
+  "skills/seo-maps/WORKFLOW.md": {
+    "sha256": "1fd68b7fb04908838511175433599844a0dd3b01c0d36fa4bc5a2a81d7dd2037",
+    "executable": false
+  },
+  "skills/seo-page/LICENSE.txt": {
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "executable": false
+  },
+  "skills/seo-page/SKILL.md": {
+    "sha256": "e7228a9b5af62b26ada3286264218862c9bcf80b12a9824125cd439ee35c7553",
+    "executable": false
+  },
+  "skills/seo-page/WORKFLOW.md": {
+    "sha256": "27978f0ebb847a52cfc817d069cf8e50a7103af2421056189ab3086197c48c46",
+    "executable": false
+  },
+  "skills/seo-plan/LICENSE.txt": {
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "executable": false
+  },
+  "skills/seo-plan/SKILL.md": {
+    "sha256": "ba90958529216100ba65441c19730539c8e9bdab63d4a5ad543ad925aa64c75b",
+    "executable": false
+  },
+  "skills/seo-plan/assets/agency.md": {
+    "sha256": "63f159b62a81c91b0570a67eba779c7c9961f0222b15accb8dc4115455d60016",
+    "executable": false
+  },
+  "skills/seo-plan/assets/ecommerce.md": {
+    "sha256": "f25619c871f85542cd1d656598607023b63805ed0f7f030b50d1b09f98563f16",
+    "executable": false
+  },
+  "skills/seo-plan/assets/generic.md": {
+    "sha256": "f6ae9d03d98361ce032d6bf1af60f6d5e124aa46babeb34e24028fb32c7a45f9",
+    "executable": false
+  },
+  "skills/seo-plan/assets/local-service.md": {
+    "sha256": "310530e66741e7d155e131850009bcc4a3148b9510905227ac09fd0f3fd00ab6",
+    "executable": false
+  },
+  "skills/seo-plan/assets/publisher.md": {
+    "sha256": "30e3f4b9158053ea01a58e2aff6476f7162ba037b9f3998a68596ea8f6e22694",
+    "executable": false
+  },
+  "skills/seo-plan/assets/saas.md": {
+    "sha256": "cec7c2e52f65c6e13460793758ae9ae169d861c7507f735f3dd5cb0975a51b1b",
+    "executable": false
+  },
+  "skills/seo-programmatic/LICENSE.txt": {
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "executable": false
+  },
+  "skills/seo-programmatic/SKILL.md": {
+    "sha256": "5555d5b00cee01ffd8cf82b2856d8ae225ea0dd3a80ff52fb74f3a9eeb779364",
+    "executable": false
+  },
+  "skills/seo-programmatic/WORKFLOW.md": {
+    "sha256": "d6a361c34eee0632a85439fc7c222d348a772aea6a3386738649c9040d46009b",
+    "executable": false
+  },
+  "skills/seo-schema/LICENSE.txt": {
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "executable": false
+  },
+  "skills/seo-schema/SKILL.md": {
+    "sha256": "bc0db98e7b3173ea8933942c0b1b11065d38e94eb30676092f96989ace6a5f52",
+    "executable": false
+  },
+  "skills/seo-schema/WORKFLOW.md": {
+    "sha256": "19d47c80948c5ecd2916762913e2a3f6282db2ead016905ee81eeab2eb197362",
+    "executable": false
+  },
+  "skills/seo-schema/references/deprecated-types-2024-2026.md": {
+    "sha256": "2a47cfa1119322e3a88b19e3275068d2ea41fe95b7bda03a3a6aff5af86d63b1",
+    "executable": false
+  },
+  "skills/seo-sitemap/LICENSE.txt": {
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "executable": false
+  },
+  "skills/seo-sitemap/SKILL.md": {
+    "sha256": "97b66fa0e416d3ad65a56dd6632ce6c6c4e273874b65be4a200c00b9428367ae",
+    "executable": false
+  },
+  "skills/seo-sitemap/WORKFLOW.md": {
+    "sha256": "ce609c670c6892e74cc17f2aad2ca44be00bff654cdc1d4b8836606e9ca49329",
+    "executable": false
+  },
+  "skills/seo-sxo/SKILL.md": {
+    "sha256": "8e91a9c1b8c3732edbb6a042f6442f190531ea0bc5d6934ce5936635c25f3574",
+    "executable": false
+  },
+  "skills/seo-sxo/WORKFLOW.md": {
+    "sha256": "b5641c1cf48e138d4baeadd1c086f4bbedcc86e3916f5ce7c3a09dbce816c2ad",
+    "executable": false
+  },
+  "skills/seo-sxo/references/page-type-taxonomy.md": {
+    "sha256": "489c6bdf108e519b482b1ea7ee295f438c0d31d292d7bf904a7371ca48643dae",
+    "executable": false
+  },
+  "skills/seo-sxo/references/persona-scoring.md": {
+    "sha256": "487955f23af4a089b65b3f89a2df68782e7b8af0c8f14a6b21a6cc3360ee8b34",
+    "executable": false
+  },
+  "skills/seo-sxo/references/user-story-framework.md": {
+    "sha256": "329ecef0cf1194c3f012f314419bef784c8ef2d08a9f0d2fe0616b5f46c68ae8",
+    "executable": false
+  },
+  "skills/seo-sxo/references/wireframe-templates.md": {
+    "sha256": "10d9cbe4b0d92346280f5d70dfbf21892a75fefb91ec48db205eb13143690d92",
+    "executable": false
+  },
+  "skills/seo-technical/LICENSE.txt": {
+    "sha256": "5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e",
+    "executable": false
+  },
+  "skills/seo-technical/SKILL.md": {
+    "sha256": "97fe7a935380a8e5691529a145d3104dd86c73e0a516f2cbdea18d6b3d6edc76",
+    "executable": false
+  },
+  "skills/seo-technical/WORKFLOW.md": {
+    "sha256": "d27ab3d5e61ae2600bc837421437dbad4d16fc03e085166aa36be055c4faa7fa",
+    "executable": false
+  },
+  "skills/seo-technical/references/stack-cve-exposure.md": {
+    "sha256": "7003863eb699e46dbf70033639705d47c22c8e6bac70b9a12e1b645a8712932f",
+    "executable": false
+  }
+}

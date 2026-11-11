@@ -1,0 +1,11 @@
+{
+  "name": "codex-seo",
+  "version": "0.1.0+ad5fb0891def",
+  "description": "SEO audits, schema, content, technical checks and evidence-led planning adapted from Claude SEO.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex SEO",
+    "shortDescription": "SEO audits, schema, content, technical checks and evidence-led planning adapted from Claude SEO."
+  },
+  "hooks": "./hooks/hooks.json"
+}

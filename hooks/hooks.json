@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${PLUGIN_ROOT}/hooks/codex-schema.py\"",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
