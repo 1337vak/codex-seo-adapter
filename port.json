@@ -17,7 +17,7 @@
   },
   "tool": {
     "repository": "https://github.com/1337vak/claude-to-codex-plugin-port.git",
-    "commit": "6686d4be2e31cf8dee14377dedfd2e24d4a3ebd3"
+    "commit": "a9cdde1b08266ede5febd1a1dd76ba1e749c8f0b"
   },
   "role_skill": "seo",
   "skill_preamble": "Read [the SEO Codex contract](../../CODEX-COMPATIBILITY.md). Resolve PLUGIN_ROOT to this installed plugin before running bundled commands. Use native capabilities within the actual host limits; source role/model/tool metadata is advisory. Do not run Claude extension installers.",
